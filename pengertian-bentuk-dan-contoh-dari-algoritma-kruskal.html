@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pengertian Bentuk Dan Contoh Dari Algoritma Kruskal - BELAJAR</title>
+    <meta name="description" content="Pengertian Bentuk Dan Contoh Dari Algoritma Kruskal, , , , , , , 0, , , , , , 0, pengertian-bentuk-dan-contoh-dari-algoritma-kruskal, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pengertian Bentuk Dan Contoh Dari Algoritma Kruskal - BELAJAR" />
+    <meta property="og:description" content="Pengertian Bentuk Dan Contoh Dari Algoritma Kruskal, , , , , , , 0, , , , , , 0, pengertian-bentuk-dan-contoh-dari-algoritma-kruskal, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pengertian Bentuk Dan Contoh Dari Algoritma Kruskal - BELAJAR" />
+    <meta name="twitter:description" content="Pengertian Bentuk Dan Contoh Dari Algoritma Kruskal, , , , , , , 0, , , , , , 0, pengertian-bentuk-dan-contoh-dari-algoritma-kruskal, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://skripsiedukasi.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://skripsiedukasi.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://skripsiedukasi.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://skripsiedukasi.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://skripsiedukasi.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://skripsiedukasi.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://skripsiedukasi.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://skripsiedukasi.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://skripsiedukasi.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://skripsiedukasi.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Pengertian Bentuk Dan Contoh Dari Algoritma Kruskal</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">kikaaputrii</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Pengertian+Bentuk+Dan+Contoh+Dari+Algoritma+Kruskal" alt="Pengertian Bentuk Dan Contoh Dari Algoritma Kruskal">
+                    </div>
+                    <p></p>
+                    <p>Apakah konsep dasar algoritma prim dan algoritma kruskal sama?</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-konsep-dasar-algoritma-prim-dan-algoritma-kruskal-sama">1.
+                                            Apakah konsep dasar algoritma prim dan algoritma kruskal sama?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#temukan-pohon-merentang-minimum-dari-gerak-berikut-ini-dengan-menggunakan-algoritma-kruskal%e2%80%8b">2.
+                                            temukan pohon merentang minimum dari gerak berikut ini dengan menggunakan algoritma kruskal​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#gunakan-algoritma-kruskal-untuk-menentukan-minimum-spanning-tree-dari-gambar-berikut">3.
+                                            Gunakan algoritma Kruskal untuk menentukan Minimum Spanning Tree dari gambar berikut :</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-tuliskan-pengertian-algoritma-2-tuliskan-pengertian-program-3-tuliskan-perbedaan-algoritma-dengan-flowchard-4-tuliskan-1-contoh-algoritma">4.
+                                            1. Tuliskan pengertian algoritma ! 2. Tuliskan pengertian program ! 3. Tuliskan perbedaan algoritma dengan flowchard ! 4. Tuliskan 1 contoh algoritma !</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-algoritma%e2%80%8b">5.
+                                            pengertian algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buat-rangkuman-mengenai-pengertian-ciri-ciri-contoh-dari-algoritma-%e2%80%8b">6.
+                                            buat rangkuman mengenai, pengertian, ciri-ciri, contoh dari ALGORITMA ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari">7.
+                                            Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari ....</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-algoritma">8.
+                                            pengertian algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-dengan-cara-kalian-jelaskan-pengertian-logika-algoritma-dan-bahasa-pemrograman-serta-perbedaannya-berikan-contoh-algoritma-yang-bisa-di-terapkan-sehari-hari">9.
+                                            (Jelaskan dengan cara kalian) Jelaskan pengertian logika, algoritma dan bahasa pemrograman serta perbedaannya, berikan contoh algoritma yang bisa di terapkan sehari-hari?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-dari-algoritma">10.
+                                            apa pengertian dari algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#yang-bukan-merupakan-pengertian-algoritma-adalah">11.
+                                            Yang bukan merupakan pengertian algoritma adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-algoritma">12.
+                                            pengertian algoritma....</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-algoritma-adalah%e2%80%8b">13.
+                                            Pengertian algoritma adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-algoritma-adalah">14.
+                                            apa pengertian algoritma adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-algoritma%e2%80%8b">15.
+                                            pengertian algoritma?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-algoritma">16.
+                                            Apa pengertian algoritma ?? </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-algoritma-jelaskan-pengertian-beserta-contohnya%e2%80%8b">17.
+                                            apa itu algoritma? jelaskan pengertian beserta contohnya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari-a-algoritmab-arrayc-pseudocoded-flowchart%e2%80%8b">18.
+                                            Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari ..... *A. AlgoritmaB. ArrayC. PseudocodeD. Flowchart​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-contoh-bentuk-algoritmasistemnya%e2%80%8b">19.
+                                            Berikan contoh bentuk algoritma(sistemnya)​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-algoritma">20.
+                                            pengertian algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-dari-bagian-deklarasi-dan-berikan-contohnya-dari-deklarasi-suatu-algoritma%e2%80%8b">21.
+                                            jelaskan pengertian dari bagian deklarasi dan berikan contohnya dari deklarasi suatu algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-algoritma-dan-jelaskan-bagaimana-algoritma-yang-baik%e2%80%8b">22.
+                                            Jelaskan pengertian algoritma dan jelaskan bagaimana algoritma yang baik​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-tuliskan-pengertian-algoritma2-tuliskan-dan-jelaskan-3-bentuk-dasar-algoritma3-tuliskan-dan-jelaskan-5-ciri-algoritma4-tuliskan-fungsi-dan-manfaat-algoritma">23.
+                                            1.Tuliskan pengertian algoritma
+2. Tuliskan dan jelaskan 3 bentuk dasar algoritma
+3. Tuliskan dan jelaskan 5 ciri algoritma
+4. Tuliskan fungsi dan manfaat algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-algoritma">24.
+                                            pengertian algoritma?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari">25.
+                                            Algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu adalah pengertian dari</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah%c2%a0pengertian-dari-%e2%80%8b">26.
+                                            Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari ?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-dan-penjelasan-algoritma-dan-cari-penulisan-algoritma">27.
+                                            Pengertian dan penjelasan algoritma dan cari penulisan algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-pengertian-algoritma%e2%80%8b">28.
+                                            Jelaskan pengertian pengertian algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-algoritma-beserta-contohnya">29.
+                                            Jelaskan pengertian algoritma beserta contohnya!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-bahasa-sekuensial-algoritma-pemrograman-contohnya">30.
+                                            Pengertian bahasa sekuensial algoritma pemrograman &amp; contohnya?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-algoritma">31.
+                                            Pengertian Algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-contoh-dalam-bentuk-algoritma%e2%80%8b">32.
+                                            buatlah contoh dalam bentuk algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari">33.
+                                            Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari !</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-algoritma">34.
+                                            Pengertian algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-apa-pengertian-algoritma-2-apa-itu-pseudocode-3-apa-itu-flowchart-4-ada-berapa-macam-bentuk-dasar-algoritma-sebutkan-dan-jelaskan-5-berikan-salah-satu-contoh-algoritma-dalam-kehidupan-s">35.
+                                            1. Apa Pengertian Algoritma ? 2. Apa itu Pseudocode ? 3. Apa itu Flowchart ? 4. Ada berapa macam bentuk dasar Algoritma? Sebutkan dan Jelaskan! 5. Berikan salah satu contoh algoritma dalam kehidupan sehari - hari?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-mengerjakan-hasil-kruskal-wals">36.
+                                            cara mengerjakan hasil kruskal wals</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-atau-instruksi-yang-berbeda-adalah-pengertian-dari">37.
+                                            Algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk atau instruksi yang berbeda adalah pengertian dari</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pengertian-algoritma-deskriptif-dan-algoritma-flowcart">38.
+                                            Apa pengertian algoritma deskriptif dan algoritma flowcart?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-yang-digambarkan-dalam-bentuk-diagram-merupakan-pengertian-dari">39.
+                                            Algoritma yang digambarkan dalam bentuk diagram, merupakan pengertian dari</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-literasi-algoritma-pemrograman-dan-sebutkan-contoh-contohnya">40.
+                                            pengertian literasi algoritma pemrograman dan sebutkan contoh contohnya</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="apakah-konsep-dasar-algoritma-prim-dan-algoritma-kruskal-sama">
+                            1. Apakah konsep dasar algoritma prim dan algoritma kruskal sama?</h2><br />
+                        <p>Ya, konsep algoritma Prim dan Kruskal sama yaitu dengan menggunakan greedy method. Kedua algoritma tersebut memiliki tujuan yang sama yaitu membuat minimum spanning tree. Kedua algoritma tersebut menggunakan greedy method untuk menentukan node mana yang terkecil dan untuk mendapatkan solusi optimum.</p><br />
+                                            <h2 class="ez-toc-section" id="temukan-pohon-merentang-minimum-dari-gerak-berikut-ini-dengan-menggunakan-algoritma-kruskal%e2%80%8b">
+                            2. temukan pohon merentang minimum dari gerak berikut ini dengan menggunakan algoritma kruskal​</h2><br />
+                        <p><strong>Jawab:</strong></p><p>G(S,B) = (b,c),(g,i),(a,e),(c,g),(c,d),(d,h),(a,d)</p><p>Bobot Total = 5 + 10 + 15 + 15 + 20 + 30 + 45 = 140</p><p>(Gambar pohon merentang minimum pada lampiran)</p><p></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p><strong>Mertode Algoritma Kruskal</strong></p><p>1. Memilih simpul dengan bobot yang paling minimum sampai yang maksimum
+</p><p>2. Pilih simpul dengan bobot terendah secara berurutan dan tolak jika ruas garis membentuk loop pada diagram pohon tersebut.
+</p><p>3. Lakukan langkah nomor 2 sampai semua titik-titik tujuan terpenuhi dalam diagram pohon merentang yang sudah dipilih.</p><br />
+                                            <h2 class="ez-toc-section" id="gunakan-algoritma-kruskal-untuk-menentukan-minimum-spanning-tree-dari-gambar-berikut">
+                            3. Gunakan algoritma Kruskal untuk menentukan Minimum Spanning Tree dari gambar berikut :</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>Algoritma Prim</p><p>Algoritme Prim adalah sebuah algoritme dalam teori graf untuk mencari pohon rentang minimum untuk sebuah graf berbobot yang saling terhubung. Ini berarti bahwa sebuah himpunan bagian dari edge yang membentuk suatu pohon yang mengandung node, di mana bobot keseluruhan dari semua edge dalam pohon diminimalisasikan. Bila graf tersebut tidak terhubung, maka graf itu hanya memiliki satu pohon rentang minimum untuk satu dari komponen yang terhubung. Algoritme ini ditemukan pada 1930 oleh matematikawan Vojtěch Jarník</p><p></p><p>semoga membantu ya"</p><p>*dan jgn lupa follow jg akun kita yah mksih:)</p><br />
+                                            <h2 class="ez-toc-section" id="1-tuliskan-pengertian-algoritma-2-tuliskan-pengertian-program-3-tuliskan-perbedaan-algoritma-dengan-flowchard-4-tuliskan-1-contoh-algoritma">
+                            4. 1. Tuliskan pengertian algoritma ! 2. Tuliskan pengertian program ! 3. Tuliskan perbedaan algoritma dengan flowchard ! 4. Tuliskan 1 contoh algoritma !</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Algoritma adalah urutan langkah-langkah logis penyelesaian sebuah masalah yang disusun secara logis dan sistematis</p><p></p><p>2. Program adalah unsur yang menjadikan komputer dapat memiliki fungsi tujuan yang spesifik.</p><p></p><p>4. Menghitung Luas Segitiga. </p><p>Menghitung Keliling Lingkaran. </p><p>Menghitung Luas Persegi Panjang. </p><p>Mengirim Surat.</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-algoritma%e2%80%8b">
+                            5. pengertian algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Dalam matematika dan ilmu komputer, algoritme  adalah prosedur langkah-demi-langkah untuk penghitungan.</p><br />
+                                            <h2 class="ez-toc-section" id="buat-rangkuman-mengenai-pengertian-ciri-ciri-contoh-dari-algoritma-%e2%80%8b">
+                            6. buat rangkuman mengenai, pengertian, ciri-ciri, contoh dari ALGORITMA ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p><strong>Penjelasan:</strong></p><p><strong>Agoritma adalah kumpulan intruksi/perintah yang dibuat secara jelas dan sistematis berdasarkan urutan yang logis (logika) untuk penyelesaian suatu masalah.</strong></p><p><strong>Untuk Ciri-ciri dari algoritma itu sendiri adalah sbb:</strong></p><strong>Input: Setiap masalah harus dicarikan solusi agar dapat diselesaikan dengan baik. Dalam algoritma, minimal terdiri dari nilai 0 atau memiliki nilai lebih. </strong><strong>Output: Harus ada output bisa diartikan sebagai sebuah solusi dari permasalahan yang dihadapi. Dalam algoritma minimal harus ada satu output atau lebih. </strong><strong>Proses: Algoritma memiliki proses atau langkah-langkah yang harus dilakukan untuk menyelesaikan masalah. </strong><strong>Instruksi: Apabila instruksi yang diberikan jelas, maka kesalahan dapat ditekan dan bisa menciptakan output yang baik. </strong><strong>Tujuan Akhir: Algoritma harus memiliki tujuan akhir. Dengan demikian, kita akan berhenti setelah mencapai tujuan akhir. </strong><p><strong>Berikut contoh algoritma dalam kehidupan sehari-hari:</strong></p><p><strong>Algoritma Minum Kopi Instan</strong></p><strong>Ambil cangkir</strong><strong>Ambil kopi instan</strong><strong>Masukkan bubuk kopi ke dalam cangkir sesuai takaran</strong><strong>Siapkan air panas. Kalau belum tersedia, panaskan air.</strong><strong>Tuangkan air panas ke dalam cangkir</strong><strong>Aduk cangkir hingga kopi larut</strong><strong>Tambahkan gula atau krimer sesuai selera. Aduk.</strong><strong>Minum kopi</strong><p><strong>Nah, urutan kegiatan “Minum Kopi Instan” di atas adalah algoritma-mu di kehidupan sehari-hari.</strong></p><br />
+                                            <h2 class="ez-toc-section" id="merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari">
+                            7. Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari ....</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Flowchart</p><p><strong>Penjelasan:</strong></p><p>Flowchart adalah adalah suatu gambaran alur sebuah proses yang berurutan yang digambarkan dengan simbol-simbol tertentu</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-algoritma">
+                            8. pengertian algoritma</h2><br />
+                        algoritma adalah urutan atau langkah-langkah untuk penghitungan atau untuk menyelesaikan suatu masalah yang ditulis secara berurutan. Sehingga, algoritmapemrograman adalah urutan atau langkah-langkah untuk menyelesaikan masalah pemrograman komputer.<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-dengan-cara-kalian-jelaskan-pengertian-logika-algoritma-dan-bahasa-pemrograman-serta-perbedaannya-berikan-contoh-algoritma-yang-bisa-di-terapkan-sehari-hari">
+                            9. (Jelaskan dengan cara kalian) Jelaskan pengertian logika, algoritma dan bahasa pemrograman serta perbedaannya, berikan contoh algoritma yang bisa di terapkan sehari-hari?</h2><br />
+                        cut, copy, paste, italic, font, font sizeLogika: kemampuan berpikir untuk memecahkan suatu masalah dengan pikiran yang sehat/secara masuk akal <br /><br />Algoritma: urutan/langkah-langkah dalam pemecahan suatu masalah dengan terurut dan logis, atau bisa juga cara berfikir untuk memecahkan suatu masalah (khususnya masalah pada pemrogaman kalau dalam konteks TIK) dengan dasar logika <br /><br />Bahasa Pemrogaman: instruksi dalam bentuk kode-kode yang dibuat agar komputer/mesin yang kita miliki bisa mengerti perintah kita dan mesin/komputer tersebut bekerja sesuai dengan apa yang kita perintah/apa yang kita inginkan. <br /><br />Contoh algoritma dalam program sehari-hari: <br />Membuat kopi<br />1 Masukkan kopi 1 sendok teh ke dalam gelas <br />2 Masukkan gula 2 sendok teh ke dalam gelas <br />3 Aduk rata <br />4 Lalu coba rasa kopinya, jika masih pahit/kurang manis, beri gula lagi (balik ke langkah 2), jika pas rasanya, lanjut ke langkah berikutnya <br />5 Kalau rasanya sudah pas, kopi siap dihidangkan <br />Jika dibuat dalam bentuk flowchart (diagram/alur untuk memecahkan suatu masalah) akan seperti di lampiran/gambar yang disediakan <br /><br />Semoga membantu...<br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-dari-algoritma">
+                            10. apa pengertian dari algoritma</h2><br />
+                        ALGORITMA ADALAH URUTAN LANGKAH YANG LOGIS UNTUK MENYELESAIKAN PERMASALAHAN YANG DISUSUN SECARA SISTEMATIS.<br />algoritma adalah prosedur langkah-demi-langkah untuk penghitungan.<br /><br />
+                                            <h2 class="ez-toc-section" id="yang-bukan-merupakan-pengertian-algoritma-adalah">
+                            11. Yang bukan merupakan pengertian algoritma adalah</h2><br />
+                        Algoritma adalah langkah langkah untuk menyelesaikan sesuatu<br />
+                                            <h2 class="ez-toc-section" id="pengertian-algoritma">
+                            12. pengertian algoritma....</h2><br />
+                        Adalah :<br />-Prosedur Langkah demi Langkah untuk Penghitungan :)prosedur langkah demi langkah untuk penghitungan<br />
+                                            <h2 class="ez-toc-section" id="pengertian-algoritma-adalah%e2%80%8b">
+                            13. Pengertian algoritma adalah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>algoritma adalah alat yang digunakan untuk perhitungan,  pemrosesan data,  dan penalaran otomatis</p><br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-algoritma-adalah">
+                            14. apa pengertian algoritma adalah</h2><br />
+                        Algoritma 
+adalah Sistim kerja komputer memiliki brainware, hardware, dan software.
+ Tanpa salah satu dari ketiga sistim tersebut, komputer tidak akan 
+berguna<br />Kata algoritma diserap dari Bahasa Inggris algorithm. Kata algorithm sendiri sebenarnya bukan dari kata asli bahasa Inggris, melainkan berasal dari kata algorism yang berarti "proses menghitung dengan angka Arab". Algoritma adalah logika, metode, dan tahapan (urutan) 
+sistematis yang digunakan untuk memecahkan suatu permasalahan. Algoritma
+ dapat juga diartikan sebagai urutan langkah secara sistematis dan 
+logis. Dalam dunia 
+komputer, Algoritma sangat berperan penting dalam pembangunan 
+suatu software. Dalam dunia sehari-hari, mungkin tanpa kita sadari 
+Algoritma telah masuk dalam kehidupan kita.  Misalkan saja “algoritma aktifitas pagi hari ini sebelum berangkat sekolah” yaitu (1) turun dari tempat tidur, (2) melepas piyama, (3) mandi,
+ (4) berpakaian, (5) sarapan pagi, (6) pergi sekolah.<br /><br />Good Luck! :D<br /><br />
+                                            <h2 class="ez-toc-section" id="pengertian-algoritma%e2%80%8b">
+                            15. pengertian algoritma?​</h2><br />
+                        <p>Algoritma adalah suatu urutan dari beberapa langkah yang logis guna menyelesaikan masalah.
+</p><p>
+</p><p></p><p><strong>Jawaban:</strong></p><p>Algoritma adalah metode efektif diekpresikan sebagai rangkaian terbatas dari instruksi instruksi yang telah di definisikan dengan baik </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-algoritma">
+                            16. Apa pengertian algoritma ?? </h2><br />
+                        Algoritma adalah Sistim kerja komputer memiliki brainware, hardware, dan software yaitu susunan yang logis dan sistematis untuk memecahkan suatu masalah atau untuk mencapai tujuan tertentu. algoritma adalah urutan langkah-langkah logis yang disusun secara sistematis untuk pengambilan keputusan dalam penyelesaian masalah<br />
+                                            <h2 class="ez-toc-section" id="apa-itu-algoritma-jelaskan-pengertian-beserta-contohnya%e2%80%8b">
+                            17. apa itu algoritma? jelaskan pengertian beserta contohnya​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>Penjelasan: Algoritma merupakan sekumpulan instruksi atau langkah-langkah yang dituliskan secara sistematis dan digunakan untuk menyelesaikan masalah / persoalan logika dan matematika dengan bantuan komputer (Sismoro, 2005, </strong></p><p><strong></strong></p><p><strong>Ada input atau masukan Ada output atau keluaran Langkahnya pasti, jelas, dan tidak ambigu Langkahnya sederhana Ada batasan waktu (stoping role)
+</strong></p><p><strong>
+</strong></p><p><strong> algoritma  </strong></p><p><strong>Algoritma Divide and Conquer Algoritma divide and conquer adalah algoritma pemecahan suatu masalah dengan membaginya ke dalam dua masalah yang lebih kecil. Pertama-tama masalah dibagi menjadi dua sub masalah, lalu masing-masing sub masalah tersebut diselesaikan. Setelah kedua submasalah terselesaikan, solusinya digabungkan kembali menjadi satu. Algoritma divide and conquer sangat sering digunakan karena dinilai stabil dan sederhana. </strong></p><p><strong></strong></p><p><strong>Algoritma Rekursif </strong></p><p><strong>Dilansir dari Analytic Step, algoritma rekursif memecah masalah menajadi submasalah dan memanggil dirinya sendiri berulang-ulang sampai masalah terurai atau sebuah kondisi dasar yang ditentukan terpenuhi.</strong></p><p><strong></strong></p><p><strong>Algoritma Pemrograman </strong></p><p><strong>Dinamis Algoritma pemrograman dinamis adalah perwujudan dari kalimat “melihat masa lalu dan membenarkan masa depan”. Algoritma pemrograman dinamis memecahkan submasalah dengan hasil pemecahan submasalah sebelumnya. Karena hasil pemecahan submasalah sebelumnya bisa apa saja, inilah mengapa algoritma ini disebut dinamis atau tidak tetap.</strong></p><p><strong></strong></p><p><strong>Algoritma Greedy </strong></p><p><strong> Algoritma greedy atau algoritma serakah adalah algoritma yang menyelesaikan masalah dalam submasalah dengan mencari solusi yang paling jelas secara global. Algoritma greedy tidak mempertimbangkan hasil sebelumnya maupun konsekuensi kedepannya dan hanya memiliki hasil terbaik, sehingga disebut serakah.</strong></p><p><strong></strong></p><p><strong>Algoritma Brute Force </strong></p><p><strong> Algoritma brute force adalah algoritma paling mendasar dengan mencoba semua peluang sampai hasil yang diinginkan tercapai. Algoritma brute force adalah algoritma logis yang mempertimbangkan banyak opsi dengan optimal namun waktu pemecahannya tergolong lama.</strong></p><p><strong>Algoritma Backtracking </strong></p><p><strong>Algoritma backtracking atau algoritma mundur adalah algoritma yang menyelesaikan masalah secara rekursif atau memanggil dirinya sendiri berulang-ulang. Bedanya, saat suatu opsi tidak memecahkan masalah, algoritma akan menghapus opsi tersebut dan mundur ke belakang untuk mengulang pencarian solusi kembali.</strong></p><p><strong>Struktur Algoritma  </strong></p><p><strong>Algoritma memiliki tiga struktur dasar yaitu sequence, selection, dan repetition. Sequence atau urutan adalah struktur yang menadung runtutan langkah-langkah algoritma dari awal hingga akhir secara berurutan. Selection adalah proses seleksi atau pemilihan solusi masalah yang paling tepat. Sedangkan repetition atau pengulangan struktur algoritma yang memungkinkan suatu fungsi untuk diulang atau digunakan berulang kali hingga didapat kondisi atau solusi yang diinginkan.
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong></strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong></strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong>
+</strong></p><p><strong></strong></p><br />
+                                            <h2 class="ez-toc-section" id="merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari-a-algoritmab-arrayc-pseudocoded-flowchart%e2%80%8b">
+                            18. Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari ..... *A. AlgoritmaB. ArrayC. PseudocodeD. Flowchart​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>d.flowchart</p><p><strong>Penjelasan:</strong></p><p>semoga membantu</p>jadikan jawaban tercerdas<br />
+                                            <h2 class="ez-toc-section" id="berikan-contoh-bentuk-algoritmasistemnya%e2%80%8b">
+                            19. Berikan contoh bentuk algoritma(sistemnya)​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p><strong>Penjelasan:maaf kalau salah</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-algoritma">
+                            20. pengertian algoritma</h2><br />
+                        algoritma adalah sekumpulan langkah langkah logis untuk menyelesaikan suatu masalah<br /><br />semoga membantualgoritma adalah urutan langkah-langkah logika yang menyatakan suatu tugas dalam menyelesaikan suatu masalah.<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-dari-bagian-deklarasi-dan-berikan-contohnya-dari-deklarasi-suatu-algoritma%e2%80%8b">
+                            21. jelaskan pengertian dari bagian deklarasi dan berikan contohnya dari deklarasi suatu algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Yang dimaksud dengan DEKLARASI adalah suatu pernyataan yang jelas dan ringkas mengenai sesuai hal. Deklarasi juga dimaknai sebagai sebuah keterangan lengkap mengenai suatu biaya, uang barang yang masuk dan lain sebagainya. Dalam KBBI dijumpai adanya istilah Deklarasi Nasional, adapun pengertiannya adalah suatu pernyataan yang diumumkan kepada khalayak secara nasional.</p><p><strong>Penjelasan:</strong></p><p>BAGIAN - BAGIAN ALGORITMA</p><p></p><p>Pada dasarnya, bagian algoritma disusun atas tiga bagian (blok) : bagian judul (header) agoritma, bagian deklarasi, dan bagian deskripsi. Setiap bagian dapat diberi komentar untuk memperjelas maksud teks yang dituliskan. Komentar biasanya ditulis menggunakan kurung kurawal.</p><p></p><p>1) Judul Algoritma</p><p></p><p>Judul algoritma adalah bagian yang terdiri atas nama algoritma dan penjelasan (spesifikasi) tentang algoritma tersebut. Nama algoritma sebaiknya singkat, namun cukup menggambarkan apa yang akan dilakukan oleh algoritma tersebut. Di bawah nama algoritma disertai dengan penjelasan singkat (intisari) tentang apa yang dilakukan oleh algoritma. Penjelasan di bawah nama algoritma sering dinamakan juga spesifikasi algoritma. Algoritma harus ditulis sesuai dengan spesifikasi yang didefinisikan.</p><p></p><p>Contoh :</p><p></p><p>Algoritma Luas_Persegi_Panjang</p><p></p><p>{ Algoritma menghitung luas persegi panjang }</p><p></p><p>2) Deklarasi</p><p></p><p>Di dalam algoritma, deklarasi nama adalah bagian untuk mendefinisikan semua nama yang dipakai di dalam algoritma. Nama tersebut dapat berupa nama terapan, nama peubah, nama tipe, nama prosedur dan nama fungsi.</p><p></p><p>Contoh :</p><p></p><p>Deklarasi :</p><p></p><p>Panjang = integer {tipe data bilangan bulat}</p><p></p><p>Lebar = integer</p><p></p><p>Luas = real {tipe data bilangan pecahan}</p><p></p><p>3) Deskripsi</p><p></p><p>Deskripsi adalah bagian terpenting dari struktur algoritma. Bagian ini berisi uraian langkah-langkah penyelesaian masalah. Langkah-langkah ini dituliskan dengan notasi yang lazim dalam penulisan algoritma. Setiap langkah algoritma dibaca dari langkah paling atas hingga langkah paling bawah. Urutan penulisan menentukan urutan pelaksanaan perintah.</p><p></p><p>Contoh :</p><p></p><p>Deskripsi :</p><p></p><p>input (panjang, lebar)</p><p></p><p>luas &lt;-- panjang * lebar</p><p></p><p>output (luas)</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-algoritma-dan-jelaskan-bagaimana-algoritma-yang-baik%e2%80%8b">
+                            22. Jelaskan pengertian algoritma dan jelaskan bagaimana algoritma yang baik​</h2><br />
+                        <p>algoritme adalah prosedur langkah-demi-langkah untuk penghitungan</p><p></p><p>Kriteria Algoritma yang baik :</p><p>1. Tepat, benar, sederhana, standard an efektif.</p><p>2. Logis, terstruktur dan sistematis.</p><p>3. Semua operasi terdefinisi.</p><p>4. Semua proses harus berakhir setelah sejumlah langkah di lakukan.</p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-tuliskan-pengertian-algoritma2-tuliskan-dan-jelaskan-3-bentuk-dasar-algoritma3-tuliskan-dan-jelaskan-5-ciri-algoritma4-tuliskan-fungsi-dan-manfaat-algoritma">
+                            23. 1.Tuliskan pengertian algoritma
+2. Tuliskan dan jelaskan 3 bentuk dasar algoritma
+3. Tuliskan dan jelaskan 5 ciri algoritma
+4. Tuliskan fungsi dan manfaat algoritma</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>1. apa itu algoritma? : Algoritma adalah urutan langkah logis yang digunakan untuk menyelesaikan suatu masalah. Singkatnya, sebuah masalah harus diselesaikan dengan beberapa langkah yang logis.</p><p>2. 3 bentuk dasar algoritma : </p><p>-(a) Algoritma Sekuensial (Sequence Algorithm)</p><p>Algoritma sekuensial merupakan algoritma yang langkah-langkahnya secara urut dari awal hingga akhir. Bentuk dari algoritma sekuensial ini salah satu contohnya seperti algoritma memasak air. Langkah demi langkah yang dijalankan harus urut dari atas sampai bawah.</p><p>-(b) Algoritma Perulangan (Looping Algorithm)</p><p>algoritma perulangan merupakan suatu algoritma yang menjalankan beberapa langkah tertentu secara berulang-ulang atau looping. Pada masalah yang kita hadapi, ada pula sebuah langkah yang harus kita lakukan secara berulang-ulang.</p><p>-(c) Algoritma Percabangan atau Bersyarat (Conditional Algorithm)</p><p>algoritma bersyarat merupakan algoritma yang menjalankan langkah berikutnya apabila terdapat syarat yang sudah dapat dipenuhi.</p><p></p><p>3. 5 ciri algoritma </p><p>)Algoritma harus berhenti setelah mengerjakan sejumlah langkah terbatas.
+</p><p>
+</p><p>2)Setiap langkah harus didefinisikan dengan tepat dan tidak berarti-dua (Ambiguitas).
+</p><p>
+</p><p>3)Algoritma memiliki nol atau lebih masukkan.
+</p><p>
+</p><p>4)Algoritma memiliki nol atau lebih keluaran.
+</p><p>
+</p><p>5)Algoritma harus efektif (setiap langkah harus sederhana sehingga dapat dikerjakan dalam waktu yang masuk akal)</p><p></p><p>4. fungsi dan manfaat algoritma :</p><p>fungsi dari algoritma berkaitan dengan pemecahan masalah secara lebih rinci dan terstruktur. Secara lebih jelas dapat saya uraikan bahwa tujuan adan fungsi algoritma adalah:
+</p><p>
+</p><p>Memecahkan program yang sulit
+</p><p>-Membuat program besar menjadi lebih sederhana
+</p><p>-Dapat digunakan berkali-kali untuk memecahkan suatu permasalahan,
+</p><p>-Memudahkan programmer untuk membuat program.
+</p><p>-Meminimalisir kesalahn.
+</p><p>Karena algoritma itu terstruktur, maka kita bisa melihat alur algoritma untuk menemukan kesalahan. </p><p></p><p>semoga membantu :v</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-algoritma">
+                            24. pengertian algoritma?</h2><br />
+                        Algoritma adalah Sistim kerja komputer memiliki brainware, hardware, dan softwarebisa juga untuk rumus menyelesaikan rubik<br />
+                                            <h2 class="ez-toc-section" id="algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari">
+                            25. Algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu adalah pengertian dari</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>diagram alir</p><p><strong>Penjelasan:</strong></p><p>mohon maaf sebesar-besarnya jika jawaban salah </p><br />
+                                            <h2 class="ez-toc-section" id="merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah%c2%a0pengertian-dari-%e2%80%8b">
+                            26. Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari ?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>flowchart</p><p><strong>Penjelasan:</strong></p><p>maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-dan-penjelasan-algoritma-dan-cari-penulisan-algoritma">
+                            27. Pengertian dan penjelasan algoritma dan cari penulisan algoritma</h2><br />
+                        algoritma adalah suatu urutan dari beberapa langkah yang logis guna menyelesaikan masalah. Pada saat kita memiliki masalah, maka kita harus dapat untuk menyelesaikan masalah tersebut dengan menggunakan langkah-langkah yang logis. Contoh dari algoritma sederhana dalam kehidupan nyata adalah pada saat memasak air<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-pengertian-algoritma%e2%80%8b">
+                            28. Jelaskan pengertian pengertian algoritma​</h2><br />
+                        <p><strong>Penjelasan:</strong></p>Dalam matematika dan ilmu komputer, algoritme adalah prosedur langkah-demi-langkah untuk penghitungan. Algoritme digunakan untuk penghitungan, pemrosesan data, dan penalaran otomatis. Algoritme adalah metode efektif diekspresikan sebagai rangkaian terbatas dari instruksi-instruksi yang telah didefinisikan dengan baik <p><strong>Jawaban:</strong></p><p>definisi algoritma adalah ⇒ sebuah susunan logis dan sistematis yg digunakan untuk memecahkan atau menyelesaikan suatu permasalahan tertentu </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-algoritma-beserta-contohnya">
+                            29. Jelaskan pengertian algoritma beserta contohnya!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Pengertian algoritma adalah suatu urutan dari beberapa langkah yang logis guna menyelesaikan masalah</p><p><strong>Jawaban:</strong></p><p>Pengertian algoritma adalah suatu urutan dari beberapa langkah yang logis guna menyelesaikan masalah. contoh= Contoh dari algoritma sederhana dalam kehidupan nyata pada saat memasak air. Hal-hal yang perlu dilakukan untuk memasak air seperti berikut: siapkan panci, masukkan udara secukupnya ke dalam panci, tutup panci tersebut, tutup panci tersebut di atas kompor, hidupkan kompor dengan api sedang, siapkan udara sudah mendidih, matikan kompor, kemudian angkat panci tersebut dari kompor. Langkah-langkah untuk memasak air tersebut merupakan persiapan memasak air. Langkah demi langkah yang logis. -cr ke gugel hehe</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-bahasa-sekuensial-algoritma-pemrograman-contohnya">
+                            30. Pengertian bahasa sekuensial algoritma pemrograman &amp; contohnya?</h2><br />
+                        pengertianbahasa sekuensial algoritma pemrograman dan contohnyaJawabanPendahuluan<p>Algoritma adalah susunan logis dan sistematis dari langkah-langkah untuk memecahkan atau menyelesaikan suatu permasalahan. Misalnya adalah langkah – langkah untuk memasak mie instan, langkah – langkah yang dapat kita temukan di balik bungkus mie instan tersebut juga dapat kita sebut sebagai sebuah algoritma karena merupakan langkah-langkah untuk menyelesaikan permasalahan yaitu memasak mi instan menjadi matang.</p><p>Dalam dunia pemrograman, algoritma digunakan untuk membuat software dengan berbagai kegunaan yang digunakan pada perangkat komputer. Algoritma dalam pembuatan software diimplementasikan dengan beberapa bahasa pemrograman seperti C/C++, C#, Visual Basic, dan bahasa pemrograman lainnya.Tanpa algoritma yang tepat, baris demi baris kode tidak akan menghasilkan output yang diinginkan. Oleh karena itu algortima sangat penting dalam membuat program berfungsi sebagaimana mestinya.</p>Pembahasan<p>Pada dasarnya algoritma pemrograman dijalankan secara sekuensial dari atas ke bawah, namun semakin kompleks suatu algoritma, semakin banyak pula statement di dalamnya dan tidak selamanya berurutan. Statement-statement ini perlu diseleksi dan disesuaikan dengan permasalahan dan prosedur menyelesaikan suatu masalah. Proses penyeleksian statement inilah yang disebut dengan percabangan.</p><p>Sedangkan program adalah file teks yang berisi pernyataan-pernyataan dalam bahasa pemrograman.Kemudian bagaimanakah cara membuat program? Ada beberapa langkah yang dilakukan, yaitu:</p>Merancang program. Disini kita mendefinisikan masalah dan menulis algoritmanya untuk penyelesaian masalah tersebut.Memasukkan program ke komputer (Implementasi).  Kompilasi program ke “excecutable”. Excecutable: membuat program dapat dijalankan.Jalankan program.Ulangi hingga benar. Ini disebut proses debugging.<p>Misalnya sebagai contoh :</p><p>Algoritma dan program untuk menentukan gaji karyawan dengan ketentuan</p>gaji pokok, jenis kelamin, dan jumlah anak diinputkanTunjangan anak diberikan bila karyawan telah menikah dan mempunyai anakBagi karyawan laki-laki yang telah menikah diberi tunjangan keluargaApabila anak kurang dari 3 atau gaji lebih kecil dari 200.000 maka akan mendapatkan tambahan gaji 50.000<p>Algoritmanya adalah sebagai berikut</p>MulaiDefinisikan nilai Huruf sebagai huruf, bertipe karakterDefinisikan nilai Angka sebagai angka, bertipe integerMasukan nilai Huruf, simpan ke variabel hurufangka = Huruf - 'E'Cetak nilai angka = angkaSelesai<p>Program dalam C/C++</p><p>#include&lt;stdio.h&gt;</p><p>int main()</p><p>{</p><p> char jk, menikah;</p><p> int gaji, anak, gajitotal;</p><p> int tunjangan_anak = 50000, tunjangan_keluarga = 50000;</p><p> printf("masukan gaji : ");</p><p> scanf("%i", &amp;gaji);</p><p> printf("masukan jenis kelamin (L/P) : ");</p><p> scanf("%c", &amp;jk);</p><p> printf("masukan jumlah anak : ");</p><p> scanf("%i", &amp;anak);</p><p> printf("sudah menikah? (Y/N) : ");</p><p> scanf("%c", &amp;menikah);</p><p> gajitotal = gaji;</p><p> if(anak &gt; 0) gajitotal += tunjangan_anak;</p><p> if(jk == 'L' &amp;&amp; menikah == 'Y') gajitotal += tunjangan_keluarga;</p><p> if(anak &lt; 3 || gaji &lt; 200000) gajitotal += 50000;</p><p> printf("Gaji total : %i", gajitotal);</p><p> return 0;</p><p>}</p><br /><p>Atau contoh lain algoritma dan program untuk menghitung harga fotokopi pada sebuah usaha fotokopi mempunyai aturan:</p>Jika yang fotokopi adalah langganan, maka berapa lembarpun, harganya 75 per lembar.Jika yang fotokopi bukan langganan, maka fotokopi kurnag dari 100 lembar harganya 100, jika lebih dari sama dengan 100 lembar harganya 85<p>Algoritmanya adalah sebagai berikut</p>MulaiMasukan jumlah lembar, simpan sebagai LBR.Masukan jenis pelanggan, langganan atau bukan langganan.Jika langganan, harga = LBR * 75 -&gt; ke langkah 6, jika bukan ke langkah 4.Jika LBR &lt; 100, harga = LBR * 100 -&gt; ke langkah 6, jika tidak, ke langkah 5.harga = LBR * 85Selesai.<p>Sedangan kode programnya adalah sebagai berikut:</p><p>#include &lt;stdio.h&gt;</p><p>#include &lt;conio.h&gt;</p><p>int main()</p><p>{</p><p> int status, LBR, harga;</p><p> printf("Masukan jumlah lembar : ");</p><p> scanf("%i", &amp;LBR);</p><p> printf("Apakah customer adalah langganan?\n");  </p><p> printf("[1] Ya\n");</p><p> printf("[2] Tidak\n");</p><p> printf("Pilihan Anda:");</p><p> scanf("%i", &amp;status);</p><p> if(status == 1)</p><p> {</p><p>  harga = LBR * 75;  </p><p> }</p><p> else if(LBR &lt; 100)</p><p> {</p><p>  harga = LBR * 100;</p><p> }</p><p> else</p><p> {  </p><p>  harga = LBR * 85;</p><p> }</p><p> printf("Harga total = %i", harga);</p><p> return 0;</p><p>}</p><br />Kesimpulan<p>Algoritma adalah susunan logis dan sistematis dari langkah-langkah untuk memecahkan atau menyelesaikan suatu permasalahan.</p><p>Program adalah file teks yang berisi pernyataan-pernyataan dalam bahasa pemrograman.</p><p>Contoh-contoh algoritma dan program:</p>Algoritma dan program untuk menentukan gaji karyawanalgoritma dan program untuk menghitung harga fotokopianDan lainnya<br />Pelajari lebih lanjut<p>Soal algoritma dan pemrograman https://brainly.co.id/tugas/18168285</p><br />Detil JawabanKelas : 10Mapel : TIKBab : Mengenal Pemrograman KomputerKode : 10.11.6Kata Kunci : pengertian literasi algoritma pemrograman dan contoh contohnya<br />
+                                            <h2 class="ez-toc-section" id="pengertian-algoritma">
+                            31. Pengertian Algoritma</h2><br />
+                        <strong>Algoritma</strong> ialah urutan langkah-langkah logis pada penyelesaian masalah yang disusun secara sistematis.<br />penyelesaian langkah demi langkah untuk penghitungan<br />
+                                            <h2 class="ez-toc-section" id="buatlah-contoh-dalam-bentuk-algoritma%e2%80%8b">
+                            32. buatlah contoh dalam bentuk algoritma​</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>Aku akan menjaga mu semur dan sebsisa kauuauaua</p><br />
+                                            <h2 class="ez-toc-section" id="merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari">
+                            33. Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari !</h2><br />
+                        <p><strong>Jawab:</strong></p><p>Flowchart merupakan algoritma yang dinyatakan dalam bentuk diagram</p><p></p><p><strong>Jawaban:</strong></p><p>flowchart</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>Diagram alir (bahasa Inggris: flowchart) bagan alir, atau bagan arus adalah sebuah jenis diagram yang mewakili algoritme, alir kerja atau proses, yang menampilkan langkah-langkah dalam bentuk simbol-simbol grafis, dan urutannya dihubungkan dengan panah.</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-algoritma">
+                            34. Pengertian algoritma</h2><br />
+                        algoritma adalah langakah langkah yang disusun secara tertulis dan berurutan untuk menyelesaikan suatu masalahAlgoritma adalah langkah-langkah yang disusun secara tertulis dan berurutan untuk menyelesaikan suatu masalah. <br />
+                                            <h2 class="ez-toc-section" id="1-apa-pengertian-algoritma-2-apa-itu-pseudocode-3-apa-itu-flowchart-4-ada-berapa-macam-bentuk-dasar-algoritma-sebutkan-dan-jelaskan-5-berikan-salah-satu-contoh-algoritma-dalam-kehidupan-s">
+                            35. 1. Apa Pengertian Algoritma ? 2. Apa itu Pseudocode ? 3. Apa itu Flowchart ? 4. Ada berapa macam bentuk dasar Algoritma? Sebutkan dan Jelaskan! 5. Berikan salah satu contoh algoritma dalam kehidupan sehari - hari?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>1</strong><strong>.</strong>algoritme adalah prosedur langkah-demi-langkah untuk penghitungan. Algoritme digunakan untuk penghitungan, pemrosesan data, dan penalaran otomatis.</p><p><strong>2</strong>.Kode-semu atau dalam bahasa inggris lebih dikenal sebagai pseudo-code merupakan deskripsi tingkat tinggi informal dan ringkas atas algoritme pemrograman komputer yang menggunakan konvensi struktural atas suatu bahasa pemrograman, dan ditujukan untuk dibaca oleh manusia dan bukan oleh mesin. </p><p><strong>3</strong>.sebuah jenis diagram yang mewakili algoritme, alir kerja atau proses, yang menampilkan langkah-langkah dalam bentuk simbol-simbol grafis, dan urutannya dihubungkan dengan panah. Diagram ini mewakili ilustrasi atau penggambaran penyelesaian masalah. </p><p><strong>4</strong><strong>.</strong>1. Algoritma Sekuensial (Sequence Algorithm)</p><p>Sequence algorithm atau algoritma sekuensial merupakan algoritma yang langkah-langkahnya secara urut dari awal hingga akhir. Bentuk dari algoritma sekuensial ini salah satu contohnya seperti algoritma memasak air. Langkah demi langkah yang dijalankan harus urut dari atas sampai bawah.</p><p>2. Algoritma Perulangan (Looping Algorithm)</p><p>Looping algorithm atau algoritma perulangan merupakan suatu algoritma yang menjalankan beberapa langkah tertentu secara berulang-ulang atau looping. Pada masalah yang kita hadapi, ada pula sebuah langkah yang harus kita lakukan secara berulang-ulang. Contoh dari algoritma looping ini adalah algoritma menjemur pakaian</p><p>3. Algoritma Percabangan atau Bersyarat (Conditional Algorithm)</p><p>Conditional algorithm atau algoritma bersyarat merupakan algoritma yang menjalankan langkah berikutnya apabila terdapat syarat yang sudah dapat dipenuhi. </p><p><strong>5</strong><strong>.</strong>Memilah Sampah</p><p>Untuk merawat bumi, pemilahan sampah wajib dilakukan sebelum dibawa ke pembuangan akhir. Alur flowchart-nya kurang lebih:</p><p></p><p>Pilah sampah berdasarkan jenisnya</p><p>Jenis pertama adalah sampah organik</p><p>Sampah organik dapat diolah menjadi pupuk</p><p>Jenis kedua adalah sampah yang dapat digunakan kembali</p><p>Sampah jenis ini dapat dimanfaatkan untuk hal lain</p><p>Sampah ketiga adalah sampah yang dapat didaur ulang</p><p>Sampah ini dapat didaur ulang menjadi barang lain</p><p>Jika tidak tergolong ke sampah organik, sampah yang dapat digunakan kembali, dan sampah yang dapat didaur ulang, baru dibuang ke tempat pembuangan akhir</p>SOAL<p></p><p>1. Apa Pengertian Algoritma ? </p><p>2. Apa itu Pseudocode ? </p><p>3. Apa itu Flowchart ? </p><p>4. Ada berapa macam bentuk dasar Algoritma? Sebutkan dan Jelaskan! </p><p>5. Berikan salah satu contoh algoritma dalam kehidupan sehari - hari?</p><p></p>JAWABAN<p></p><p>1.algoritme adalah prosedur langkah-demi-langkah untuk penghitungan.</p><p></p><p><strong>CIRI</strong><strong> </strong><strong>CIRI</strong><strong> </strong><strong>ALGORITMA</strong><strong> </strong><strong>ANTARA</strong><strong> </strong><strong>LAIN</strong><strong> </strong><strong>YAITU</strong><strong> </strong><strong>:</strong><strong> </strong></p><p></p>Algoritma memiliki nol atau lebih masukan (input). Algoritma memiliki nilai nol atau lebih keluaran (output).Algoritma harus sangkil (effective) <p></p><p>2.Pseudocode adalah deskripsi tingkat tinggi informal dan ringkas atas algoritme pemrograman komputer yang menggunakan konvensi struktural atas suatu bahasa pemrograman. </p><p></p><p><strong>CIRI</strong><strong> </strong><strong>CIRI</strong><strong> </strong><strong>PSUEDOCODE</strong><strong> </strong><strong>ANTARA</strong><strong> </strong><strong>LAIN</strong><strong> </strong><strong>YAITU</strong><strong> </strong><strong>:</strong><strong> </strong></p><p></p>Menggunakan pola bahasa Inggris yang sederhana Tidak memiliki standar aturan tertentu dalam penulisannyaPseudocode menggunakan simbol atau sintaks dari suatu program, seperti ←, &lt;, &gt;, &lt;=, &gt;=, dan sebagainya<p></p><p></p><p>3.Flowcart adalah  penggambaran secara grafik atau  langkah-langkah dan urutan prosedur dari suatu program. </p><p></p><p><strong>CIRI</strong><strong> </strong><strong>CIRI</strong><strong> </strong><strong>FLOWCART</strong><strong> </strong><strong>ANTARA</strong><strong> </strong><strong>LAIN</strong><strong> </strong><strong>YAITU</strong><strong> </strong><strong> </strong><strong>:</strong></p><p></p>Flowchart harus dibuat dari atas-bawah dan kiri-kananAktivitas yang akan dijelaskan harus jelasHarus jelas bagian awal dan akhirnya<p></p><p>4.<strong>A</strong><strong>D</strong><strong>A</strong><strong> </strong><strong>3</strong><strong> </strong><strong>MACAM</strong><strong> </strong><strong>BENTUK</strong><strong> </strong><strong>DASAR</strong><strong> </strong><strong>ALGORITMA</strong><strong> </strong><strong>ANTARA</strong><strong> </strong><strong>LAIN</strong></p><p></p>Algoritma Sekuensial (Sequence) algoritma sekuensial merupakan algoritma yang langkah-langkahnya secara urut dari awal hingga akhir<p></p>Algoritma Perulangan (Looping Algorithm)Looping algorithm atau algoritma perulangan merupakan suatu algoritma yang menjalankan beberapa langkah tertentu secara berulang-ulang atau looping<p></p>Algoritma Percabangan atau Bersyarat (Conditional Algorithm) algoritma bersyarat merupakan algoritma yang menjalankan langkah berikutnya apabila terdapat syarat yang sudah dapat dipenuhi.<p></p><p>5.<strong>C</strong><strong>O</strong><strong>N</strong><strong>T</strong><strong>O</strong><strong>H</strong><strong> </strong><strong>ALGORITMA</strong><strong> </strong><strong>DALAM</strong><strong> </strong><strong>KEHIDUPAN</strong><strong> </strong><strong>SEHARI-HARI</strong><strong> </strong><strong>ANTARA</strong><strong> </strong><strong>LAIN</strong><strong> </strong><strong> </strong><strong> </strong><strong>:</strong></p><p></p>Menyalakan Komputer.Memilah Sampah.Mau Kirim Paket.Manajemen Penjualan.Klaim Asuransi.<p></p><p></p>======================Detail jawaban<p></p><p>mapel   : TI</p><p></p><p>kelas     : 9,10,11</p><p></p><p>Bab       : -</p><br />
+                                            <h2 class="ez-toc-section" id="cara-mengerjakan-hasil-kruskal-wals">
+                            36. cara mengerjakan hasil kruskal wals</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Uji Kruskal Wallis merupakan uji nonparametrik berbasis peringkat yang tujuannya untuk menentukan adakah perbedaan signifikan secara statistik antara dua atau lebih kelompok variabel independen pada variabel dependen yang berskala data numerik (interval atau rasio) dan skala ordina</p><p><strong>Penjelasan:</strong></p><p>maaf kalau salah</p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-atau-instruksi-yang-berbeda-adalah-pengertian-dari">
+                            37. Algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk atau instruksi yang berbeda adalah pengertian dari</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk atau instruksi yang berbeda adalah pengertian dari FLOWCHART</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-pengertian-algoritma-deskriptif-dan-algoritma-flowcart">
+                            38. Apa pengertian algoritma deskriptif dan algoritma flowcart?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>-Algoritma dskriptif adalah cara menuliskan intruksi-intruksi yang musti dilaksanakan dalam bentuk untaian kalimat deskriptif dengan menggunakan bahasa yang jelas.</p><p></p><p>-Algoritma flowcart adalah suatu diagram yang digunakan untuk menjelaskan suatu algoritma.</p><p></p><p>note : Jika ingin lebih lengkapnya anda bisa cari refrensi di buku-buku mengenai pengertian secara luas tentang deskriptif</p><p></p><p>terima kasih, semoga membantu :)</p><p></p><p>jangan lupa jadikan jawaban ini yang terbaik!</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-yang-digambarkan-dalam-bentuk-diagram-merupakan-pengertian-dari">
+                            39. Algoritma yang digambarkan dalam bentuk diagram, merupakan pengertian dari</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>suatu gambaran alur sebuah proses yg berurutan yg d gambarkan</p><p></p><p><strong>Penjelasan:</strong></p><p>dengan simbol tertentu</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-literasi-algoritma-pemrograman-dan-sebutkan-contoh-contohnya">
+                            40. pengertian literasi algoritma pemrograman dan sebutkan contoh contohnya</h2><br />
+                        pengertian literasi algoritma pemrograman dan sebutkan contoh contohnyaJawabanPendahuluan<p>Algoritma adalah susunan logis dan sistematis dari langkah-langkah untuk memecahkan atau menyelesaikan suatu permasalahan. Misalnya adalah langkah – langkah untuk memasak mie instan, langkah – langkah yang dapat kita temukan di balik bungkus mie instan tersebut juga dapat kita sebut sebagai sebuah algoritma karena merupakan langkah-langkah untuk menyelesaikan permasalahan yaitu memasak mi instan menjadi matang.</p><p>Dalam dunia pemrograman, algoritma digunakan untuk membuat software dengan berbagai kegunaan yang digunakan pada perangkat komputer. Algoritma dalam pembuatan software diimplementasikan dengan beberapa bahasa pemrograman seperti C/C++, C#, Visual Basic, dan bahasa pemrograman lainnya.Tanpa algoritma yang tepat, baris demi baris kode tidak akan menghasilkan output yang diinginkan. Oleh karena itu algortima sangat penting dalam membuat program berfungsi sebagaimana mestinya.</p>Pembahasan<p>Semakin kompleks suatu algoritma, semakin banyak pula statement di dalamnya dan tidak selamanya berurutan. Statement-statement ini perlu diseleksi dan disesuaikan dengan permasalahan dan prosedur menyelesaikan suatu masalah. Proses penyeleksian statement inilah yang disebut dengan percabangan.
+</p><p>Sedangkan program adalah file teks yang berisi pernyataan-pernyataan dalam bahasa pemrograman.Kemudian bagaimanakah cara membuat program? Ada beberapa langkah yang dilakukan, yaitu:
+</p>Merancang program. Disini kita mendefinisikan masalah dan menulis algoritmanya untuk penyelesaian masalah tersebut.
+Memasukkan program ke komputer (Implementasi).  Kompilasi program ke “excecutable”. Excecutable: membuat program dapat dijalankan.
+Jalankan program.
+Ulangi hingga benar. Ini disebut proses debugging.<p>Misalnya sebagai contoh :</p><p>Algoritma dan program untuk menentukan gaji karyawan dengan ketentuan</p>gaji pokok, jenis kelamin, dan jumlah anak diinputkanTunjangan anak diberikan bila karyawan telah menikah dan mempunyai anakBagi karyawan laki-laki yang telah menikah diberi tunjangan keluargaApabila anak kurang dari 3 atau gaji lebih kecil dari 200.000 maka akan mendapatkan tambahan gaji 50.000<p>Algoritmanya adalah sebagai berikut</p>MulaiDefinisikan nilai Huruf sebagai huruf, bertipe karakterDefinisikan nilai Angka sebagai angka, bertipe integerMasukan nilai Huruf, simpan ke variabel hurufangka = Huruf - 'E'Cetak nilai angka = angkaSelesai<p>Program dalam C/C++</p><p>#include&lt;stdio.h&gt;</p><p>int main()</p><p>{</p><p> char jk, menikah;</p><p> int gaji, anak, gajitotal;</p><p> int tunjangan_anak = 50000, tunjangan_keluarga = 50000;</p><p> printf("masukan gaji : ");</p><p> scanf("%i", &amp;gaji);</p><p> printf("masukan jenis kelamin (L/P) : ");</p><p> scanf("%c", &amp;jk);</p><p> printf("masukan jumlah anak : ");</p><p> scanf("%i", &amp;anak);</p><p> printf("sudah menikah? (Y/N) : ");</p><p> scanf("%c", &amp;menikah);</p><p> gajitotal = gaji;</p><p> if(anak &gt; 0) gajitotal += tunjangan_anak;</p><p> if(jk == 'L' &amp;&amp; menikah == 'Y') gajitotal += tunjangan_keluarga;</p><p> if(anak &lt; 3 || gaji &lt; 200000) gajitotal += 50000;</p><p> printf("Gaji total : %i", gajitotal);</p><p> return 0;</p><p>}</p><p>Atau contoh lain algoritma dan program untuk menghitung harga fotokopi pada sebuah usaha fotokopi mempunyai aturan:</p>Jika yang fotokopi adalah langganan, maka berapa lembarpun, harganya 75 per lembar.Jika yang fotokopi bukan langganan, maka fotokopi kurnag dari 100 lembar harganya 100, jika lebih dari sama dengan 100 lembar harganya 85<p>Algoritmanya adalah sebagai berikut</p>Masukan jumlah lembar, simpan sebagai LBR.Masukan jenis pelanggan, langganan atau bukan langganan.Jika langganan, harga = LBR * 75 -&gt; ke langkah 6, jika bukan ke langkah 4.Jika LBR &lt; 100, harga = LBR * 100 -&gt; ke langkah 6, jika tidak, ke langkah 5.harga = LBR * 85Selesai.<p>Sedangan kode programnya adalah sebagai berikut:</p><p>#include &lt;stdio.h&gt;</p><p>#include &lt;conio.h&gt;</p><p>int main()</p><p>{</p><p> int status, LBR, harga;</p><p> printf("Masukan jumlah lembar : ");</p><p> scanf("%i", &amp;LBR);</p><p> printf("Apakah customer adalah langganan?\n");  </p><p> printf("[1] Ya\n");</p><p> printf("[2] Tidak\n");</p><p> printf("Pilihan Anda:");</p><p> scanf("%i", &amp;status);</p><p> if(status == 1)</p><p> {</p><p>  harga = LBR * 75;  </p><p> }</p><p> else if(LBR &lt; 100)</p><p> {</p><p>  harga = LBR * 100;</p><p> }</p><p> else</p><p> {  </p><p>  harga = LBR * 85;</p><p> }</p><p> printf("Harga total = %i", harga);</p><p> return 0;</p><p>}</p>Kesimpulan<p>Algoritma adalah susunan logis dan sistematis dari langkah-langkah untuk memecahkan atau menyelesaikan suatu permasalahan.</p><p>Program adalah file teks yang berisi pernyataan-pernyataan dalam bahasa pemrograman.</p><p>Contoh-contoh algoritma dan program:</p>Algoritma dan program untuk menentukan gaji karyawanalgoritma dan program untuk menghitung harga fotokopianDan lainnya Pelajari lebih lanjut<p>pseudocode dan algoritma mencari bilangan ganjil https://brainly.co.id/tugas/18075254</p>Detil Jawaban
+Kelas : 10
+Mapel : TIK
+Bab : Mengenal Pemrograman Komputer
+Kode : 10.11.6
+Kata Kunci : pengertian literasi algoritma pemrograman dan contoh contohnya<br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/Yo7sddEVONg?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengertian-pendidikan-kewarganegaraan-berasal-dari-kata.html">Pengertian Pendidikan Kewarganegaraan Berasal Dari Kata</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/undang-undang-no-39-tahun-1999.html">Undang Undang No 39 Tahun 1999</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-urutan-pengalaman-pengindraan-karya-seni-secara-psikologis.html">Sebutkan Urutan Pengalaman Pengindraan Karya Seni Secara Psikologis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-agama-islam-semester-2-tematik-kls-5.html">Soal Agama Islam Semester 2 Tematik Kls 5</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-agama-kristen-sd-semester-2-ukk.html">Soal Agama Kristen Sd Semester 2 Ukk</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-5-manfaat-jaringan-komputer.html">Sebutkan 5 Manfaat Jaringan Komputer</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/contoh-soal-psikotes-terlengkap.html">Contoh Soal Psikotes Terlengkap</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/teknik-mencetak-dengan-menggunakan-listrik-dan-mesin-disebut.html">Teknik Mencetak Dengan Menggunakan Listrik Dan Mesin Disebut</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-ciri-ciri-antologi-puisi.html">Sebutkan Ciri Ciri Antologi Puisi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-uas-agama-islam-kelas-9-2016-mgmp-malang.html">Soal Uas Agama Islam Kelas 9 2016 Mgmp Malang</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/jurnal-tentang-pengertian-dari-tepungterigu.html">Jurnal Tentang Pengertian Dari Tepungterigu</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-bahaya-narkoba.html">Sebutkan Bahaya Narkoba</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/contoh-soal-psikotes-tni-al-2013.html">Contoh Soal Psikotes Tni Al 2013</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-ulangan-agama-kelas-5-semester-1.html">Soal Ulangan Agama Kelas 5 Semester 1</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-agama-islam-kelas-8-tentang-puasa.html">Soal Agama Islam Kelas 8 Tentang Puasa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-uas-agama-islam-sd-kelas-6-2018.html">Soal Uas Agama Islam Sd Kelas 6 2018</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-uas-genap-pendidikan-agama-hindu-smk-kelas-x.html">Soal Uas Genap Pendidikan Agama Hindu Smk Kelas X</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/jenis-psikotes.html">Jenis Psikotes</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-tiga-unsur-dalam-seni-rupa.html">Sebutkan Tiga Unsur Dalam Seni Rupa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengikisan-pantai-oleh-gelombang-laut-disebut.html">Pengikisan Pantai Oleh Gelombang Laut Disebut</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://skripsiedukasi.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://skripsiedukasi.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://skripsiedukasi.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://skripsiedukasi.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://skripsiedukasi.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

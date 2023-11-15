@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jelaskan Pengertian Dari Intent Android Manifest Folder Layout Folder Src - BELAJAR</title>
+    <meta name="description" content="Jelaskan Pengertian Dari Intent Android Manifest Folder Layout Folder Src, , , , , , , 0, , , , , , 0, jelaskan-pengertian-dari-intent-android-manifest-folder-layout-folder-src, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jelaskan Pengertian Dari Intent Android Manifest Folder Layout Folder Src - BELAJAR" />
+    <meta property="og:description" content="Jelaskan Pengertian Dari Intent Android Manifest Folder Layout Folder Src, , , , , , , 0, , , , , , 0, jelaskan-pengertian-dari-intent-android-manifest-folder-layout-folder-src, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jelaskan Pengertian Dari Intent Android Manifest Folder Layout Folder Src - BELAJAR" />
+    <meta name="twitter:description" content="Jelaskan Pengertian Dari Intent Android Manifest Folder Layout Folder Src, , , , , , , 0, , , , , , 0, jelaskan-pengertian-dari-intent-android-manifest-folder-layout-folder-src, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://skripsiedukasi.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://skripsiedukasi.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://skripsiedukasi.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://skripsiedukasi.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://skripsiedukasi.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://skripsiedukasi.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://skripsiedukasi.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://skripsiedukasi.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://skripsiedukasi.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://skripsiedukasi.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Jelaskan Pengertian Dari Intent Android Manifest Folder Layout Folder Src</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">davidseptian90</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Jelaskan+Pengertian+Dari+Intent+Android+Manifest+Folder+Layout+Folder+Src" alt="Jelaskan Pengertian Dari Intent Android Manifest Folder Layout Folder Src">
+                    </div>
+                    <p></p>
+                    <p>Klik tab Project vertical di kolom paling kiri panel Project dan pilih Android menu di bagian panel akan tampil beberapa folder project, folder dan pendukung tersebut adalah kecuali …
+Select one:
+a. Gradle Scripts
+b. Folder Res
+c. Folder Utility
+d. Folder Manifest
+e. Folder Java</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#klik-tab-project-vertical-di-kolom-paling-kiri-panel-project-dan-pilih-android-menu-di-bagian-panel-akan-tampil-beberapa-folder-project-folder-dan-pendukung-tersebut-adalah-kecuali-%e2%80%a6select-o">1.
+                                            Klik tab Project vertical di kolom paling kiri panel Project dan pilih Android menu di bagian panel akan tampil beberapa folder project, folder dan pendukung tersebut adalah kecuali …
+Select one:
+a. Gradle Scripts
+b. Folder Res
+c. Folder Utility
+d. Folder Manifest
+e. Folder Java</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#lengkapi-bagian-src%e2%80%9d-%e2%80%9c-diatas-dgn-lokasi-sebuah-gambar-yang-berada-dalam-sebuah-folder-bernama-%e2%80%9cpicture%e2%80%9d-folder-tersebut-juga-di-dalam-folder-%e2%80%9cmypicture">2.
+                                             
+ lengkapi bagian src=” “ diatas dgn lokasi sebuah gambar yang berada
+ dalam sebuah folder bernama “picture”, folder tersebut juga di dalam
+ folder “mypicture”, dan “mypicture” tersebut di dalam “latihan web 1”</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-folder">3.
+                                            jelaskan pengertian folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-pengertian-folder-directory%e2%80%8b">4.
+                                            apakah Pengertian Folder /directory​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-langkah-langkah-dalam1-membuat-folder2-menghapus-folder3-menggandakan-folder4-menyalin-folder5-memberi-nama-folder">5.
+                                            jelaskan Langkah-langkah dalam:
+1. Membuat folder
+2. Menghapus Folder
+3. Menggandakan Folder
+4. Menyalin Folder
+5. Memberi nama Folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-dari-sub-folder%e2%80%8b">6.
+                                            pengertian dari sub folder​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-cara-membuat-folder-di-android-kalian%e2%80%8b">7.
+                                            Tuliskan cara membuat folder di android kalian​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-file-dan-pengertian-folder%e2%80%8b">8.
+                                            Jelaskan pengertian File dan pengertian Folder​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-direktori-atau-folder-dan-operasi-operasi-yang-dapat-di-lakukan-untuk-mengelola-folder">9.
+                                            Jelaskan pengertian direktori atau folder dan operasi operasi yang dapat di lakukan untuk mengelola folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-menginstal-cwm-android-lewat-folder-system">10.
+                                            bagaimana cara menginstal cwm android lewat folder system</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-dari-sub-folder%e2%80%8b-dan-dan-folder-file">11.
+                                            Pengertian dari sub folder​ dan dan folder, /file</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-langkah-langkaha-menghapus-folderb-membuat-folder-c-mengganti-folder">12.
+                                            jelaskan langkah langkah:
+a. menghapus folder
+b.membuat folder 
+c.mengganti folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-file-dan-pengertian-folder%e2%80%8b">13.
+                                            Jelaskan pengertian File dan pengertian Folder​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-dari-folder%e2%80%8b">14.
+                                            pengertian dari folder​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-cara-membuat-2-folder-dgn-nama-yg-sama-di-android-dan-komputer">15.
+                                            sebutkan cara membuat 2 folder dgn nama yg sama di android dan komputer</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-kegunaan-pembuatan-folder-folder-dalam-suatu-directory-data-d">16.
+                                            Jelaskan kegunaan pembuatan folder-folder dalam suatu directory data (D:)!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-oldslip-callcald-routingslip-dan-olde-folder">17.
+                                            Jelaskan pengertian oldslip, callcald, routingslip, dan olde folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-cara-memindahkan-folder-ke-folder-lain">18.
+                                            Jelaskan cara memindahkan folder ke folder lain</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#android-studio-mempunyai-sebuah-struktur-penyimpanan-folder-dalam-aplikasi-android-di-antara-pilihan-berikut-folder-untuk-menyimpan-file-ikon-aplikasi-adalah%e2%80%8b">19.
+                                            Android studio mempunyai sebuah struktur penyimpanan folder dalam aplikasi Android. Di antara pilihan berikut, folder untuk menyimpan file ikon aplikasi adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#memindahkan-file-dan-folder-bisa-ke-folder-itu-juga-atau-ke-folder-yang-lain-pada-linux-adalah-%e2%80%8b">20.
+                                            Memindahkan file dan folder, bisa ke folder itu juga atau ke folder yang lain pada linux adalah ...​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pada-folder-keuangan-berisikan-folder-transaksi-penjualan-dan-folder-pembelian-di-setiap-folder-penjualan-dan-pembelian-berisikan-folder-harian-dan-bulanan-dari-hal-ini-folder-keuangan-disebut">21.
+                                            pada folder keuangan berisikan folder transaksi penjualan dan folder pembelian. Di setiap folder penjualan dan pembelian berisikan folder harian dan bulanan. Dari hal ini folder keuangan disebut</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-dari-1-ikon-2-folder-3-desktop">22.
+                                            jelaskan pengertian dari : 1.ikon 2.folder 3.desktop</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-sebutkan-pengertian-folder-dan-sebutkan-langkah-langkah-membuat-folder">23.
+                                            1. Sebutkan pengertian folder dan sebutkan langkah-langkah membuat folder !</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-pengertian-folder">24.
+                                            Tuliskan pengertian Folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-folder-adalah-%e2%80%8b">25.
+                                             pengertian folder adalah ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-folder-file-dan-document">26.
+                                            pengertian folder file dan document</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-map-folder">27.
+                                            Pengertian Map folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-shortcut-dan-folder">28.
+                                            jelaskan pengertian shortcut dan folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-folder">29.
+                                            Jelaskan pengertian folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-folder-dan-fungsi-folder-pada-computer%e2%80%8b">30.
+                                            pengertian folder dan fungsi folder pada computer?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-dari-folder-adalah%e2%80%8b">31.
+                                            PENGERTIAN DARI FOLDER ADALAH?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-langkah-langkah-dalam-membuat-folder-serta-jelaskan-apa-yang-dimaksud-dengan-file-dan-folder">32.
+                                            jelaskan langkah langkah dalam membuat folder ! serta jelaskan apa yang dimaksud dengan file dan folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-macam-macam-folder%e2%80%8b">33.
+                                            jelaskan macam macam folder​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-cara-melakukan-pengelolaan-folder-atau-sub-folder%e2%80%8b">34.
+                                            jelaskan cara melakukan pengelolaan folder atau sub - folder!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#new-folder-digunakan-untuk-a-membuka-folder-barub-membuat-folder-baruc-menghapus-folderd-menyimpan-folder">35.
+                                            new folder digunakan untuk...?
+a.membuka folder baru
+b.membuat folder baru
+c.menghapus folder
+d.menyimpan folder</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bisakah-dalam-folder-ada-folder-lagi-jelaskan-alasan-kalian%e2%80%8b">36.
+                                            Bisakah dalam folder ada folder lagi Jelaskan alasan kalian!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-dari-icon-folder-bioskop">37.
+                                            Jelaskan pengertian dari icon folder bioskop</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#folder-folder-dikelompok-kan-pada%e2%80%8b">38.
+                                            folder folder dikelompok kan pada?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#manakah-urutan-yang-benar-dibawah-ini-cara-membuat-folder-a-file-new-folder-new-folderb-home-new-folder-new-folderc-view-new-folder-new-folderd-insert-new-folder-new-folder">39.
+                                            Manakah urutan yang benar dibawah ini cara membuat folder...a. File - New folder - New folderb. Home - New folder - New folderc. View - New folder - New folderd. Insert - New folder - New folder​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#langkah-langkah-yang-tepatdalammembuatsebuah-folder-baruaplikasiedmodoadalah-%e2%80%a6%e2%80%a6a-klik-icon-backpack-kemudiankliktombol-new-folder-kemudianpilih-menu-folder-ketiknama-folder-kemu">40.
+                                            .Langkah-langkah yang tepatdalammembuatsebuah folder baruaplikasiedmodoadalah ……
+A.	Klik icon Backpack, kemudiankliktombol New Folder. Kemudianpilih menu Folder, ketiknama folder, kemudiankliktombolcreat
+B.	Klik icon Backpack, kemudianklik menu folder, kemudiankliktombol New Folder, ketiknama folder, kemudiankliktombolcreat.
+C.	Klik icon Backpack, kemudianklik menu folder, kemudiankliktombol New Folder, kemudiankliktombolcreat, kemudianketiknama folder
+D.	Klik icon Backpack, kemudiankliktombolcreat, kemudianklik menu folder, kemudiankliktombol New Folder, ketiknama folder
+E.	Klik icon Backpack,  kemudiankliktombolcreat, kemudiankliktombol New Folder. Kemudianpilih menu Folder, ketiknama folder</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="klik-tab-project-vertical-di-kolom-paling-kiri-panel-project-dan-pilih-android-menu-di-bagian-panel-akan-tampil-beberapa-folder-project-folder-dan-pendukung-tersebut-adalah-kecuali-%e2%80%a6select-o">
+                            1. Klik tab Project vertical di kolom paling kiri panel Project dan pilih Android menu di bagian panel akan tampil beberapa folder project, folder dan pendukung tersebut adalah kecuali …
+Select one:
+a. Gradle Scripts
+b. Folder Res
+c. Folder Utility
+d. Folder Manifest
+e. Folder Java</h2><br />
+                        <p><strong>Jawaban:</strong></p>e.<p><strong>Penjelasan:</strong></p>e.Folder jaya<p></p><p></p><p></p><p></p><p>Semoga membantu </p><p></p><p></p><p>maaf kalok salah</p><p></p><p></p><p></p><p>follow aku ya</p><br />
+                                            <h2 class="ez-toc-section" id="lengkapi-bagian-src%e2%80%9d-%e2%80%9c-diatas-dgn-lokasi-sebuah-gambar-yang-berada-dalam-sebuah-folder-bernama-%e2%80%9cpicture%e2%80%9d-folder-tersebut-juga-di-dalam-folder-%e2%80%9cmypicture">
+                            2.  
+ lengkapi bagian src=” “ diatas dgn lokasi sebuah gambar yang berada
+ dalam sebuah folder bernama “picture”, folder tersebut juga di dalam
+ folder “mypicture”, dan “mypicture” tersebut di dalam “latihan web 1”</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>src adalah Source atau lokasi dimana gambar berada.</p><p>src="latihan web 1/mypicture/picture/gambar.jpeg"</p><p></p><p>jika diterapkan pada tag IMG</p><p>&lt;img src="latihan web 1/mypicture/picture/gambar.jpeg"&gt;</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-folder">
+                            3. jelaskan pengertian folder</h2><br />
+                        tempat penyimpanan file/document,video dan lain sebagainya.<br /><br />Tempat menyimpan data<br />
+                                            <h2 class="ez-toc-section" id="apakah-pengertian-folder-directory%e2%80%8b">
+                            4. apakah Pengertian Folder /directory​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Folder adalah program yang berguna untuk menyimpan dokumen atau file di dalam perangkat.</p><p><strong>Penjelasan:</strong></p><p>Folder berfungsi untuk membantu user menyimpan file sekaligus mengoraganisir file</p><p><strong>Jawaban:</strong></p><p></p><p>Folder/direktori adalah struktur penyimpanan dalam komputer yang digunakan untuk menyusun dan menyimpan berkas. Ini membantu pengguna mengorganisir file mereka.</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-langkah-langkah-dalam1-membuat-folder2-menghapus-folder3-menggandakan-folder4-menyalin-folder5-memberi-nama-folder">
+                            5. jelaskan Langkah-langkah dalam:
+1. Membuat folder
+2. Menghapus Folder
+3. Menggandakan Folder
+4. Menyalin Folder
+5. Memberi nama Folder</h2><br />
+                        <p>Jawaban:</p><p>Membuat folder :</p><p>1. Klik kanan mouse</p><p>2. Arahkan kursor ke pilihan new</p><p>3. Ketika pilihan lain muncul, klik folder. </p><p></p><p>Menghapus Folder :</p><p>1. Klik kanan mouse pada folder</p><p>2. Klik delete</p><p>Atau :</p><p>1. Pilih folder dengan menekan kiri mouse</p><p>2. Klik delete</p><p></p><p>Menggandakan folder :</p><p>1. Klik kanan mouse pada folder</p><p>2. Klik copy</p><p>3. Klik paste</p><p></p><p>Menyalin folder :</p><p>1. Klik kanan mouse pada folder </p><p>2. Klik copy (ctrl + c)</p><p></p><p>Memberi nama folder :</p><p>1. Buat folder baru</p><p>2. Beri nama</p><p></p><p>Kalau mau mengubah nama foldernya, lakukan dengan cara :</p><p>1. Klik foldernya dua kali di nama folder itu</p><p>2. Tulis nama folder yang baru</p><p>3. Atau gunakan rename</p><p></p><p>Mapel : TI</p><p>Kelas  : 7</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-dari-sub-folder%e2%80%8b">
+                            6. pengertian dari sub folder​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Di dalam sebuah folder kita bisa membuat folder-folder tambahan. Folder di dalam folder disebut juga dengan "Sub Folder".</p><p></p><p></p><strong>m</strong><strong>a</strong><strong>a</strong><strong>f</strong><strong> </strong><strong>k</strong><strong>a</strong><strong>l</strong><strong>a</strong><strong>u</strong><strong> </strong><strong>s</strong><strong>a</strong><strong>l</strong><strong>a</strong><strong>h</strong><p><strong>f</strong><strong>o</strong><strong>l</strong><strong>l</strong><strong>o</strong><strong>w</strong><strong> </strong><strong>m</strong><strong>y</strong><strong> </strong><strong>i</strong><strong>n</strong><strong>s</strong><strong>t</strong><strong>a</strong><strong>g</strong><strong>r</strong><strong>a</strong><strong>m</strong></p><p><strong>m</strong><strong>y</strong><strong> </strong><strong>i</strong><strong>n</strong><strong>s</strong><strong>t</strong><strong>a</strong><strong>g</strong><strong>r</strong><strong>a</strong><strong>m</strong><strong> </strong><strong>n</strong><strong>a</strong><strong>m</strong><strong>e</strong><strong> </strong><strong>@</strong><strong>a</strong><strong>z</strong><strong>z</strong><strong>a</strong><strong>h</strong><strong>r</strong><strong>a</strong><strong>_</strong><strong>s</strong><strong>u</strong><strong>n</strong><strong>j</strong><strong>o</strong><strong>r</strong><strong>a</strong><strong>/</strong><strong>@</strong><strong>a</strong><strong>z</strong><strong>z</strong><strong>a</strong><strong>h</strong><strong>r</strong><strong>a</strong><strong>_</strong><strong>s</strong><strong>u</strong><strong>n</strong><strong>j</strong><strong>o</strong><strong>r</strong><strong>a</strong><strong>0</strong><strong>8</strong></p>Di dalam sebuah folder kita dapat membuat folder folder tambahan. Folder di dalam folder disebut juga dengan “Sub Folder”<br />
+                                            <h2 class="ez-toc-section" id="tuliskan-cara-membuat-folder-di-android-kalian%e2%80%8b">
+                            7. Tuliskan cara membuat folder di android kalian​</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>jawaban ada di gambar</p><p></p><p><strong>sem</strong><strong>oga</strong><strong> bermanfaat</strong><strong> dan</strong><strong> membantu</strong><strong> Anda</strong></p><p><strong>ja</strong><strong>dikan</strong><strong> jawabanku</strong><strong> tercerdas</strong></p><p><strong>Jawaban:</strong></p><p>cari di youtube atau di google</p><p><strong>Penjelasan:</strong></p><p>karna saya juga gak tau</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-file-dan-pengertian-folder%e2%80%8b">
+                            8. Jelaskan pengertian File dan pengertian Folder​</h2><br />
+                        <p>Untuk menyimpan data maka biasanya akan disimpan berupa file dan diletakkan di folder.<strong> Pengertian dari file dan folder adalah:</strong></p><strong>File </strong>adalah arsip. Arsip terdiri dari konten multimedia, data teks, gambar, aplikasi, penginstal, dll. (File memiliki ekstensi sendiri tergantung pada jenisnya).<strong>Folder</strong> adalah tempat anda menyimpan file dan tidak memiliki ekstensi.<p></p>Pembahasan<p><strong>Folder</strong> adalah program atau tempat yang membantu Anda menyimpan berbagai jenis file. Fungsi utama folder adalah untuk menyimpan file dan mengelompokkannya berdasarkan jenis file itu sendiri. Anda memerlukan wadah untuk menyimpan file musik, dokumen, dan foto anda.</p><p><strong>Manajemen file</strong> adalah organisasi file dan folder untuk kemudahan penggunaan. Folder adalah cara yang bagus untuk mengatur komputer anda. Anda dapat menggunakannya untuk menyimpan semua file penting Anda di satu tempat. Anda dapat menggunakannya untuk menyimpan file penting, atau anda dapat menggunakannya untuk menyimpan dokumen yang kurang penting dengan aman. Folder adalah cara yang bagus untuk menyimpan dokumen di satu tempat.</p><p>Ada banyak jenis folder yang tersedia. Beberapa yang paling populer adalah:</p>My Documents: Ini biasanya folder di hard drive komputer anda. Ini adalah tempat yang sempurna untuk menyimpan semua file pribadi anda.Desktop: Desktop adalah folder lain di hard drive anda. Di sini anda dapat menyimpan pintasan ke program yang paling sering anda gunakan. Unduhan: Semua file yang diunduh dari Internet disimpan di folder Unduhan.<p></p>Pelajari lebih lanjutMateri tentang proses yang tidak termasuk dalam manajemen file dan folder brainly.co.id/tugas/4590209Materi tentang New folder brainly.co.id/tugas/6276530Materi tentang Cara mengelola file dan folder brainly.co.id/tugas/3459153<p></p>Detail Jawaban<p>Kelas: 10</p><p>Mapel: TIK</p><p>Bab: 1 - Melakukan Operasi Dasar pada Komputer</p><p>Kode: 10.11.1</p><p></p><p><strong>#AyoBelajar #SPJ2 </strong></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-direktori-atau-folder-dan-operasi-operasi-yang-dapat-di-lakukan-untuk-mengelola-folder">
+                            9. Jelaskan pengertian direktori atau folder dan operasi operasi yang dapat di lakukan untuk mengelola folder</h2><br />
+                        folder atau direktori adalah suatu wadah atau tempat untuk menyimpan file yang bisa berupa audio, video, doc, image, dtc. yang tersimpan pada storage.<br /><br />operasi yang bisa dilakukan yaitu, melihat detail (propertis) dari folder itu sendiri, menyimpan file didalamnya, membuat/ menciptakan folder baru, menghapus, mengubah nama folder (rename), memindah ketempat lain, mengkopinya, mengkompres ke wujud file type lain, dan itu semua sebagai operasi dasar dari pengelolaan yang bisa di lakukan pada folder<br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-menginstal-cwm-android-lewat-folder-system">
+                            10. bagaimana cara menginstal cwm android lewat folder system</h2><br />
+                        BAHAN<br />1. Download dulu bahannya<br />2. Andoroid harus sudah di Root Devide dahulu<br />3. Download dan install apps Root Explorer v3.1<br />4. Download dan install apps terminal emulator (dari playstore)<br /><br />INSTALLASI<br />1. Extract file instalasi CWM setelah di download dan taruh recovery.img di sd card (jangan di dalam folder)<br />2. Buka root explorer v3.1 yg telah di install dan masuk ke folder "system/" , cari file "recovery-from-boot.p" lalu move ke folder manapun, lbh baik di sdcard dan di luar agar lebih mudah diingat<br />3. buka terminal emulator dan ketik "su" tekan enter, kalau ada notifikasi, grant saja<br />4. Ketik di terminal: dd if=/sdcard/recovery.imgof=dev/block/mmcblkOp13 lalu enter<br />5. muncul tulisan 3 baris<br />6. ketik reboot di terminal emulator untuk me-restart android<br />7. saat terjadi reboot system, tekan tombol volume up dan volume down secara bersamaan untuk menguji apakah CWM (Clock World Mod) sudah terinstal dgn baik atau belum<br /><br />maaf jika salah.<br />.semoga membantu<br /><br />
+                                            <h2 class="ez-toc-section" id="pengertian-dari-sub-folder%e2%80%8b-dan-dan-folder-file">
+                            11. Pengertian dari sub folder​ dan dan folder, /file</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Folder adalah sebuah tempat penyimpanan yang digunakan untuk mengorganisir dan menyimpan file-file atau dokumen-dokumen pada komputer. Folder ini dapat dibuat oleh pengguna dan di dalamnya dapat disimpan file atau folder lainnya.</p><p></p><p>Subfolder adalah folder yang berada di dalam folder lainnya. Subfolder ini digunakan untuk mengorganisir dan menyimpan file atau folder yang memiliki kesamaan atau hubungan tertentu. Sehingga, subfolder ini memungkinkan pengguna untuk lebih mudah mengakses dan menemukan file yang diinginkan.</p><p></p><p>Sedangkan "/file" tidak dapat dianggap sebagai sebuah folder atau subfolder karena karakter "/" merupakan tanda pemisah antara direktori atau folder dalam sebuah alamat file pada sistem operasi Unix. Karakter ini digunakan untuk menunjukkan path atau alamat file pada direktori tertentu. Jadi, "/file" bisa jadi merupakan alamat file atau direktori pada sistem operasi Unix.</p><p><strong>Jawaban singkat:</strong></p><p>Sub folder artinya anak folder</p><p>Folder artinya program berupa wadah pada komputer &amp; berguna untuk menyimpan berbagai macam file di dalamnya.</p><p>File artinya berkas digital dalam komputer yg dapat disimpan langsung di folder maupun sub folder.</p><p></p><p><strong>Penjelasan tambahan:</strong></p><p>Misalkan di komputer dg sistem operasi Windows 10, amatilah lampiran:</p><p>- ada Folder Downloads (ditunjukkan tanda panah hijau)</p><p></p><p>- dalam Folder Downloads ada lima sub folder (di bawahnya), yaitu:</p><p>→ sub folder Compressed</p><p>→ sub folder Documents</p><p>→ sub folder Music</p><p>→ sub folder Programs</p><p>→ sub folder Video</p><p></p><p>- dalam Folder Downloads juga ada file bernama Tutorial dengan jenis/ tipe PDF (ditunjukkan tanda panah biru)</p><p></p><p>- misalkan pengguna komputer ingin membuat folder baru (dalam folder Downloads), dapat mengklik tombol New folder (ditunjukkan tanda panah merah)</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-langkah-langkaha-menghapus-folderb-membuat-folder-c-mengganti-folder">
+                            12. jelaskan langkah langkah:
+a. menghapus folder
+b.membuat folder 
+c.mengganti folder</h2><br />
+                        a. menghapus folder :<br />* klik satu kali folder yang ingin dihapus --&gt; klik kanan --&gt; pilih hapus<br />* klik satu kali atau pilih folder yang ingin dihapus --&gt; tekan tombol delete pada keyboard<br /><br />b. membuat folder<br />* pilih dan masuk pada drive yang diinginkan --&gt; klik kanan --&gt; pilih pilihan new --&gt; pilih folder<br /><br />c. mengganti nama folder<br />* klik satu kali folder yang ingin dihapus --&gt; klik kanan --&gt; pilih pilihan rename<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-file-dan-pengertian-folder%e2%80%8b">
+                            13. Jelaskan pengertian File dan pengertian Folder​</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>Dalam bidang komputer, pengertian folder adalah tempat untuk menyimpan atau menampung berbagai file di dalam komputer, baik itu file data, file dokumen, dan file sistem. ... Folder berisi file-file (baca: pengertian file) berupa gambar, teks, angka, video, program, slide dan jenis file lainnya.</p><p><strong>Jawaban:</strong></p><p>pengertian folder adalah tempat untuk menyimpan atau menampung berbagai file di dalam komputer, baik itu file data, file dokumen, dan file sistem. </p><p></p><p>pengertian file adalah identitas dari data yang disimpan di dalam berkas sistem yang dapat diakses dan diatur oleh pengguna</p><p><strong>Penjelasan:</strong></p><p>semoga membantu) </p><p>jadikan jawaban terbaik yaa) </p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-dari-folder%e2%80%8b">
+                            14. pengertian dari folder​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>suatu tempat untuk menyimpan ataupun mrnampung file</p><p>maaf kalau salah</p><p><strong>Jawaban:</strong></p><p><strong>Pengertian folder</strong> adalah suatu tempat untuk menyimpan ataupun menampung file-file, baik itu file sistem maupun file data atau dokumen. </p><p><strong>Penjelasan:</strong></p><p>jadikan jawaban tercerdas Ok</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-cara-membuat-2-folder-dgn-nama-yg-sama-di-android-dan-komputer">
+                            15. sebutkan cara membuat 2 folder dgn nama yg sama di android dan komputer</h2><br />
+                        Komputer:<br />Untuk folder pertama: New folder&gt;Ketik nama folder&gt;Ok<br />Untuk folder kedua: New folder&gt;ketik nama folder&gt;Ok&gt;Don't Overwrite file&gt;Ok<br /><br />Sorry klo salah<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-kegunaan-pembuatan-folder-folder-dalam-suatu-directory-data-d">
+                            16. Jelaskan kegunaan pembuatan folder-folder dalam suatu directory data (D:)!</h2><br />
+                        memanajemen Data supaya mudah untuk dicari<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-oldslip-callcald-routingslip-dan-olde-folder">
+                            17. Jelaskan pengertian oldslip, callcald, routingslip, dan olde folder</h2><br />
+                        pertanyan nya kurang jelas...<br />itu call cald atau call card ?<br />cuma ini yg saya tau...<br />ROUTING SLIP adalah lembar beredar dari atasan kepada bawahan yang isinya bagi orang yang tersebut namanya sebagai tindak lanjut dari hadirnya sebuah surat masuk.<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-cara-memindahkan-folder-ke-folder-lain">
+                            18. Jelaskan cara memindahkan folder ke folder lain</h2><br />
+                        pilih folder yang pengen di pindahkan, klik kanan, pilih copy untuk mencopy atau cut untuk memindahkan data saja, pilih folder yang dituju, paste1.sekarang kamu buka file.                            2.pilihlah picture.                                              3.pilih file nama yang dipindahkan tekan agak lama agar muncul icon move to lalu pencet lah                                                          4.lalu pilihlah folder tujuan kamu dan pilih move nanti akan ada pop-up text                    SEMOGA BERHASIL...<br />
+                                            <h2 class="ez-toc-section" id="android-studio-mempunyai-sebuah-struktur-penyimpanan-folder-dalam-aplikasi-android-di-antara-pilihan-berikut-folder-untuk-menyimpan-file-ikon-aplikasi-adalah%e2%80%8b">
+                            19. Android studio mempunyai sebuah struktur penyimpanan folder dalam aplikasi Android. Di antara pilihan berikut, folder untuk menyimpan file ikon aplikasi adalah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Folder Mipmap</p><p><strong>Penjelasan:</strong></p><p>digunakan untuk menyimpan file, icon </p><p></p><p><strong>Mohon maaf jika salah </strong></p><br />
+                                            <h2 class="ez-toc-section" id="memindahkan-file-dan-folder-bisa-ke-folder-itu-juga-atau-ke-folder-yang-lain-pada-linux-adalah-%e2%80%8b">
+                            20. Memindahkan file dan folder, bisa ke folder itu juga atau ke folder yang lain pada linux adalah ...​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p><strong>mv /root/lokasifolderanda/* /folder/tujuan/anda/</strong></p><p></p><p>Misalnya anda punya banyak file di folder /home/yupi/Downloads/ dan ingin di pindahkan ke /root/tujuan/, maka command nya adalah sebagai berikut: </p><p></p><p><strong># mv /home/yupi/Downloads/ /root/tujuan/</strong></p><p></p><p>Semoga Membantu^^</p><br />
+                                            <h2 class="ez-toc-section" id="pada-folder-keuangan-berisikan-folder-transaksi-penjualan-dan-folder-pembelian-di-setiap-folder-penjualan-dan-pembelian-berisikan-folder-harian-dan-bulanan-dari-hal-ini-folder-keuangan-disebut">
+                            21. pada folder keuangan berisikan folder transaksi penjualan dan folder pembelian. Di setiap folder penjualan dan pembelian berisikan folder harian dan bulanan. Dari hal ini folder keuangan disebut</h2><br />
+                        Parent Folder<br />Semoga Membantu<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-dari-1-ikon-2-folder-3-desktop">
+                            22. jelaskan pengertian dari : 1.ikon 2.folder 3.desktop</h2><br />
+                        Ikon adalah lambang dari aplikasi yang berada di desktop<br /><br />folder adalah suatu tempat untuk menaruh file<br /><br />dekstop adalah layar atau monitor dari komputer atau laptop1. Ikon adalah lambang suatu aplikasi <br />2. Folder adalah Tempat menaruh kumpulan file<br />3. Desktop layar awal pada laptop dll<br />
+                                            <h2 class="ez-toc-section" id="1-sebutkan-pengertian-folder-dan-sebutkan-langkah-langkah-membuat-folder">
+                            23. 1. Sebutkan pengertian folder dan sebutkan langkah-langkah membuat folder !</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Membuat folder:</p><p></p><p>1. Buka direktori atau lokasi untuk membuat folder.</p><p></p><p>2. Pada area yang kosong di direktori tersebut, klik kanan akan muncul kotak dialog.</p><p></p><p>3. Sorot "New" kemudian pilih "Folder"</p><p></p><p>4. Folder baru sudah terbentuk, tinggal mengubah nama dengan klik kanan pada folder terbentuk dan edit nama foldernya.</p><p><strong>Penjelasan:</strong></p><p>semoga bermanfaat</p><p><strong>Jawaban:</strong></p><p>Membuat folder:</p><p>Buka direktori atau lokasi untuk membuat folder.</p><p>Pada area yang kosong di direktori tersebut, klik kanan akan muncul kotak dialog.</p><p>Sorot "New" kemudian pilih "Folder"</p><p>Folder baru sudah terbentuk, tinggal mengubah nama dengan klik kanan pada folder terbentuk dan edit nama foldernya.</p><p>pengertian:</p><p>tempat menyimpan file file.</p><p><strong>Penjelasan:</strong></p><p>semoga membantu:)</p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-pengertian-folder">
+                            24. Tuliskan pengertian Folder</h2><br />
+                        tempat menyimpan dokumen ddi komputertempat penyimpanan dokumen di komputer<br />
+                                            <h2 class="ez-toc-section" id="pengertian-folder-adalah-%e2%80%8b">
+                            25.  pengertian folder adalah ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>folder adalah suatu tempat untuk menyimpan ataupun menampung file-file, baik itu file sistem maupun file data atau dokumen. Icon folder sendiri di komputer umumnya berbentuk kecil seperti amplop berwarna kuning atau coklat</p><p>Jawaban:</p><p>Pengertian folder adalah suatu tempat untuk menyimpan ataupun menampung file-file, baik itu file sistem maupun file data atau dokumen. Icon folder sendiri di komputer umumnya berbentuk kecil seperti amplop berwarna kuning atau coklat</p><p></p><p>Semoga bermanfaat </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-folder-file-dan-document">
+                            26. pengertian folder file dan document</h2><br />
+                        folder merupakan tempat dari file,document adalah file itu sendiri<br /><br />
+                                            <h2 class="ez-toc-section" id="pengertian-map-folder">
+                            27. Pengertian Map folder</h2><br />
+                        tempat menyimpan atau menaruh dokumen. kertas tempat menyimpan atau menaruh suatu dokumen yang sudah di spesifikasikan<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-shortcut-dan-folder">
+                            28. jelaskan pengertian shortcut dan folder</h2><br />
+                        shortcut adalah icon cepat yang terdapat di destop memudahkan untuk memanggil aplikasi tersebut<br />folder : digunakan untuk mengurutkn atau mengkelompokan beberapa file menjadi 1<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-folder">
+                            29. Jelaskan pengertian folder</h2><br />
+                        <p><strong>Folder </strong>merupakan<strong> suatu program atau tempat yang berguna sebagai alat penyimpanan berbagai jenis file didalamnya.</strong> Fungsi utama <strong>folder </strong>adalah untuk menyimpan file sekaligus mengelompokkannya menurut jenis file itu sendiri. Kita memerlukan beberapa wadah untuk dalam penyimpanan file musik, dokumen dan foto.</p><p></p>Pembahasan<p>Manajemen  file  adalah  pengelolaan  file  dan  <strong>folder  </strong>supaya  rapi  dan  mudah dalam penggunaannya. <strong>Folder </strong>adalah cara yang bagus untuk menjaga komputer tetap teratur. Dapat menggunakannya untuk menyimpan semua file penting di satu tempat.  dapat menggunakannya untuk menyimpanfile-file penting atau dapat menggunakannya untuk menyimpan kertas-kertas yang kurang penting dengan aman. <strong>Folder </strong>adalah cara yang bagus untuk menyimpan dokumen di satu tempat.</p><p>Ada banyak jenis <strong>folder </strong>yang dapat gunakan. Beberapa yang paling populer termasuk:</p><p>1. My Documents: Ini adalah <strong>folder </strong>yang biasanya terletak di hard drive komputer Anda. Ini adalah tempat yang bagus untuk menyimpan semua file pribadi Anda.</p><p>2. Desktop: Desktop adalah <strong>folder </strong>lain yang terletak di hard drive Anda. Di sinilah Anda dapat menyimpan pintasan ke program yang paling sering Anda gunakan.</p><p>3. Unduhan: <strong>Folder </strong>unduhan adalah tempat semua file yang Anda unduh dari internet disimpan. </p><p></p><p></p>Pelajari lebih lanjutMateri tentang proses yang tidak termasuk dalam manajemen file dan folder<p>https://brainly.co.id/tugas/4590209</p>Materi tentang New folder <p>https://brainly.co.id/tugas/6276530</p>Materi tentang Cara mengelola file dan folder<p>https://brainly.co.id/tugas/3459153</p><p></p><strong>Detail jawaban</strong><p><strong>Kelas: </strong>10</p><p><strong>Mapel: </strong>TIK</p><p><strong>Bab: </strong>1 - Melakukan Operasi Dasar pada Komputer</p><p><strong>Kode: </strong>10.11.1</p><p><strong>#AyoBelajar #SPJ2 </strong></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-folder-dan-fungsi-folder-pada-computer%e2%80%8b">
+                            30. pengertian folder dan fungsi folder pada computer?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p><strong>Penjelasan:</strong></p><p>Pengertian folder adalah suatu program pada komputer yang berguna untuk menyimpan berbagai macam file di dalamnya. Fungsi utama dari folder adalah untuk menyimpan file sekaligus mengelompokkannya menurut jenis file itu sendiri.</p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-dari-folder-adalah%e2%80%8b">
+                            31. PENGERTIAN DARI FOLDER ADALAH?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>folder adalah suatu tempat untuk menyimpan ataupun menampung file-file, baik itu file sistem maupun file data atau dokumen.</p><p><strong>Jawaban:</strong></p><p>folder adalah suatu benda yang bisa menyimpan foto atau sesuatu penting</p><p><strong>Penjelasan:</strong></p><p>di maaf kan ya kalau salah</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-langkah-langkah-dalam-membuat-folder-serta-jelaskan-apa-yang-dimaksud-dengan-file-dan-folder">
+                            32. jelaskan langkah langkah dalam membuat folder ! serta jelaskan apa yang dimaksud dengan file dan folder</h2><br />
+                        Membuat folder:<br />1. Buka direktori atau lokasi untuk membuat folder<br />2. Pada area yang kosong di direktori tersebut, klik kanan akan muncul kotak dialog<br />3. Sorot "New" kemudian pilih "Folder"<br />4. Folder baru sudah terbentuk, tinggal mengubah nama dengan klik kanan pada folder terbentuk dan edit nama foldernya<br />Ilustrasi ada di lampiran<br /><br /><strong>File</strong> merupakan item dalam komputer yang menyimpan data yang dapat berupa teks, suara, gambar, halaman web, aplikasi dan sebagainya.<br /><strong>Folder</strong> merupakan item dalam komputer yang dapat menyimpan banyak file.<br />
+                                            <h2 class="ez-toc-section" id="jelaskan-macam-macam-folder%e2%80%8b">
+                            33. jelaskan macam macam folder​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>my document</p><p>download</p><p>game</p><p>audio</p><p>dll</p><p><strong>Jawaban:</strong></p><p>Folder adalah suatu tempat untuk menyimpan ataupun menampung file-file, baik itu file sistem maupun file data atau dokumen</p><p>Mcm mcm folder itu banyak ,ya yg kita perlukan saja tidak usah terlalu banyak</p><p></p><p><strong>Penjelasan:</strong></p><p><strong>TOLONG JADIIN BRAINLIST YA</strong></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-cara-melakukan-pengelolaan-folder-atau-sub-folder%e2%80%8b">
+                            34. jelaskan cara melakukan pengelolaan folder atau sub - folder!​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Pengelolaan folder atau subfolder adalah cara untuk mengatur dan mengorganisir file dan dokumen di dalam sistem komputer. Berikut adalah langkah-langkah umum untuk melakukan pengelolaan folder atau subfolder:</p><p></p><p>1. Membuat Folder: Untuk membuat folder baru, klik kanan pada area kosong di dalam jendela file explorer atau desktop, pilih "New" atau "Buat Folder" (tergantung pada sistem operasi yang digunakan), dan beri nama pada folder tersebut.</p><p></p><p>2. Mengganti Nama Folder: Untuk mengubah nama folder, klik kanan pada folder, pilih "Rename" atau "Ubah Nama", dan ketikkan nama baru.</p><p></p><p>3. Memindahkan Folder: Untuk memindahkan folder ke lokasi lain, klik kiri pada folder dan seret ke lokasi tujuan yang diinginkan dalam file explorer.</p><p></p><p>4. Menghapus Folder: Untuk menghapus folder, klik kanan pada folder dan pilih "Delete" atau "Hapus". Pastikan Anda memastikan bahwa folder tersebut tidak berisi file penting sebelum menghapusnya.</p><p></p><p>5. Membuat Subfolder: Untuk membuat subfolder di dalam folder yang sudah ada, klik kanan pada folder induk, pilih "New" atau "Buat Folder", dan beri nama pada subfolder tersebut.</p><p></p><p>6. Mengatur Hierarchy (Hirarki): Anda dapat mengatur folder dan subfolder dalam struktur hierarkis untuk mempermudah pengorganisasian. Caranya adalah dengan memindahkan subfolder ke dalam folder yang sesuai secara kontekstual.</p><p></p><p>7. Menavigasi Folder: Anda dapat membuka dan mengakses folder dan subfolder dengan mengklik dua kali pada ikon folder dalam file explorer atau dengan menggunakan perintah navigasi seperti "Open" atau "Buka".</p><p></p><p>8. Mencari Folder: Jika Anda memiliki banyak folder dan subfolder, Anda dapat menggunakan fitur pencarian dalam file explorer untuk menemukan folder tertentu dengan cepat. Biasanya, fitur ini dapat diakses melalui kotak pencarian di bagian atas jendela file explorer.</p><p></p><p>maaf kalau salah, semoga membantu! </p><br />
+                                            <h2 class="ez-toc-section" id="new-folder-digunakan-untuk-a-membuka-folder-barub-membuat-folder-baruc-menghapus-folderd-menyimpan-folder">
+                            35. new folder digunakan untuk...?
+a.membuka folder baru
+b.membuat folder baru
+c.menghapus folder
+d.menyimpan folder</h2><br />
+                        B. Membuat Folder Baru<br /><br />Semoga Membantu!<br />New=Baru<br />Folder=Berkas-berkas<br />Jadi,jika digabungkan menjadi berkas-berkas baru atau yang bisa dibilang folder baru<br /><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="bisakah-dalam-folder-ada-folder-lagi-jelaskan-alasan-kalian%e2%80%8b">
+                            36. Bisakah dalam folder ada folder lagi Jelaskan alasan kalian!​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>Bisa, karena memang di dalam folder dapat membuat folder baru, walawpun sudah ada 4 folder, kita masih bisa buat banyak folder di dalamnya (unlimited)</strong></p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-dari-icon-folder-bioskop">
+                            37. Jelaskan pengertian dari icon folder bioskop</h2><br />
+                        <strong>- ikon folder dengan pengkhususan penyimpanan video</strong><br />
+                                            <h2 class="ez-toc-section" id="folder-folder-dikelompok-kan-pada%e2%80%8b">
+                            38. folder folder dikelompok kan pada?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>File</p><p>maaf kalau salah :)</p><br />
+                                            <h2 class="ez-toc-section" id="manakah-urutan-yang-benar-dibawah-ini-cara-membuat-folder-a-file-new-folder-new-folderb-home-new-folder-new-folderc-view-new-folder-new-folderd-insert-new-folder-new-folder">
+                            39. Manakah urutan yang benar dibawah ini cara membuat folder...a. File - New folder - New folderb. Home - New folder - New folderc. View - New folder - New folderd. Insert - New folder - New folder​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>b. Home - New folder - New folder</p><p><strong>Penjelasan:</strong></p><p>ada cara lain yang lebih gampang, cepat dan simpel</p><p></p><p>Shortcut keyboard</p><p>CTRL+SHIFT+N</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="langkah-langkah-yang-tepatdalammembuatsebuah-folder-baruaplikasiedmodoadalah-%e2%80%a6%e2%80%a6a-klik-icon-backpack-kemudiankliktombol-new-folder-kemudianpilih-menu-folder-ketiknama-folder-kemu">
+                            40. .Langkah-langkah yang tepatdalammembuatsebuah folder baruaplikasiedmodoadalah ……
+A.	Klik icon Backpack, kemudiankliktombol New Folder. Kemudianpilih menu Folder, ketiknama folder, kemudiankliktombolcreat
+B.	Klik icon Backpack, kemudianklik menu folder, kemudiankliktombol New Folder, ketiknama folder, kemudiankliktombolcreat.
+C.	Klik icon Backpack, kemudianklik menu folder, kemudiankliktombol New Folder, kemudiankliktombolcreat, kemudianketiknama folder
+D.	Klik icon Backpack, kemudiankliktombolcreat, kemudianklik menu folder, kemudiankliktombol New Folder, ketiknama folder
+E.	Klik icon Backpack,  kemudiankliktombolcreat, kemudiankliktombol New Folder. Kemudianpilih menu Folder, ketiknama folder</h2><br />
+                        D.....................<br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/8IyAw8OEMf4?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>sbmptn</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengertian-dari-wni.html">Pengertian Dari Wni</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-sifat-mustahil-bagi-rasul-beserta-artinya.html">Sebutkan Sifat Mustahil Bagi Rasul Beserta Artinya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-agama-buddha-kelas-10-semester-2.html">Soal Agama Buddha Kelas 10 Semester 2</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/psikotes-tentang-kelebihan-dan-kekurangan.html">Psikotes Tentang Kelebihan dan Kekurangan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-nama-nama-khulafaur-rasyidin.html">Sebutkan Nama Nama Khulafaur Rasyidin</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/tes-psikotes-angkasa-pura-support.html">Tes Psikotes Angkasa Pura Support</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/nada-saat-membaca-puisi-disebut.html">Nada Saat Membaca Puisi Disebut</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-psikotes-irama-gambar-go-1-dan-jawabannya.html">Soal Psikotes Irama Gambar Go 1 Dan Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/orang-yang-meriwayatkan-hadist-disebut.html">Orang Yang Meriwayatkan Hadist Disebut</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengertian-dari-penegembangan-ekonomi-dalam-tata-ruang.html">Pengertian Dari Penegembangan Ekonomi Dalam Tata Ruang</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengertian-dari-pihak-obligor.html">Pengertian Dari Pihak Obligor</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/lawan-hemat-adalah-psikotes.html">Lawan Hemat Adalah Psikotes</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/apakah-pengertian-dari-perdagangan-internasional.html">Apakah Pengertian Dari Perdagangan Internasional</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/penyerahan-wajib-pada-masa-kolonial-belanda-disebut.html">Penyerahan Wajib Pada Masa Kolonial Belanda Disebut</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-pts-agama-kelas-1-sd.html">Soal Pts Agama Kelas 1 Sd</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-fungsi-dari-lembaga-keluarga.html">Sebutkan Fungsi Dari Lembaga Keluarga</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengertian-dari-kisah-para-rasul-1-1-5-14.html">Pengertian Dari Kisah Para Rasul 1 1 5 14</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-soal-tes-psikotes-untuk-penerimaan-pekerjaan-beserta-hasilnya.html">Soal soal Tes Psikotes Untuk Penerimaan Pekerjaan Beserta Hasilnya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/bimbingan-psikotes.html">Bimbingan Psikotes</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/contoh-soal-psikotes-pauli.html">Contoh Soal Psikotes Pauli</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://skripsiedukasi.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://skripsiedukasi.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://skripsiedukasi.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://skripsiedukasi.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://skripsiedukasi.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

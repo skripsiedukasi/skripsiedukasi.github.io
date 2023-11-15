@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pengertian Dari Struktur Data - BELAJAR</title>
+    <meta name="description" content="Pengertian Dari Struktur Data, , , , , , , 0, , , , , , 0, pengertian-dari-struktur-data, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pengertian Dari Struktur Data - BELAJAR" />
+    <meta property="og:description" content="Pengertian Dari Struktur Data, , , , , , , 0, , , , , , 0, pengertian-dari-struktur-data, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pengertian Dari Struktur Data - BELAJAR" />
+    <meta name="twitter:description" content="Pengertian Dari Struktur Data, , , , , , , 0, , , , , , 0, pengertian-dari-struktur-data, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://skripsiedukasi.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://skripsiedukasi.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://skripsiedukasi.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://skripsiedukasi.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://skripsiedukasi.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://skripsiedukasi.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://skripsiedukasi.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://skripsiedukasi.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://skripsiedukasi.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://skripsiedukasi.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Pengertian Dari Struktur Data</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">teknik1</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Pengertian+Dari+Struktur+Data" alt="Pengertian Dari Struktur Data">
+                    </div>
+                    <p></p>
+                    <p>jelaskan pengertian struktur data</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-struktur-data">1.
+                                            jelaskan pengertian struktur data</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#carilah-pengertian-struktur-data-dari-beberapa-ahli">2.
+                                            carilah pengertian struktur data dari beberapa ahli ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#carilah-pengertian-struktur-data-dari-beberapa-ahli">3.
+                                            carilah pengertian struktur data dari beberapa ahli ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pasnos-perfileman-di-tanah-air-dapat-semakin-maju1-tuliskan-struktur-teks-ulasan-laskar-pelangi-banya-dengan-menentukan-paragrafnya2-tuliskan-kata-sifat-yang-terdapat-pada-teks-ulasan-laskar-pelangi">4.
+                                            pasnos perfileman di tanah air dapat semakin maju1. Tuliskan struktur teks ulasan Laskar Pelangi banya dengan menentukan paragrafnya2. Tuliskan kata sifat yang terdapat pada teks ulasan Laskar Pelangi!3. Dari teks di atas tuliskan kalimat yang menggunakan konjungsi penerang, konjungi temporal, dan konjuPenyebab4. Berdasarkan teks di atas tuliskan pengertian teks ulasan!5. Tuliskan dan jelaskan struktur teks ulasan!6. Perhatikan kutipan data buku berikut!Judul : Riwayat Nabi Daud (Raja Adil Bijaksana, Nabi yang Mulia)Pengarang : Ismail PamungkasPenerbit PT Remaja Rosdakarya, BandungTahun 1995Setelah dibaca, ternyata buku tersebut menggunakan bahasa yang mudah dipahamiBerdasarkan data buku di atas tuliskan kalimat ulasan yang tepat untuk menggambarkan keunggulan bu7. Perhatikan data buku berikut!JudulMengarang, Apa Susahnya?Pengarang Saya HartoPenerbit Pustaka CahayaTahun terbit 2015Tebal : 180 halamanKelebihan : Mampu menyajikan ide-ide kreatif dan motivasi dalam proses belajar mengarangKekurangan : Buku tersebut terkesan mahalTuliskan paragraf ulasan berdasarkan data buku di atas!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-asal-kata-ulasan2-pengertian-ulasan3-tujuan-ulasan4-ciri-ciri-teks-ulasan5-menentukan-keunggulan-buku6-menentukan-paragraf-ulasan-yang-sesuai-dengan-data7-unsur-identitas-buku8-strukt">5.
+                                            1. asal kata ulasan?2. pengertian ulasan?3. tujuan ulasan?4. ciri-ciri teks ulasan?5. menentukan keunggulan buku?6. menentukan paragraf ulasan yang sesuai dengan data?7. unsur identitas buku?8. struktur teks ulasan?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dibawah-ini-merupakan-pengertian-deskripsi-bagian-pada-struktur-teks-adalaha-laporan-ilmiah-berdasarkan-data-fiktif-b-kegiatan-mengamati-keadaan-struktur-agar-pembaca-merasakan-apa-yang-dirasakan-ol">6.
+                                            Dibawah ini merupakan pengertian deskripsi bagian pada struktur teks adalah
+a.laporan ilmiah berdasarkan data fiktif 
+b.kegiatan mengamati keadaan struktur agar pembaca merasakan apa yang dirasakan oleh penulis
+c.hasil pengamatan dari keadaan,objek,atau peristiwa dengan penyampaian sederhana 
+d.kesan mengenai apa yg diamati dan yg didapat melalui pancaindera sehingga pembaca seolah-olah melihat dan merasakan sebuah objek secara keseluruhan seperti yg dialami penulis
+tolong dijawab ya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-karangan-ilmiah-yang-ditulis-berdasarkan-pengamatan-peninjauan-dan-penelitian-dalam-bidang-tertentu-disebut2-suatu-kalimat-yang-disampaikan-yang-diambil-dari-beberapa-ide-pemikiran-dengan-atura">7.
+                                            1. karangan ilmiah yang ditulis berdasarkan pengamatan, peninjauan, dan penelitian dalam bidang tertentu disebut?2. suatu kalimat yang disampaikan yang diambil dari beberapa ide pemikiran dengan aturan yang berlaku disebut? 3. saat melakukan analisis data pamer lu kan pikiran krisis dan menerapkan teori yang telah ditulis dengan memadukan hasil?4. kelas kata yang menyatakan suatu tindakan keberadaan, pengalaman, atau pengertian dinamis lainnya disebut?5. struktur teks rekaman percobaan ini hampir sama dengan teks?6. pidato jenis persuasif ini dapat dikatakan pula sebagai pidato untuk?7. metode pidato dilakukan dengan membaca naskah pidato yang dipersiapkan disebut?8. "yang saya hormati ibu kepala sekolah" di dalam pidato hal tersebut merupakan contoh?9. kata yang hanya dimiliki arti gramatikal dan tidak memiliki makna leksikal, sehingga hanya bisa menjadi jelas jika dihubungkan dengan kata lain disebut?10. suatu kata yang memiliki bentuk yang berbeda namun memiliki arti atau pengertian yang sama atau mirip disebut?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-jawab-ya-mau-di-kumpulkan-bsok-1tipe-data-static-hanya-bisa-di-deklarasikan-pada-a-akhir-eksekutifb-awal-fungsi-c-awal-strukturd-pertengahan-run2-pengertian-robot-industri-secara-umum-adal">8.
+                                            tolong jawab ya mau di kumpulkan bsok 1)tipe data static hanya bisa di deklarasikan pada ...a.akhir eksekutifb.awal fungsi c.awal strukturd.pertengahan RUN2) pengertian robot industri secara umum adalah robot ...a.lenganb.humanoidc.gripperd.AL3) arduino memiliki alur algoritma yang mirip dengan bahasa...a.c++b.visual basicc.javad.PHP​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-dalam-pemrograman-tempat-untuk-menyimpan-nilai-kemudian-nilai-tersebut-dapat-digunakan-untuk-diproses-dan-menghasilkan-nilai-keluaran-hasil-dinamakan-%c2%a0a-tipe-datab-variabelc-charac">9.
+                                            1.Dalam Pemrograman tempat untuk menyimpan nilai, kemudian nilai tersebut dapat digunakan untuk diproses, dan menghasilkan nilai keluaran (hasil), dinamakan .... *A. Tipe dataB. VariabelC. CharacterD. Float2.Suatu pekerjaan yang dilakukan secara berulang-ulang sampai kondisi/ persyaratan tertentu terpenuhi. Kalimat ini merupakan pengertian dari .... *A. AlgoritmaB. VariabelC. Tipe DataD. Loop (looping)3.Suatu perintah akan dijalankan apabila kondisi atau persyaratannya sesuai (benar), maka perintah akan dikerjakan dan jika tidak sesuai dengan kondisi persyaratannya maka akan dikerjakan perintah yang lain. Konsep dasar ini merupakan bentuk dari struktur .... A. AlgoritmaB. VariabelC. Tipe DataD. Kondisi Percabangan4.Pembuatan Algoritma yang dihasilkan dari proses pengamatan terhadap permasalah yang akan diselesaikan, penulisannya dapat diterapkan dengan dua cara adalah .... *A. Pseudocode dan VariabelB. Pseudocode dan Tipe dataC. Pseudocode dan AlgoritmaD. Pseudocode dan Flowchart5.Dalam bahasa pemrograman membuat langkah-langkah untuk menyelesaikan suatu persoalan atau tindakan yang di harapkan dinamakan .... A. VariabelB. Tipe DataC. AlgoritmaD. Aplikasi6.Dalam pemrograman, alur proses atau perintah dapat dijalankan secara berulang-ulang agar tujuan yang diinginkan dapat tercapai. Dibawah ini yang bukan pembagian struktur dalam perulangan adalah .... A. ForB. WhileC. Repeat - UntilD. For Repeat7.Tipe data merupakan jenis data atau jenis nilai yang dapat disimpan dalam sebuah Variabel tertentu. Dibawah ini yang bukan jenis tipe data dalam pemrograman adalah ....A. Character / String / TeksB. BooleanC. IntegerD. Variabel8.Dalam struktur kondisi percabangan merupakan proses melakukan pemilihan tindakan. Pemilihan tindakan ini berdasarkan kondisi persyaratan dengan membandingan dua buah nilai. Operator untuk membandingkan dua buah nilai yang dimaksud adalah .... A. Operator Variabel dan Tipe DataB. Operator Algoritma dan PercabanganC. Operator Perbandingan dan LogikaD. Operator Aritmatika dan Logika9.IF dalam bahasa pemograman adalah sebuah struktur logika untuk membuat percabangan alur program. Dengan menggunakan struktur IF kita dapat mengatur bentuk perintah yang harus di jalankan atau tidak tergantung kepada kondisi persyaratannya. Pembagian penulisan IF terdiri atas .... A. IF Tunggal, IF Ganda, dan IF AritmatikaB. IF Tunggal, IF Ganda, dan IF FlowchartC. IF Tunggal, IF Ganda, dan IF AlgoritmaD. IF Tunggal, IF Ganda, dan IF Majemuk10.Seorang programmer bisa membuat bentuk perulangan dalam program yang dibuatnya. Bentuk perulangan memiliki struktur logika sebagai syarat dalam membuat bentuk perulangan. Struktur logika perulangan tersebut adalah .... a. Nilai Awal - Kondisi/ persyaratannya - langkah selanjutnyaB. Nilai Awal - Kondisi/ persyaratannya - Nilai AkhirC. Nilai Awal - Nilai Akhir - Kondisi/ persyaratanD. Algoritma - Pseudocode - Flowchart​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-penyimpanan-data-pada-komputer-agar-data-tersebut-dapat-dipakai-lagi-secara-efektif-dan-efisien-merupakan-pengertian-dari%e2%80%a6-a-type-datab-kontrol-datac-ruang-datad-struktur-data">10.
+                                            Cara penyimpanan data pada komputer agar data tersebut dapat dipakai lagi secara efektif dan efisien merupakan pengertian dari….A.  Type dataB.  Kontrol dataC. ruang dataD. Struktur data​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-jelaskan-pengertian-komunikasi-menurut-asal-katanya2-uraikan-tentang-pencarian-beruntun-dengan-sentinel-3-terangkan-proses-pada-bubble-sort-4-sebutkan-fungsi-dan-kegunaan-dari-struktur-data-s">11.
+                                            1. jelaskan pengertian komunikasi menurut asal katanya!2. uraikan tentang pencarian beruntun dengan sentinel!.3. terangkan proses pada bubble sort!.4. sebutkan fungsi dan kegunaan dari struktur data stack!.5. sebutkan langkah-langkah untuk melakukan operasi dequeue!. bantu jawab kak"ಠ⁠﹏⁠ಠ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#suatu-modul-untuk-menjelaskan-hubungan-antara-dalam-basis-data-berdasarkan-objek-objek-dasar-data-yang-mempunyai-hubungan-antara-relasi-erd-untuk-memodulkan-struktur-data-dari-hubungan-antara-data-unt">12.
+                                            suatu modul untuk menjelaskan hubungan antara dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan antara relasi ERD untuk memodulkan struktur data dari hubungan antara data untuk menggambarkan digunakan beberapa notasi dan symbol merupakan pengertian dari...a. simbolb. sequence diagramc. class diagramd. flowcharte. ERD​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-tuliskan-ciri-ciri-teks-eksposisi-2-jelaskan-struktur-teks-eksposisi-3-apa-yang-dimaksud-dengan-puisi-4-jelaskan-pengertian-unsur-fisik-dan-batin-puisi-5-tuliskan-cara-memperoleh-data-un">13.
+                                            1.tuliskan ciri-ciri teks eksposisi?  2. jelaskan struktur teks eksposisi?  3. apa yang dimaksud dengan puisi?  4. jelaskan pengertian unsur fisik dan batin puisi?  5. tuliskan cara memperoleh data untuk menyusun teks eksplanasi?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-struktur-fisik-basis-data">14.
+                                            jelaskan pengertian struktur fisik basis data</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#b-menjodohkanpasangkanlah-pernyataan-dan-jawaban-di-bawah-ini-a-pernyatan1-penggambaran-ringkasan-kejadian2-setiap-paragraf-berupa-fakta-3-ayo-kita-pergi-berwisata-4-rumusan-akhir-tentang-sesuat">15.
+                                            B.MENJODOHKANPasangkanlah pernyataan dan jawaban di bawah ini.a. Pernyatan1 .Penggambaran ringkasan kejadian2. Setiap paragraf berupa fakta.3.  Ayo kita pergi berwisata.4. Rumusan akhir tentang sesuatu.5. Teks yang berisi tentang fenomena alam, sosial, dan budaya.6. Memetakan gagasan umum.7. Teks yang bertujuan meyakinkan pendapat.8. Berisi data dan fakta.9. Uraiannya bersifat kronologis.10. Pernyataan ajakan.b. JawabanA. Menulis teks persuasifB. Pengertian teks eksplanasiC. Ciri teks persuasifD. SimpulanE. Struktur teks persuasifF. Meringkas teks eksplanasiG. Struktur teks eksplanasiH.Pengertian teks persuasifI. Ciri teks eksplnasiJ. Isi teks eksplanasi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#langkah-langkah-tertentu-yang-menjadi-syarat-mutlak-agar-lebih-mudah-dalam-proses-pengambilan-sebuah-keputusan-dalam-pemecahan-masalah-adalah-pengertian-dari-a-berpikir-komputasionalb-algoritmac">16.
+                                            Langkah-langkah tertentu yang menjadi syarat mutlak agar lebih mudah dalam proses pengambilan sebuah keputusan dalam pemecahan masalah adalah pengertian dari ...a. berpikir komputasionalb. algoritmac. optimasi penjadwaland. struktur data​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagian-struktur-berita-yang-harus-menggambarkan-faktor-terpenting-dari-data-yang-dimiliki-dan-membuat-secara-lengkap-semua-unsur-berita-seperti-5w-1h-sehingga-pembaca-sudah-mengerti-isi-berita-secar">17.
+                                            Bagian struktur berita yang harus menggambarkan faktor terpenting dari data yang dimiliki dan membuat secara lengkap semua unsur berita seperti 5W + 1H sehingga pembaca sudah mengerti isi berita secara keseluruhan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-proses-untuk-mencari-dan-menghapus-error-pada-program-disebut-a-testingb-releasec-bugd-debugginge-semua-salah2-sebuah-sistem-berlapis-diatur-secara-hirarki-setiap-lapisan-menyediakan-layana">18.
+                                            1. Proses untuk mencari dan menghapus error pada program disebut..A. TestingB. ReleaseC. BugD. DebuggingE. Semua salah2. Sebuah sistem berlapis diatur secara hirarki, setiap lapisan menyediakan layanan kepada lapisan di atasnya dan melayani sebagai klien ke lapisan bawah, adalah pengertian dari...A. Chart DiagramB. Architecture ChartC. Layered ToolsD. Layered DesainE. Layered architectures3. Dalam analisis terstruktur perangkat pemodelan Data flow Diagram ( DFD ) dan kamus data digunakan untuk…A. Menggambarkan kebutuhan userB. Menggambarkan perilaku sistemC. Menggambarkan fungsi-fungsi dari sistemD. Menggambarkan struktur programE. Menggambarkan data yang disimpan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-apa-yang-dimaksudkan-dengan-fungsi-bahasa-indonesia2-anda-jelaskan-fungsi-bahasa-tidak-sama-dengan-fungsi-bahasa-indonesia-3-apa-perbedaan-yang-menonjol-antara-bahasa-lisan-dan-bahasa-tulis-4">19.
+                                            1. Apa yang dimaksudkan dengan fungsi Bahasa Indonesia?2. Anda jelaskan fungsi bahasa tidak sama dengan fungsi Bahasa Indonesia? 3. Apa perbedaan yang menonjol antara bahasa lisan dan bahasa tulis? 4. Anda jelaskan, apa persamaan dan perbedaan antara ragam bahasa lisan dan ragam bahasa tulis dengan ragam bahasa baku dan ragam bahasa nonbaku? 5. Anda jelaskan penggunaan bahasa Indonesia yang baik dan benar ! nonbaku?6. Anda jelaskan etimologi “ejaan “ dan jelaskan sejarah ejaan bahasa Indonesia!7. anda jelaskan pengertian “kalimat, frase dan klausa “ dalam struktur kalimat! 8. Bagaimana cara menentukan Struktur kalimat yang benar? Jelaskan 9. Efektifkan kalimat berikut: "sebelum dibicarakan dengan pemimpin, bagian personalia sudah mempertanyakan masalah itu”10. Efektifkan kalimat berikut: “Karena data-data itu masih mentah atau belum diproses, jangan diberikan kepada siapapun, termasuk para wartawan!" 11. Apa kegunaan paragraf bagi penulis dan pembaca? 12. Tulislah sebuah paragraf yang kalimat topiknya terletak diakhir sebuah paragraf!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dibawah-ini-merupakan-pengertian-array-multidimensiadalah-a-array-yang-berisi-beberapa-array-lain-b-array-satu-dimensi-yang-berada-pada-array-satu-dimensi-dimana-variabel">20.
+                                            dibawah ini merupakan pengertian array multidimensi,adalah.                             A.array yang berisi beberapa array lain B.array satu dimensi yang berada pada array satu dimensi dimana variabel dan juga type datanya sama.  Struktur data yang statis,yaitu jumlah elemen yang ada harus ditentukan terlebih dahulu dan tak bisa di ubah saat program berjalan                                D.indeks dengan tipe data skalar, meliputi tipe data byte,char,integer,boolean,terbilang (numerated),dan tipe data sub jangkauan dari tipe tipe data tersebut.  E.jumlah dari seluruh data pada array ,sum harus dideklarasikan sebgai variabel dengan tipe data angka terlebih dahulu​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#judul-anak-badaipenulis-tere-liyetahun-terbit-2019kelebihan-pemilihan-diksi-mudah-di-mengerti-dan-komunikatif-bagi-para-remaja-sasaran-utama-pembaca-novel-anak-badai1-data-buku-tersebut">21.
+                                            Judul : Anak Badai
+Penulis : Tere Liye
+Tahun terbit : 2019
+Kelebihan : Pemilihan diksi mudah di mengerti dan komunikatif bagi para remaja , sasaran Utama pembaca novel Anak Badai
+1. Data buku tersebut merupakan struktur teks ulasan bagian?......
+2. Sasaran utama pembaca novel Anak Badai adalah?.....</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagian-struktur-berita-yang-harus-menggambarkan-faktor-terpenting-dari-data-yang-dimiliki-dan-memuat-secara-lengkap-semua-unsur-berita-seperti-5w-1h-sehingga-pembaca-sudah-mengerti-isi-berita-secara">22.
+                                            bagian struktur berita yang harus menggambarkan faktor terpenting dari data yang dimiliki dan memuat secara lengkap semua unsur berita seperti 5w +1h sehingga pembaca sudah mengerti isi berita secara keseluruhan adalah.....a.judul beritab.baris tanggalc.teras berita d.tubuh berita</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jarak-maksimum-yang-dapat-dijangkau-oleh-jaringan-man-adalah%e2%80%a6%c2%a0a-10-kmb-25-kmc-50-kmd-80-kmjaringan-milik-pribadi-disebuah-gedung-atau-kampus-yang-berukuran-sampai-10-km-disebut">23.
+                                            Jarak maksimum yang dapat dijangkau oleh jaringan MAN adalah… *A. 10 kmB. 25 kmC. 50 kmD. 80 kmJaringan milik pribadi disebuah gedung atau kampus yang berukuran sampai 10 km, disebut… *A. LANB. MANC. WAND. Dial upPoint of presence adalah kepanjangan dari… *A. ISPB. PopC. MAND. WANTopologi cincin berbentuk… *A. PanjangB. BintangC. LingkaranD. PohonTopologi star berbentuk… *A. lingkaranB. bintangC. panjangD. pohonJaringan yang mempunyai jangkauan area sangat luas adalah… *A. WANB. MANC. LAND. InterjaringanInternet service provider adalah kepanjangan dari… *A. ISPB. popC. MAND. WANJaringan yang mempunyai jaringan area sangat luas, misalnya antar pulau, negara, benua, bahkan ke luar angkasa adalah… *A. LANB. MANC. WAND. InterjaringanSatuan kecepatan akses internet adalah… *A. KilobitsB. Kilobits per secondC. meter per secondD. megabits per meterSekumpulan computer individu yang dihubung-hubungkan dengan menggunakan protokol Transmission Control protocol/internet protokol (TCP/IP) disebut… *A. InternetB. intranetC. jaringan komputerD. personal computerJenis jaringan computer Wide Area Network (WAN) adalah… *A. InternetB. PrinterC. Jaringan televise kabelD. ModemTopologi tree berbentuk… *A. bulatB. kotakC. bintangD. pohonJenis jaringan Komputer LAN adalah… *A. Jaringan televisi kabelB. Printer atau scannerC. InternetD. IntranetApakah fungsi modem… *A. mengubah data analog menjadi data digital pada saat komputer mengambil dataB. mengatur lalu lintas komunikasi dataC. menerima gelombang data dari jaringan internetD. memancarkan gelombang data dari computerApa fungsi dari router… *A. pengatur lalu lintas dalam jaringanB. penguat sinyalC. penghubung antar jaringanD. mengubah data analog menjadi data digitalOrang yang merancang program disebut ! *A. ProgrammerB. UserC. OperatorD. Analis sistemSiapakah yang memperkenalkan algoritma pertama kali? *A. Thomas Alfa EdisonB. Guelermo MarconiC. Abu Ja'far Muhammad Ibnu Musa Al-KhowarizmiD. Ibnu Musa Al-KhowarizmiUrutan Langkah-langkah logis dalam penyelesaian masalah yang disusun secara sistematis merupakan pengertian! *A. programB. flowchartC. AlgoritmaD. Program AplikasiSuatu implementasi dari Bahasa pemograman disebut …. *A. ProgramB. AlgoritmaC. FlowchartD. Program aplikasiPara pakar memberikan formula untuk program, yaitu …. *A. Program = Program + Bahasa (struktur Data)B. Program = Algoritma + Bahasa (struktur Data)C. Program = Program + AlgoritmaD. Program = Pascal + Bahasa (struktur Data)​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-penggambaran-ringkasan-kejadian2-setiap-paragraf-berupa-fakta-3-ayo-kita-pergi-berwisata-4-rumusan-akhir-tentang-sesuatu-5-teks-yang-berisi-tentang-fenomena-alam-sosial-dan-budaya-6-memetak">24.
+                                            1 .Penggambaran ringkasan kejadian2. Setiap paragraf berupa fakta.3.  Ayo kita pergi berwisata.4. Rumusan akhir tentang sesuatu.5. Teks yang berisi tentang fenomena alam, sosial, dan budaya.6. Memetakan gagasan umum.7. Teks yang bertujuan meyakinkan pendapat.8. Berisi data dan fakta.9. Uraiannya bersifat kronologis.10. Pernyataan ajakan.b. JawabanA. Menulis teks persuasifB. Pengertian teks eksplanasiC. Ciri teks persuasifD. SimpulanE. Struktur teks persuasifF. Meringkas teks eksplanasiG. Struktur teks eksplanasiH.Pengertian teks persuasifI. Ciri teks eksplnasiJ. Isi teks eksplanasi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagian-struktur-berita-yang-harus-menggambarkan-faktor-terpenting-dari-data-yang-dimiliki-dan-membuat-secara-lengkap-semua-unsur-berita-seperti-5w-1h-sehingga-pembaca-sudah-mengerti-isi-berita-secar">25.
+                                            Bagian struktur berita yang harus menggambarkan faktor terpenting dari data yang dimiliki dan membuat secara lengkap semua unsur berita seperti 5W + 1H sehingga pembaca sudah mengerti isi berita secara keseluruhan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#memiliki-data-berupa-fakta-contoh-dan-bukti-yang-digunakan-untuk-memperkuat-alas-an-yang-disampaikan-oleh-penulis-dengan-tujuannya-kalimat-tersebut-merupakan-%e2%80%a6-a-kaidah-kebahasaan-teks-pe">26.
+                                            Memiliki data berupa fakta, contoh, dan bukti yang digunakan untuk memperkuat alas an yang disampaikan oleh penulis dengan tujuannya. Kalimat tersebut merupakan …. A. Kaidah kebahasaan teks persuasiB. Ciri teks persuasiC. Struktur teks persuasiD. Pengertian teks persuasi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#quiz1-jenis-jenis-sorting-algoritma-beserta-contoh2-contoh-dan-pengertian-struktur-data-linier-dan-non-linier%e2%80%8b">27.
+                                            Quiz1. Jenis jenis Sorting algoritma beserta contoh2. Contoh, dan  Pengertian  struktur Data Linier dan Non Linier​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sekumpulan-data-yg-struktur-nya-menyerupai-tumpukan-atau-penyimpanan-data-adalah-pengertian-dari%e2%80%8b">28.
+                                            sekumpulan data yg struktur nya menyerupai tumpukan atau penyimpanan data adalah pengertian dari​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sekumpulan-data-yg-struktur-nya-menyerupai-tumpukan-atau-penyimpanan-data-adalah-pengertian-dari-%e2%80%8b">29.
+                                            sekumpulan data yg struktur nya menyerupai tumpukan atau penyimpanan data adalah pengertian dari.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-sekumpulan-data-yang-bertipe-sama-antara-satu-dengan-lainnya-dibedakan-dengan-indeks-pengertian-dari-a-integerb-arrayc-variabeld-char2-nama-lain-dari-flowchart-adalah-a-alurb-bagan-al">30.
+                                            1. Sekumpulan data yang bertipe sama antara satu dengan lainnya dibedakan dengan indeks pengertian dari ...a. Integerb. arrayC. variabeld. char2. Nama lain dari flowchart adalah ....a. Alurb. bagan alirc. treed. diagram3. Pengelompokan data berdasarkan isi dan sifatnya disebut ..a. Struktur datab. sumber datac. tipe datad. fakta4. Seseorang yang mampu menyelesaikan masalah dengan bahasa pemograman disebut ...a. Userb. hackerc. programerd. it support5. Berikut merupakan perangkat yang mendukung penggunaan internet yaitu ....a. radiob. telegramc. smartphone d. surat kabarpliss tolong dijawab ngab!!!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-layanan-ftp-email-chat-talnetnews-group-dapat-kita-temui-dalam-jaringan-a-lan-c-wanb-man-d-internet2-berdasarkan-pengertiannya-jaringan-peer-to-peer-melakukan-pemro">31.
+                                            1. layanan ftp, email, chat, talnet,news group dapat kita temui dalam jaringan...a. LAN.           c. wanB. man.           d. Internet2. berdasarkan pengertiannya jaringan peer to peer melakukan pemrosesan data pada..a. dump terminalb. tiap komputerc. serverd. terminal penghubung3. teknologi lab berbaris pada standar...a. IEEE 802.3b. 802.11bc. IEEE 803.3d. 802.11a4. gambaran struktur jaringan atau bagaimana sebuah jaringan di desain disebut...a. tipologi jaringanb. protokolc. serverd. transmiter5. berdasarkan cara pemrosesan data, jaringan yang melakukan server dengan kapasitas dan kemampuan yang besar adalah...a. peer to peerb. client serverc. host terminald. lan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-di-jawab-besok-di-kumpul1-himpunan-daerah-asal-atau-himpunan-pertama-berhubungan-dengan-himpunan-kedua-bisa-disebut-dengana-kodomain-b-domainc-range-d-relasi2-cara-menyimpan-dan">32.
+                                            TOLONG DI JAWAB BESOK DI KUMPUL!!!
+1. Himpunan daerah asal atau himpunan pertama berhubungan dengan himpunan kedua bisa disebut dengan
+a. kodomain 
+b. domain
+c. range 
+d. relasi
+2. Cara menyimpan dan mengatur data secara terstruktur pada sistem komputer atau database sehingga lebih mudah diakses adalah pengertian dari …:
+a. struktur data
+b. Algoritma
+c. storage
+d. array
+3. sistem bilangan berbasis 10 biasa disebut dengan ….
+a. Biner
+b. desimal
+c. heksadesimal 
+d. oktal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-teks-negosiasi-melibatkan-dua-pihak-dengan-dengan-kepentingan-yang-berbeda-tuliskan-unsur-unsur-yang-ada-pada-teks-2-dalam-teks-negosiasi-sangat-diperlukan-pemakaian-kalimat-persuasi-jelaskan-men">33.
+                                            1.Teks negosiasi melibatkan dua pihak dengan dengan kepentingan yang berbeda. tuliskan unsur unsur yang ada pada teks. 
+2.Dalam teks negosiasi sangat diperlukan pemakaian kalimat persuasi.jelaskan mengapa demikian
+3.Ap sajakah unsur pelaksana dekat tersebut
+4.Pengertian biografi dan autobiografi
+5. Biografi melukiskan perjalanan hidup seseorang, yang disusun dari data dan fakta biografi di golongkan pada kategori buku nonfiksi.jelaskan maksud dari pernyataan tersebut
+6.Tuliskan struktur teks biografi dengan lengkap</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-pengertian-struktur-data-sesuai-pemahaman-anda">34.
+                                            jelaskan pengertian struktur data sesuai pemahaman anda!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#16-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari-a-algoritma-c-pseudocode-e-konstanta">35.
+                                            16.algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk         tertentu, adalah pengertian dari .....  A. Algoritma                                C. Pseudocode                 E. Konstanta   B. Array                                       D. Flowchart*17. Berfungsi untuk memberi nilai awal, nilai akhir, penambahan/pengurangan suatu      variabel counter, adalah .....  A. Terminator                             C. Process              E. Preparation*                            B. Decision                                 D. Arrows18. Bentuk belah ketupat pada diagram flowchart diberi nama .....  A. Data Store                              C. Connector                                   E. Decision*  B. Process                                  D. Terminator19. Merupakan tempat menampung dan menyimpan satu atau lebih nilai, adalah      pengertian dari …..  A. Variabel*        B. Konstanta       C. Numerik          D. String        E. Boolean20. Merupakan tipe data yang biasa di proses dalam perhitungan matematika,        adalah pengertian …..  A. Variabel          B. Konstanta       C. Numerik          D. String        E. Boolean21. Dibawah ini aturan-aturan dalam penulisan variabel, kecuali …..       A. Nama variabel tidak boleh menggunakan kata-kata kunci       B. Nama variabel tidak boleh mengandung karakter-karakter khusus       C. Nama variabel harus diawali dengan angka*       D. Nama variabel harus diawali dengan huruf       E. Tidak boleh menggunakan spasi22.  Tipe data yang cocok untukmenjelaskan data nama_siswa adalah menggunakan tipe data ….A. Numeric                                 C. Date time                          E. IntegerB. Varchar*                                 D. Array23.   Tipe data yang cocok untukmenjelaskan data tanggal lahir adalah  menggunakan tipe data …..A. Numeric                                 C. Date time*                         E. Integer B. Varchar                                  D. Array24. Algoritma harus dapat dijangkau oleh akal fikiran kita. Hal ini menyatakan bahwa algoritma harus mamiliki sifat ...A. Cepat                                      C. Rumit                                E. Logis*B. Berurutan                              D. Realistis25. Lengkapilah pernyataan algoritma berikut, ……. &gt; Program &gt; Komputer &gt; Solusi / hasil.  A. Input*                                      C. File                                    E. Database                                                                                         B. Masalah                                 D. Proses26. Sintaks yang digunakan untuk mengakhiri program adalah… A. Print                                        C. End*                                 E. Start B. Writeln                                   D. Readln27. Sintaks yang digunakan untuk menuliskan program adalah… A. Print                                        C. End                                    E. Start B. Writeln*                                  D. Readln28. Jenis data yang dapat digunakan, oleh komputer untuk memenuhi kebutuhan dalam membuat program komputer disebut…A. Linier                                      C. Output                               E. Serial B. Tipe Data*                             D. Universal29. Sebutkan tipe data yang digunakan untuk menyimpan nilai berupa karakter/ huruf disebut tipe data...A. Boolean                                 C. Date Time                         E. Numerik B. Array                                       D. String / Char*30. Const Phi = 3.14 adalah contoh untuk penggunaan …A. Konstanta*                            C. Flowchart                         E. Long Int B. Variabel                                 D. Integer31. Dibawah ini beberapa struktur dasar algoritma antara lain …..      A. Urutan, Pilihan, Pengulangan               D. Pemulihan,Urutan, Pemograman                B. Perbaikan, Pemulihan, Pengaturan      E. Perbaikan, Pemilihan, Pengulangan       C. Urutan, Pemulihan, Pengulangan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jarak-maksimum-yang-dapat-dijangkau-oleh-jaringan-man-adalah%e2%80%a6%c2%a0a-10-kmb-25-kmc-50-kmd-80-kmjaringan-milik-pribadi-disebuah-gedung-atau-kampus-yang-berukuran-sampai-10-km-disebut">36.
+                                            Jarak maksimum yang dapat dijangkau oleh jaringan MAN adalah… *A. 10 kmB. 25 kmC. 50 kmD. 80 kmJaringan milik pribadi disebuah gedung atau kampus yang berukuran sampai 10 km, disebut… *A. LANB. MANC. WAND. Dial upPoint of presence adalah kepanjangan dari… *A. ISPB. PopC. MAND. WANTopologi cincin berbentuk… *A. PanjangB. BintangC. LingkaranD. PohonTopologi star berbentuk… *A. lingkaranB. bintangC. panjangD. pohonJaringan yang mempunyai jangkauan area sangat luas adalah… *A. WANB. MANC. LAND. InterjaringanInternet service provider adalah kepanjangan dari… *A. ISPB. popC. MAND. WANJaringan yang mempunyai jaringan area sangat luas, misalnya antar pulau, negara, benua, bahkan ke luar angkasa adalah… *A. LANB. MANC. WAND. InterjaringanSatuan kecepatan akses internet adalah… *A. KilobitsB. Kilobits per secondC. meter per secondD. megabits per meterSekumpulan computer individu yang dihubung-hubungkan dengan menggunakan protokol Transmission Control protocol/internet protokol (TCP/IP) disebut… *A. InternetB. intranetC. jaringan komputerD. personal computerJenis jaringan computer Wide Area Network (WAN) adalah… *A. InternetB. PrinterC. Jaringan televise kabelD. ModemTopologi tree berbentuk… *A. bulatB. kotakC. bintangD. pohonJenis jaringan Komputer LAN adalah… *A. Jaringan televisi kabelB. Printer atau scannerC. InternetD. IntranetApakah fungsi modem… *A. mengubah data analog menjadi data digital pada saat komputer mengambil dataB. mengatur lalu lintas komunikasi dataC. menerima gelombang data dari jaringan internetD. memancarkan gelombang data dari computerApa fungsi dari router… *A. pengatur lalu lintas dalam jaringanB. penguat sinyalC. penghubung antar jaringanD. mengubah data analog menjadi data digitalOrang yang merancang program disebut ! *A. ProgrammerB. UserC. OperatorD. Analis sistemSiapakah yang memperkenalkan algoritma pertama kali? *A. Thomas Alfa EdisonB. Guelermo MarconiC. Abu Ja'far Muhammad Ibnu Musa Al-KhowarizmiD. Ibnu Musa Al-KhowarizmiUrutan Langkah-langkah logis dalam penyelesaian masalah yang disusun secara sistematis merupakan pengertian! *A. programB. flowchartC. AlgoritmaD. Program AplikasiSuatu implementasi dari Bahasa pemograman disebut …. *A. ProgramB. AlgoritmaC. FlowchartD. Program aplikasiPara pakar memberikan formula untuk program, yaitu …. *A. Program = Program + Bahasa (struktur Data)B. Program = Algoritma + Bahasa (struktur Data)C. Program = Program + AlgoritmaD. Program = Pascal + Bahasa (struktur Data)​tolong di jawab​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pengertian-stack-pada-struktur-data-yaitu-suatu-urutan-elemen-yang-elemen-nya-dapat-diambil-dan-ditambah-pada-posisi-akhir-top-saja-stack-dapat-diilustrasikan-dengan-dua-buah-kotak-yang-ditumpuk">37.
+                                            Pengertian stack pada struktur data yaitu suatu urutan elemen yang elemen- nya dapat diambil dan ditambah pada posisi akhir (top) saja. Stack dapat diilustrasikan dengan dua buah kotak yang ditumpuk, kotak yang satu akan ditumpuk di atas kotak yang lainnya. Jika kemudian stack kedua kotak tadi, ditambah kotak ketiga, keempat, dan kelima. Jika mau mengambil kotak pertama, maka harus mengeluarkan kotak ketiga, keempat dan kelima, Analogi tersebut stack yang memiliki sifat ....A. algoritmaB. berfikir komputasionalC. linked listD. lifo​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-urutan-dari-beberapa-langkah-yang-logis-guna-menyelesaikan-masalah-disebut-a-algoritmac-flowchartb-struktur-datad-informatika2-suatu-cara-menyimpan-dan-mengatur-sebuah-data-supaya-dapat-di">38.
+                                            1. Urutan dari beberapa langkah yang logis guna menyelesaikan masalah, disebut ...A. AlgoritmaC. FlowchartB. Struktur dataD. Informatika2. Suatu cara menyimpan dan mengatur sebuah data supaya dapat digunakan secara efektif danefisien, adalah ...A. AlgoritmaC. FlowchartB. Struktur dataD. Informatika3. Yang bukan merupakan bentuk dasar Algoritma adalah ...A. Algoritma sekuensial C. Algoritma flowchartB. Algoritma perulangan D. Percabangan/bersyarat4. Struktur data terdiri dari ...A. Struktur data type C. Struktur data sederhanaB. Struktur data majemuk D. Struktur data sederhana dan majemuk5. Perintah struktur data yang dapat di gunakan/ mengatur data yaitu, kecuali ....A. FlowchartC. HashingB. ArrayD. Linked list6. Sekumpulan data yang bertipe sama dan antara data satu dengan data yang lain dibedakandengan indeks-nya merupakan pengertian dari ..A. IntegerC. VariabelB. ArrayD. Char7. Pengelompokan data berdasarkan isi dan sifatnya adalah ...A. AlgoritmaC. Tipe dataB. Struktur dataD. Data8. Tugas penting programer adalah ...A. Memilih tipe data C. Membuat tipe dataB. Mencari tipe data D. Membeli tipe data9. Tipe data dasar mempunyai nama lain ...A. Tipe daya arrayC. Tipe data abstrakB. Tipe daya primitif D.tipe data variabel10.yang bukan tipeA.INTEGERB.FLOATC.CHARD.DATA11.TUJUAN DIBUATNYA TIPE DATA BENTUKAN ADALAH...A.MEMPERMUDAH PROSES PEMROGRAMANB.MEMPERMUDAH PROSES VARIABELC.MEMPERMUDAH PROSES ABSTRAKD.MEMPERMUDAH PROSES DATA12.BAGIAN PERSIAPAN DARI SEBUAH ALGORITMA DISEBUT DENGAN...A.DESKRIPSIB.DEKLARASIC.HEADERD.PREPARATION13.KEPANJANGAN ADT ADALAH...A.ABSTRACK DATA TYPE B.ARRAY DATA TYPEC.ANGKA DATA TYPED.ALGORITMA DATA TYPE14.CIRI CIRI ALGORITMA..A.UNPUT,OUTPUTB.EFFECTIVE,EFISIENC.DEFINITE,EFFECTIVED.TERMINATE15.TAHAPAN PEMBENTUKAN STRUKTUR DATA..A.SPESIFIKASIB.IMPLEMENTASIC.PEMROGRAMAND.ALGORITMAYG BISA JAWAB INI 1-15 DAPET BANYAK POIN YAplis tapi jangan ngaco ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menurut-enc-deeson-pengertian-tik-adalaha-sebuah-struktur-dan-teknologi-yang-memadukan-perangkat-keras-seperti-komputer-dengan-jaringan-komunikasi-berkekuatan-tinggi-untukmembawa-file-data-video-ma">39.
+                                            Menurut Enc Deeson, pengertian TIK adalahA.sebuah struktur dan teknologi yang memadukan perangkat keras seperti komputer dengan jaringan komunikasi berkekuatan tinggi untukmembawa file, data, video maupun suara Jaringan ini bisa disebut sebagai internetB.kebutuhan manusia dalam melakukan proses mengambil dan memindahkan, mengolah dan memproses suatu informasi dalamkonteks sosial yang menguntungkan diri sendiri dan masyarakat secara keseluruhan.C.adalah suatu alat yang digunakan oleh manusia untuk mendapatkan informasi atau pengetahuan dari orang lainD.suatu rangkaian struktur yang saling berkaitan antara satu sama lain dimana di dalamnya terdapat aktivitas proses kelola, manipulasi, dantransier data maupun informasi dan suatu media ke media lainnya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#carilah-maksud-dari-pengertian-pengertian%c2%b2-sosiologi-di-bawah-inispekulatifrasionalanalitislogisgregriousnessstudi-kasusdata-sosialsoceityorganisasipengendalian-sosialfenomena-sosialr">40.
+                                            Carilah maksud dari pengertian pengertian² sosiologi di bawah ini
+Spekulatif
+Rasional
+Analitis
+Logis
+Gregriousness
+Studi kasus
+Data sosial
+Soceity
+Organisasi
+Pengendalian sosial
+Fenomena sosial
+Realitis sosial
+Mobilitas sosial
+Struktur sosial</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-struktur-data">
+                            1. jelaskan pengertian struktur data</h2><br />
+                        Struktur data adalah cara menyimpan atau merepresentasikan data di dalam komputer agar bisa dipakai secara efisien.<br /><br />
+                                            <h2 class="ez-toc-section" id="carilah-pengertian-struktur-data-dari-beberapa-ahli">
+                            2. carilah pengertian struktur data dari beberapa ahli ?</h2><br />
+                        struktur data adalah cara menyimpan atau mempresentasikan data di dalam komputer agar bisa di pakai secara efisien<br />
+                                            <h2 class="ez-toc-section" id="carilah-pengertian-struktur-data-dari-beberapa-ahli">
+                            3. carilah pengertian struktur data dari beberapa ahli ?</h2><br />
+                        1. The Liang Gie,<br /><br />•Hal, peristiwa atau kenyataan lainnya apapun yang mengandung sesuatu pengetahuan untuk dijadikan dasar guna penyusunan keterangan, pembuatan kesimpulan/penerapan keputusan.<br />•Data adalah ibarat bahan mentah yang melalui pengolahan tertentu lalu menjadi keterangan (informasi).<br /><br />2. L.James Havery<br /><br />Sistem merupakan prosedur logis dan rasional guna melakukan atau merancang suatu rangkaian komponen yang berhubungan satu sama lain.<br /><br />3.Henry Prat Fairchild dan Eric Kohler<br /><br />Sistem adalah sebuah rangkaian yang saling terkait antara beberapa bagian dari yang terkecil, jika suatu bagian/sub bagian terganggu, maka bagian yang lainnya ikut merasakan ketergangguan tersebut.<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="pasnos-perfileman-di-tanah-air-dapat-semakin-maju1-tuliskan-struktur-teks-ulasan-laskar-pelangi-banya-dengan-menentukan-paragrafnya2-tuliskan-kata-sifat-yang-terdapat-pada-teks-ulasan-laskar-pelangi">
+                            4. pasnos perfileman di tanah air dapat semakin maju1. Tuliskan struktur teks ulasan Laskar Pelangi banya dengan menentukan paragrafnya2. Tuliskan kata sifat yang terdapat pada teks ulasan Laskar Pelangi!3. Dari teks di atas tuliskan kalimat yang menggunakan konjungsi penerang, konjungi temporal, dan konjuPenyebab4. Berdasarkan teks di atas tuliskan pengertian teks ulasan!5. Tuliskan dan jelaskan struktur teks ulasan!6. Perhatikan kutipan data buku berikut!Judul : Riwayat Nabi Daud (Raja Adil Bijaksana, Nabi yang Mulia)Pengarang : Ismail PamungkasPenerbit PT Remaja Rosdakarya, BandungTahun 1995Setelah dibaca, ternyata buku tersebut menggunakan bahasa yang mudah dipahamiBerdasarkan data buku di atas tuliskan kalimat ulasan yang tepat untuk menggambarkan keunggulan bu7. Perhatikan data buku berikut!JudulMengarang, Apa Susahnya?Pengarang Saya HartoPenerbit Pustaka CahayaTahun terbit 2015Tebal : 180 halamanKelebihan : Mampu menyajikan ide-ide kreatif dan motivasi dalam proses belajar mengarangKekurangan : Buku tersebut terkesan mahalTuliskan paragraf ulasan berdasarkan data buku di atas!​</h2><br />
+                        <p><strong>Teks ulasan adalah suatu teks yang berisi ulasan, penilaian atau review terhadap suatu karya seperti film, drama, atau sebuah buku. Teks ulasan disebut juga dengan resensi. Ketika mengulas suatu karya, pengulas harus bersikap kritis agar hasil ulasannya dapat memberikan kontribusi bagi kemajuan karya tersebut.
+</strong></p><p><strong>
+</strong></p><p><strong>Ulasan juga dapat disebut review. Ulasan pada umumnya ditulis dalam bentuk artikel, sehingga teks ulasan juga dapat disebut artikel ulasan, Ulasan merupakan teks yang berfungsi untuk menimbang, menilai, dan mengajukan kritik terhadap karya atau peristiwa yang diulas tersebut </strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-asal-kata-ulasan2-pengertian-ulasan3-tujuan-ulasan4-ciri-ciri-teks-ulasan5-menentukan-keunggulan-buku6-menentukan-paragraf-ulasan-yang-sesuai-dengan-data7-unsur-identitas-buku8-strukt">
+                            5. 1. asal kata ulasan?2. pengertian ulasan?3. tujuan ulasan?4. ciri-ciri teks ulasan?5. menentukan keunggulan buku?6. menentukan paragraf ulasan yang sesuai dengan data?7. unsur identitas buku?8. struktur teks ulasan?</h2><br />
+                        2.ulasan adalah tinjauan dari evaluasi1.Kata Ulasan berasal dari bahasa latin yaitu kata kerja revidere atau recensere yang berarti MELIHAT KEMBALI, MENIMBANG, atau  MENILAI.<br /><br />2.Ulasan adalh sebuah tinjauan dari evaluasi<br /><br />3.Tujuan Ulasan adalah <br />-Memberikan garis besar atau gambaran mengenai suatu teks yang diulas<br />-Memberikan pandangan tentang keunggulan dan kelemahan teks yang diulas<br />-Mengarahkan kepada pembaca untuk memiliki opini terhadap teks tersebut, apakah akan membeli atau tidak, membaca atau tidak.<br /><br />4.Ciri-ciri Ulasan adalah<br />-Strukturnya terdiri atas orientasi, tafsiran, evaluasi dan rangkuman.<br /><br />-Memuat informasi berdasarkan pandangan atau opini penulis mengenai suatu karya atau produk.<br /><br />-Opininya berdasarkan fakta yang di interpretasikan.<br /><br />-Memiliki nama lain yaitu resensi.<br /><br />5.Keunggulan  Buku adalah<br />.                    Organisasi Buku :<br /><br />Pengalaman-pengalaman selama revolusi ini sangat menarik untuk dibaca. Maksud dari kalimat ini adalah cerpen yang satu dengan yang lainnya memiliki keterkaitan sehingga mampu menarik pembaca.<br /><br />·                              Isi Buku :<br /><br />Dilihat dari isi buku kumpulan cerpenHujan Kepagian ceritanya sangat unik, menarik sehingga layak untuk dibaca.<br /><br /><br />·                              Bahasa :<br /><br />Dilihat dari segi bahasa yang digunakan pengarang sangat sederhana, tetapi memikat. Kalimat- kalimat dalam paragraf disusun secara runtut sehingga mudah dipahami.<br /><br />6.Menentukan Paragraf sesuai dengan data<br /> <br /><br />Menentukan teks ulasan/resensi/rumpang berdasarkan data buku<br /><br />1.Cermati data buku berikut!<br /><br />Judul : Indahnya Keragaman<br />Penulis : Bambang Qomaruzzaman<br />Penerbit : Simbiosa Rekatama Media, BandungCetakan : Pertma 2001 Keunggulan : Menggunakan bahasa yang komunikatif,isi buku menarik<br />Kelemahan :Banyak menggunakan bahasa daerah<br />Paragraf resensi yang sesuai dengan data tersebut adalah a.Buku Ini memang seindah contoh yang dikemukaaan, namun sayang buku ini banyak menggunakan bahasa daerah sehingga kurang mendapat tanggapan dari masyarakat b.Penulis seorang pemerhati masalah social inimenulis tentang keragaman yang ada diIndonesia.dia mengemukaan persoalan dengan santai walaupun banyak menggunakan bahasa daerah<br />c.Buku dengan judul yang memikat ini ditulis dengan gayanya yang kuat dan uraian yangmendalam dengan menggunakan bahasa yang komunikatif. walupun banyak menggunakan  bahasa daerah.Isi buku ini tetap menarik d.Penulis buku adalah penulis yang konsisten terhadap masalah social yang ada dimasyarkat..Persoalan yang dikemukaaan selalu dibahas tuntas walaupun pengaruh bahasa  daerah  masih ada dalam buku ini.<br /><br />7.Unsur identitas Buku adalah<br />-Membuat Judul Resensi<br />-Menyusun Data Buku<br />-Membuat Pembukaan (lead)<br />-Tubuh atau Isi pernyataan Resensi Buku<br /><br />8.Struktur teks ulasan terdiri dari orientasi, tafsiran, evaluasi, dan rangkuman.<br /><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="dibawah-ini-merupakan-pengertian-deskripsi-bagian-pada-struktur-teks-adalaha-laporan-ilmiah-berdasarkan-data-fiktif-b-kegiatan-mengamati-keadaan-struktur-agar-pembaca-merasakan-apa-yang-dirasakan-ol">
+                            6. Dibawah ini merupakan pengertian deskripsi bagian pada struktur teks adalah
+a.laporan ilmiah berdasarkan data fiktif 
+b.kegiatan mengamati keadaan struktur agar pembaca merasakan apa yang dirasakan oleh penulis
+c.hasil pengamatan dari keadaan,objek,atau peristiwa dengan penyampaian sederhana 
+d.kesan mengenai apa yg diamati dan yg didapat melalui pancaindera sehingga pembaca seolah-olah melihat dan merasakan sebuah objek secara keseluruhan seperti yg dialami penulis
+tolong dijawab ya</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Jawaban:
+</p><p>
+</p><p>A.Kesan mengenai apa yang diamati dan kesan yang didapat melalui pancaindra sehingga pembaca seolah-olah melihat, mendengar, dan merasakan sebuah objek secara keseluruhan seperti yang dialami penulisnya.
+</p><p>
+</p><p>Penjelasan:
+</p><p>
+</p><p>teks deskripsi adalah Kesan mengenai apa yang diamati dan kesan yang didapat melalui pancaindra sehingga pembaca seolah-olah melihat, mendengar, dan merasakan sebuah objek secara keseluruhan seperti yang dialami penulisnya.
+</p><p>
+</p><p>semoga membantu⭐⭐⭐⭐</p><p><strong>Penjelasan:</strong></p><p>semoga membantu dan jadikan jawaban ini yg terbaik :)</p><p><strong>Jawaban:</strong></p><p>jawaban D. semoga membantu :) </p><br />
+                                            <h2 class="ez-toc-section" id="1-karangan-ilmiah-yang-ditulis-berdasarkan-pengamatan-peninjauan-dan-penelitian-dalam-bidang-tertentu-disebut2-suatu-kalimat-yang-disampaikan-yang-diambil-dari-beberapa-ide-pemikiran-dengan-atura">
+                            7. 1. karangan ilmiah yang ditulis berdasarkan pengamatan, peninjauan, dan penelitian dalam bidang tertentu disebut?2. suatu kalimat yang disampaikan yang diambil dari beberapa ide pemikiran dengan aturan yang berlaku disebut? 3. saat melakukan analisis data pamer lu kan pikiran krisis dan menerapkan teori yang telah ditulis dengan memadukan hasil?4. kelas kata yang menyatakan suatu tindakan keberadaan, pengalaman, atau pengertian dinamis lainnya disebut?5. struktur teks rekaman percobaan ini hampir sama dengan teks?6. pidato jenis persuasif ini dapat dikatakan pula sebagai pidato untuk?7. metode pidato dilakukan dengan membaca naskah pidato yang dipersiapkan disebut?8. "yang saya hormati ibu kepala sekolah" di dalam pidato hal tersebut merupakan contoh?9. kata yang hanya dimiliki arti gramatikal dan tidak memiliki makna leksikal, sehingga hanya bisa menjadi jelas jika dihubungkan dengan kata lain disebut?10. suatu kata yang memiliki bentuk yang berbeda namun memiliki arti atau pengertian yang sama atau mirip disebut?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.Skripsi merupakan karya ilmiah yang dibuat oleh mahasiswa untuk bisa mendapatkan gelar sarjana (S1). Skripsi memuat tulisan berisi pendapat penulis dengan mengacu ataupun berdasarkan teori yang telah diterbitkan sebelumnya</p><p>2.Kesimpulan adalah suatu proposisi (kalimat yang disampaikan) yang diambil dari beberapa premis (ide pemikiran) dengan aturan-aturan inferensi (yang berlaku). ... Dengan kata lain, kesimpulan adalah hasil dari suatu pembicaraan.</p><p>3.hasil yang terbaik</p><p>4.Verba atau kata kerja adalah kelas kata yang menyatakan suatu tindakan, keberadaan, pengalaman, atau pengertian dinamis lainnya.</p><p>5.Struktur teks rekaman percobaan ini pada dasarnya hampir sama dengan teks prosedur. Hanya saja, terdapat sedikit perbedaan pada hasil dan kesimpulannya, dimana hasil dan kesimpulan ini tidak ditemukan pada teks prosedur seperti yang terdapat pada teks rekaman percobaan.</p><p>6.Pidato jenis persuasif ini dapat dikatakan pula sebagai pidato yang bersifat untuk mempengaruhi pendengar. Tentu saja, pengaruh yang dilakukan, bertujuan baik. Pidato yang bersifat rekreatif. Pidato jenis ini merupakan pidato yang memiliki tujuan untuk memberikan hiburan bagi pendengar.</p><p>7.Metode pidato dengan cara membacakan naskah disebut Pidato Manuskrip.</p><p>8.salam pembuka, bagian pendahuluan ,penjelasan</p><p>9.Penjelasan: kata tugas adalah kelas kata yang hanya memiliki arti gramatikal dan tidak memiliki arti leksikal. Arti suatu kata tugas ditentukan oleh kaitannya dengan kata lain dalam suatu frasa atau kalimat dan tidak bisa digunakan secara lepas atau berdiri sendiri.</p><p>10.Sinonim disebut juga padan kata. Sinonim adalah kata yang memiliki makna atau arti yang sama. ... Sinonim adalah suatu kata yang memiliki bentuk yang berbeda namun memiliki arti atau pengertian yang sama atau mirip. Sinomin bisa disebut juga dengan persamaan kata atau padanan kata.</p><p><strong>Penjelasan:</strong></p><p>jadikan yang terbaik ya dek</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="tolong-jawab-ya-mau-di-kumpulkan-bsok-1tipe-data-static-hanya-bisa-di-deklarasikan-pada-a-akhir-eksekutifb-awal-fungsi-c-awal-strukturd-pertengahan-run2-pengertian-robot-industri-secara-umum-adal">
+                            8. tolong jawab ya mau di kumpulkan bsok 1)tipe data static hanya bisa di deklarasikan pada ...a.akhir eksekutifb.awal fungsi c.awal strukturd.pertengahan RUN2) pengertian robot industri secara umum adalah robot ...a.lenganb.humanoidc.gripperd.AL3) arduino memiliki alur algoritma yang mirip dengan bahasa...a.c++b.visual basicc.javad.PHP​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. C. awal struktur</p><p>2. B. humanoid</p><p>3. A. C++</p><p><strong>Penjelasan:</strong></p><p>semoga membantu, maaf klo salah:)</p><br />
+                                            <h2 class="ez-toc-section" id="1-dalam-pemrograman-tempat-untuk-menyimpan-nilai-kemudian-nilai-tersebut-dapat-digunakan-untuk-diproses-dan-menghasilkan-nilai-keluaran-hasil-dinamakan-%c2%a0a-tipe-datab-variabelc-charac">
+                            9. 1.Dalam Pemrograman tempat untuk menyimpan nilai, kemudian nilai tersebut dapat digunakan untuk diproses, dan menghasilkan nilai keluaran (hasil), dinamakan .... *A. Tipe dataB. VariabelC. CharacterD. Float2.Suatu pekerjaan yang dilakukan secara berulang-ulang sampai kondisi/ persyaratan tertentu terpenuhi. Kalimat ini merupakan pengertian dari .... *A. AlgoritmaB. VariabelC. Tipe DataD. Loop (looping)3.Suatu perintah akan dijalankan apabila kondisi atau persyaratannya sesuai (benar), maka perintah akan dikerjakan dan jika tidak sesuai dengan kondisi persyaratannya maka akan dikerjakan perintah yang lain. Konsep dasar ini merupakan bentuk dari struktur .... A. AlgoritmaB. VariabelC. Tipe DataD. Kondisi Percabangan4.Pembuatan Algoritma yang dihasilkan dari proses pengamatan terhadap permasalah yang akan diselesaikan, penulisannya dapat diterapkan dengan dua cara adalah .... *A. Pseudocode dan VariabelB. Pseudocode dan Tipe dataC. Pseudocode dan AlgoritmaD. Pseudocode dan Flowchart5.Dalam bahasa pemrograman membuat langkah-langkah untuk menyelesaikan suatu persoalan atau tindakan yang di harapkan dinamakan .... A. VariabelB. Tipe DataC. AlgoritmaD. Aplikasi6.Dalam pemrograman, alur proses atau perintah dapat dijalankan secara berulang-ulang agar tujuan yang diinginkan dapat tercapai. Dibawah ini yang bukan pembagian struktur dalam perulangan adalah .... A. ForB. WhileC. Repeat - UntilD. For Repeat7.Tipe data merupakan jenis data atau jenis nilai yang dapat disimpan dalam sebuah Variabel tertentu. Dibawah ini yang bukan jenis tipe data dalam pemrograman adalah ....A. Character / String / TeksB. BooleanC. IntegerD. Variabel8.Dalam struktur kondisi percabangan merupakan proses melakukan pemilihan tindakan. Pemilihan tindakan ini berdasarkan kondisi persyaratan dengan membandingan dua buah nilai. Operator untuk membandingkan dua buah nilai yang dimaksud adalah .... A. Operator Variabel dan Tipe DataB. Operator Algoritma dan PercabanganC. Operator Perbandingan dan LogikaD. Operator Aritmatika dan Logika9.IF dalam bahasa pemograman adalah sebuah struktur logika untuk membuat percabangan alur program. Dengan menggunakan struktur IF kita dapat mengatur bentuk perintah yang harus di jalankan atau tidak tergantung kepada kondisi persyaratannya. Pembagian penulisan IF terdiri atas .... A. IF Tunggal, IF Ganda, dan IF AritmatikaB. IF Tunggal, IF Ganda, dan IF FlowchartC. IF Tunggal, IF Ganda, dan IF AlgoritmaD. IF Tunggal, IF Ganda, dan IF Majemuk10.Seorang programmer bisa membuat bentuk perulangan dalam program yang dibuatnya. Bentuk perulangan memiliki struktur logika sebagai syarat dalam membuat bentuk perulangan. Struktur logika perulangan tersebut adalah .... a. Nilai Awal - Kondisi/ persyaratannya - langkah selanjutnyaB. Nilai Awal - Kondisi/ persyaratannya - Nilai AkhirC. Nilai Awal - Nilai Akhir - Kondisi/ persyaratanD. Algoritma - Pseudocode - Flowchart​</h2><br />
+                        <p><strong>Jawaban</strong></p><p>1 ) B.Variabel</p><p></p><p>2 ) D.loop</p><p></p><p>3 ) D.kondisi percabangan</p><p></p><p>4 ) B.</p><p></p><p>5 ) C.Algoritma</p><p></p><p>6 ) A.for</p><p></p><p>7 ) D.Variabel</p><p></p><p>8 ) C.</p><p></p><p>9 ) A.</p><p></p><p>10 ) B.</p><p></p><p>maaf kalo salah,programer pemula</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="cara-penyimpanan-data-pada-komputer-agar-data-tersebut-dapat-dipakai-lagi-secara-efektif-dan-efisien-merupakan-pengertian-dari%e2%80%a6-a-type-datab-kontrol-datac-ruang-datad-struktur-data">
+                            10. Cara penyimpanan data pada komputer agar data tersebut dapat dipakai lagi secara efektif dan efisien merupakan pengertian dari….A.  Type dataB.  Kontrol dataC. ruang dataD. Struktur data​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong></strong></p><p>Penyimpanan data pada komputer agar data tersebut dapat digunakan kembali secara efektif dan efisien biasanya merujuk pada "Struktur data" (Option D). Struktur data adalah cara data diorganisasi dan disimpan dalam komputer agar dapat diakses, dimanipulasi, dan digunakan dengan efisien. Ini melibatkan pengaturan data dalam tipe, bentuk, dan susunan yang memungkinkan operasi data tertentu dilakukan dengan cepat dan efektif.</p><p><strong></strong></p><p><strong>Penjelasan:</strong></p><p><strong>Jangan lupa dijadikan "JAWABAN TERBAIK" ya kak</strong></p><br />
+                                            <h2 class="ez-toc-section" id="1-jelaskan-pengertian-komunikasi-menurut-asal-katanya2-uraikan-tentang-pencarian-beruntun-dengan-sentinel-3-terangkan-proses-pada-bubble-sort-4-sebutkan-fungsi-dan-kegunaan-dari-struktur-data-s">
+                            11. 1. jelaskan pengertian komunikasi menurut asal katanya!2. uraikan tentang pencarian beruntun dengan sentinel!.3. terangkan proses pada bubble sort!.4. sebutkan fungsi dan kegunaan dari struktur data stack!.5. sebutkan langkah-langkah untuk melakukan operasi dequeue!. bantu jawab kak"ಠ⁠﹏⁠ಠ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Baik, berikut adalah jawabannya:</p><p></p><p>1. **Komunikasi menurut asal katanya adalah proses berbagi makna dengan orang lain.** Kata "komunikasi" berasal dari bahasa Latin "communis", yang berarti "bersama". Komunikasi dapat dilakukan dengan berbagai cara, seperti berbicara, menulis, membaca, dan menyimak.</p><p></p><p>2. **Pencarian beruntun dengan sentinel adalah algoritme pencarian yang menggunakan nilai sentinel untuk mempermudah proses pencarian.** Nilai sentinel adalah nilai yang tidak mungkin ada dalam daftar data. Algoritme pencarian beruntun dengan sentinel dimulai dengan membandingkan nilai sentinel dengan elemen pertama dalam daftar data. Jika nilai sentinel lebih besar dari elemen pertama, maka elemen pertama tidak diproses. Jika nilai sentinel lebih kecil dari elemen pertama, maka elemen pertama diproses. Proses ini diulang untuk elemen-elemen berikutnya dalam daftar data hingga elemen yang dicari ditemukan.</p><p></p><p>3. **Bubble sort adalah algoritme pengurutan yang bekerja dengan cara membandingkan elemen-elemen yang berdekatan dan menukarnya jika elemen yang kiri lebih besar dari elemen yang kanan.** Proses ini diulang hingga elemen-elemen dalam daftar terurut.</p><p></p><p>4. **Fungsi dan kegunaan dari struktur data stack adalah untuk menyimpan data secara terbalik.** Stack dapat digunakan untuk menyimpan data yang akan diproses secara berurutan, seperti data dalam antrian atau data dalam riwayat browser.</p><p></p><p>5. **Langkah-langkah untuk melakukan operasi dequeue adalah sebagai berikut:**</p><p></p><p>    * Hapus elemen pertama dari stack.</p><p>    * Kembalikan elemen yang telah dihapus.</p><p></p><p>Semoga penjelasan ini membantu!</p><br />
+                                            <h2 class="ez-toc-section" id="suatu-modul-untuk-menjelaskan-hubungan-antara-dalam-basis-data-berdasarkan-objek-objek-dasar-data-yang-mempunyai-hubungan-antara-relasi-erd-untuk-memodulkan-struktur-data-dari-hubungan-antara-data-unt">
+                            12. suatu modul untuk menjelaskan hubungan antara dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan antara relasi ERD untuk memodulkan struktur data dari hubungan antara data untuk menggambarkan digunakan beberapa notasi dan symbol merupakan pengertian dari...a. simbolb. sequence diagramc. class diagramd. flowcharte. ERD​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>E. ERD</p><p><strong>Penjelasan:</strong></p><p>semoga membantu dan maaf kalau salah</p><br />
+                                            <h2 class="ez-toc-section" id="1-tuliskan-ciri-ciri-teks-eksposisi-2-jelaskan-struktur-teks-eksposisi-3-apa-yang-dimaksud-dengan-puisi-4-jelaskan-pengertian-unsur-fisik-dan-batin-puisi-5-tuliskan-cara-memperoleh-data-un">
+                            13. 1.tuliskan ciri-ciri teks eksposisi?  2. jelaskan struktur teks eksposisi?  3. apa yang dimaksud dengan puisi?  4. jelaskan pengertian unsur fisik dan batin puisi?  5. tuliskan cara memperoleh data untuk menyusun teks eksplanasi?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.cirii teks oposisi menjelaskan informasi pengetahuan</p><p>gaya informasi yang mengajak</p><p>menjawab pertanyaan 5w1h</p><p>uraian padat singkat akurat</p><p>2.tesis,berupa pernyataan pendapat dan opini dr penulis pembuka teks</p><p>argumentasi  yaitu alasan alasan untuk memperkuat argument penulis menyetujui Atawa menolak</p><p>penegasan ulang pendapat aadalah menyatakan penegasan kembali dari pernyataan menyerupai kesimpulan</p><p>3. puisi adalah karya sastra hasil dari ungkapan dan perasaan seseorang dengan bahasa yg terikat Irama Rima lirik dan bait </p><p>4. unsur fisik yaitu unsur pembangun puisi yg bersifat fisik atau nampak dalam susunan katanya</p><p>batin puisi pembangun puisi yg tak nampak dlm bentuk susunan kata-katanya</p><p>5.menentukan topik atau tema</p><p>menentukan tujuan karangan </p><p>mengumpulkan saya dari buku internet surat kabar atau wawancara secara lngsung </p><p>menyusun kerangka karangan sesuai topik</p><p>mengembangkan kerangka mjd karangn eksplsnasi</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-struktur-fisik-basis-data">
+                            14. jelaskan pengertian struktur fisik basis data</h2><br />
+                        struktur basis data merupakan serangkaian pengetahuan tentang pemodelan data. Pengetahuan tentang File, table, field, record indeks, abstraksi data dan serangkaian konsep yang digunakan untuk membuat diskripsi struktur basis data. Melalui diskripsi Struktur basis data dapat ditentukan jenis data, hubungan dan konstrain (keterbatasan) data yang ditangani. <br />
+                                            <h2 class="ez-toc-section" id="b-menjodohkanpasangkanlah-pernyataan-dan-jawaban-di-bawah-ini-a-pernyatan1-penggambaran-ringkasan-kejadian2-setiap-paragraf-berupa-fakta-3-ayo-kita-pergi-berwisata-4-rumusan-akhir-tentang-sesuat">
+                            15. B.MENJODOHKANPasangkanlah pernyataan dan jawaban di bawah ini.a. Pernyatan1 .Penggambaran ringkasan kejadian2. Setiap paragraf berupa fakta.3.  Ayo kita pergi berwisata.4. Rumusan akhir tentang sesuatu.5. Teks yang berisi tentang fenomena alam, sosial, dan budaya.6. Memetakan gagasan umum.7. Teks yang bertujuan meyakinkan pendapat.8. Berisi data dan fakta.9. Uraiannya bersifat kronologis.10. Pernyataan ajakan.b. JawabanA. Menulis teks persuasifB. Pengertian teks eksplanasiC. Ciri teks persuasifD. SimpulanE. Struktur teks persuasifF. Meringkas teks eksplanasiG. Struktur teks eksplanasiH.Pengertian teks persuasifI. Ciri teks eksplnasiJ. Isi teks eksplanasi​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Drbvrtyc7uyuuuuuuii8</p><br />
+                                            <h2 class="ez-toc-section" id="langkah-langkah-tertentu-yang-menjadi-syarat-mutlak-agar-lebih-mudah-dalam-proses-pengambilan-sebuah-keputusan-dalam-pemecahan-masalah-adalah-pengertian-dari-a-berpikir-komputasionalb-algoritmac">
+                            16. Langkah-langkah tertentu yang menjadi syarat mutlak agar lebih mudah dalam proses pengambilan sebuah keputusan dalam pemecahan masalah adalah pengertian dari ...a. berpikir komputasionalb. algoritmac. optimasi penjadwaland. struktur data​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Langkah-langkah tertentu yang menjadi syarat mutlak agar lebih mudah dalam proses pengambilan sebuah keputusan dalam pemecahan masalah adalah pengertian dari <strong>O</strong><strong>p</strong><strong>t</strong><strong>i</strong><strong>m</strong><strong>a</strong><strong>s</strong><strong>i</strong><strong> </strong><strong>p</strong><strong>e</strong><strong>n</strong><strong>j</strong><strong>a</strong><strong>d</strong><strong>w</strong><strong>a</strong><strong>l</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>(</strong><strong>C</strong><strong>)</strong></p><p><strong>Penjelasan:</strong></p><p>Semoga Membantu</p><br />
+                                            <h2 class="ez-toc-section" id="bagian-struktur-berita-yang-harus-menggambarkan-faktor-terpenting-dari-data-yang-dimiliki-dan-membuat-secara-lengkap-semua-unsur-berita-seperti-5w-1h-sehingga-pembaca-sudah-mengerti-isi-berita-secar">
+                            17. Bagian struktur berita yang harus menggambarkan faktor terpenting dari data yang dimiliki dan membuat secara lengkap semua unsur berita seperti 5W + 1H sehingga pembaca sudah mengerti isi berita secara keseluruhan</h2><br />
+                        Bagian isi berita<br />maaf kalau salah <p>Terletak pada struktur kepala berita dan tubuh berita.</p><br /><br /><br /><p>Semoga benar dan membantu :)</p><br />
+                                            <h2 class="ez-toc-section" id="1-proses-untuk-mencari-dan-menghapus-error-pada-program-disebut-a-testingb-releasec-bugd-debugginge-semua-salah2-sebuah-sistem-berlapis-diatur-secara-hirarki-setiap-lapisan-menyediakan-layana">
+                            18. 1. Proses untuk mencari dan menghapus error pada program disebut..A. TestingB. ReleaseC. BugD. DebuggingE. Semua salah2. Sebuah sistem berlapis diatur secara hirarki, setiap lapisan menyediakan layanan kepada lapisan di atasnya dan melayani sebagai klien ke lapisan bawah, adalah pengertian dari...A. Chart DiagramB. Architecture ChartC. Layered ToolsD. Layered DesainE. Layered architectures3. Dalam analisis terstruktur perangkat pemodelan Data flow Diagram ( DFD ) dan kamus data digunakan untuk…A. Menggambarkan kebutuhan userB. Menggambarkan perilaku sistemC. Menggambarkan fungsi-fungsi dari sistemD. Menggambarkan struktur programE. Menggambarkan data yang disimpan</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. D. Debugging</p><p>2. A. Chart Diagram</p><p>3. D. Menggambarkan struktur program</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-apa-yang-dimaksudkan-dengan-fungsi-bahasa-indonesia2-anda-jelaskan-fungsi-bahasa-tidak-sama-dengan-fungsi-bahasa-indonesia-3-apa-perbedaan-yang-menonjol-antara-bahasa-lisan-dan-bahasa-tulis-4">
+                            19. 1. Apa yang dimaksudkan dengan fungsi Bahasa Indonesia?2. Anda jelaskan fungsi bahasa tidak sama dengan fungsi Bahasa Indonesia? 3. Apa perbedaan yang menonjol antara bahasa lisan dan bahasa tulis? 4. Anda jelaskan, apa persamaan dan perbedaan antara ragam bahasa lisan dan ragam bahasa tulis dengan ragam bahasa baku dan ragam bahasa nonbaku? 5. Anda jelaskan penggunaan bahasa Indonesia yang baik dan benar ! nonbaku?6. Anda jelaskan etimologi “ejaan “ dan jelaskan sejarah ejaan bahasa Indonesia!7. anda jelaskan pengertian “kalimat, frase dan klausa “ dalam struktur kalimat! 8. Bagaimana cara menentukan Struktur kalimat yang benar? Jelaskan 9. Efektifkan kalimat berikut: "sebelum dibicarakan dengan pemimpin, bagian personalia sudah mempertanyakan masalah itu”10. Efektifkan kalimat berikut: “Karena data-data itu masih mentah atau belum diproses, jangan diberikan kepada siapapun, termasuk para wartawan!" 11. Apa kegunaan paragraf bagi penulis dan pembaca? 12. Tulislah sebuah paragraf yang kalimat topiknya terletak diakhir sebuah paragraf!​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Fungsi Bahasa Indonesia adalah sebagai alat komunikasi yang digunakan oleh masyarakat Indonesia dalam berinteraksi, menyampaikan informasi, mengungkapkan pikiran, dan menjaga keberagaman budaya.</p><p></p><p>2. Fungsi bahasa secara umum merujuk pada kemampuan bahasa untuk berkomunikasi dan menyampaikan pesan. Sementara itu, fungsi Bahasa Indonesia merujuk secara khusus pada penggunaan Bahasa Indonesia sebagai bahasa resmi dan penghubung di Indonesia.</p><p></p><p>3. Perbedaan yang menonjol antara bahasa lisan dan bahasa tulis adalah bahasa lisan digunakan secara lisan melalui ucapan dan intonasi, sedangkan bahasa tulis digunakan dalam bentuk tulisan. Bahasa lisan lebih spontan dan cenderung tidak baku, sementara bahasa tulis lebih formal dan membutuhkan pemikiran yang lebih terstruktur.</p><p></p><p>4. Persamaan antara ragam bahasa lisan, ragam bahasa tulis, ragam bahasa baku, dan ragam bahasa nonbaku adalah semuanya merupakan variasi dalam penggunaan bahasa. Perbedaannya terletak pada tingkat formalitas dan aturan-aturan yang digunakan. Ragam bahasa lisan dan bahasa tulis dapat mencakup baik ragam baku maupun nonbaku.</p><p></p><p>5. Penggunaan bahasa Indonesia yang baik dan benar adalah penggunaan yang mematuhi aturan tata bahasa yang berlaku, menghormati kaidah-kaidah ejaan, dan menyesuaikan dengan konteks dan situasi komunikasi. Penggunaan bahasa nonbaku, dalam konteks ini, merujuk pada penggunaan yang tidak sesuai dengan aturan tata bahasa atau ejaan yang berlaku.</p><p></p><p>6. Etimologi "ejaan" berasal dari kata "eja" yang berarti menulis atau mengeja. Sejarah ejaan bahasa Indonesia telah mengalami perubahan seiring dengan perkembangan bahasa dan penyesuaian dengan kebutuhan komunikasi. Sebagai contoh, ada perubahan ejaan dari "tj" menjadi "c" dan dari "oe" menjadi "u" dalam ejaan bahasa Indonesia modern.</p><p></p><p>7. Kalimat adalah unit terkecil dalam struktur kalimat yang memiliki makna lengkap. Frase adalah kelompok kata yang tidak memiliki predikat. Klausa adalah kelompok kata yang memiliki predikat dan berfungsi sebagai subjek atau objek dalam kalimat.</p><p></p><p>8. Cara menentukan struktur kalimat yang benar melibatkan pemahaman tentang unsur-unsur kalimat seperti subjek, predikat, objek, keterangan, dan hubungan antara mereka. Struktur kalimat yang benar akan mengikuti aturan tata bahasa dan memastikan pesan yang jelas dan teratur.</p><p></p><p>9. "Bagian personalia telah mempertanyakan masalah itu sebelum dibicarakan dengan pemimpin."</p><p></p><p>10. "Jangan berikan data-data itu kepada siapapun, termasuk para wartawan, karena masih mentah atau belum diproses."</p><p></p><p>11. Kegunaan paragraf bagi penulis adalah untuk mengatur dan mengorganisir pikiran serta informasi dalam tulisannya. Bagi pembaca, paragraf membantu memahami arus pikiran dan mempermudah pemahaman terhadap isi teks.</p><p></p><p>12. "Di antara semua hewan peliharaan yang pernah saya miliki, kucing adalah yang paling menyenangkan. Mereka memiliki kepribadian yang unik, sikap yang mandiri, dan kemampuan untuk memberikan kasih sayang yang tulus. Kucing juga memiliki tingkat kebersihan yang tinggi dan cukup mudah dirawat. Seperti halnya hewan peliharaan lainnya, mereka memberikan kebahagiaan dan keceriaan dalam kehidupan sehari-hari."</p><p></p><p><strong>Penjelasan:</strong></p>semoga membantu ya Jan lupa follow like and jadikan Jawaban terbaik <br />
+                                            <h2 class="ez-toc-section" id="dibawah-ini-merupakan-pengertian-array-multidimensiadalah-a-array-yang-berisi-beberapa-array-lain-b-array-satu-dimensi-yang-berada-pada-array-satu-dimensi-dimana-variabel">
+                            20. dibawah ini merupakan pengertian array multidimensi,adalah.                             A.array yang berisi beberapa array lain B.array satu dimensi yang berada pada array satu dimensi dimana variabel dan juga type datanya sama.  Struktur data yang statis,yaitu jumlah elemen yang ada harus ditentukan terlebih dahulu dan tak bisa di ubah saat program berjalan                                D.indeks dengan tipe data skalar, meliputi tipe data byte,char,integer,boolean,terbilang (numerated),dan tipe data sub jangkauan dari tipe tipe data tersebut.  E.jumlah dari seluruh data pada array ,sum harus dideklarasikan sebgai variabel dengan tipe data angka terlebih dahulu​</h2><br />
+                        <p>Jawaban:e</p><p></p><p>Penjelasan:</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="judul-anak-badaipenulis-tere-liyetahun-terbit-2019kelebihan-pemilihan-diksi-mudah-di-mengerti-dan-komunikatif-bagi-para-remaja-sasaran-utama-pembaca-novel-anak-badai1-data-buku-tersebut">
+                            21. Judul : Anak Badai
+Penulis : Tere Liye
+Tahun terbit : 2019
+Kelebihan : Pemilihan diksi mudah di mengerti dan komunikatif bagi para remaja , sasaran Utama pembaca novel Anak Badai
+1. Data buku tersebut merupakan struktur teks ulasan bagian?......
+2. Sasaran utama pembaca novel Anak Badai adalah?.....</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. identitas remaja hingga dewasa </p><p><strong>Penjelasan:</strong></p><p>identitas mencakup judul pembuat pengarang waktu peluncuran karya dll</p><br />
+                                            <h2 class="ez-toc-section" id="bagian-struktur-berita-yang-harus-menggambarkan-faktor-terpenting-dari-data-yang-dimiliki-dan-memuat-secara-lengkap-semua-unsur-berita-seperti-5w-1h-sehingga-pembaca-sudah-mengerti-isi-berita-secara">
+                            22. bagian struktur berita yang harus menggambarkan faktor terpenting dari data yang dimiliki dan memuat secara lengkap semua unsur berita seperti 5w +1h sehingga pembaca sudah mengerti isi berita secara keseluruhan adalah.....a.judul beritab.baris tanggalc.teras berita d.tubuh berita</h2><br />
+                        d. tubuh berita kalau slh maafD.Tubuh berita(Hampir sm maksudny dg Isi berita)<br />
+                                            <h2 class="ez-toc-section" id="jarak-maksimum-yang-dapat-dijangkau-oleh-jaringan-man-adalah%e2%80%a6%c2%a0a-10-kmb-25-kmc-50-kmd-80-kmjaringan-milik-pribadi-disebuah-gedung-atau-kampus-yang-berukuran-sampai-10-km-disebut">
+                            23. Jarak maksimum yang dapat dijangkau oleh jaringan MAN adalah… *A. 10 kmB. 25 kmC. 50 kmD. 80 kmJaringan milik pribadi disebuah gedung atau kampus yang berukuran sampai 10 km, disebut… *A. LANB. MANC. WAND. Dial upPoint of presence adalah kepanjangan dari… *A. ISPB. PopC. MAND. WANTopologi cincin berbentuk… *A. PanjangB. BintangC. LingkaranD. PohonTopologi star berbentuk… *A. lingkaranB. bintangC. panjangD. pohonJaringan yang mempunyai jangkauan area sangat luas adalah… *A. WANB. MANC. LAND. InterjaringanInternet service provider adalah kepanjangan dari… *A. ISPB. popC. MAND. WANJaringan yang mempunyai jaringan area sangat luas, misalnya antar pulau, negara, benua, bahkan ke luar angkasa adalah… *A. LANB. MANC. WAND. InterjaringanSatuan kecepatan akses internet adalah… *A. KilobitsB. Kilobits per secondC. meter per secondD. megabits per meterSekumpulan computer individu yang dihubung-hubungkan dengan menggunakan protokol Transmission Control protocol/internet protokol (TCP/IP) disebut… *A. InternetB. intranetC. jaringan komputerD. personal computerJenis jaringan computer Wide Area Network (WAN) adalah… *A. InternetB. PrinterC. Jaringan televise kabelD. ModemTopologi tree berbentuk… *A. bulatB. kotakC. bintangD. pohonJenis jaringan Komputer LAN adalah… *A. Jaringan televisi kabelB. Printer atau scannerC. InternetD. IntranetApakah fungsi modem… *A. mengubah data analog menjadi data digital pada saat komputer mengambil dataB. mengatur lalu lintas komunikasi dataC. menerima gelombang data dari jaringan internetD. memancarkan gelombang data dari computerApa fungsi dari router… *A. pengatur lalu lintas dalam jaringanB. penguat sinyalC. penghubung antar jaringanD. mengubah data analog menjadi data digitalOrang yang merancang program disebut ! *A. ProgrammerB. UserC. OperatorD. Analis sistemSiapakah yang memperkenalkan algoritma pertama kali? *A. Thomas Alfa EdisonB. Guelermo MarconiC. Abu Ja'far Muhammad Ibnu Musa Al-KhowarizmiD. Ibnu Musa Al-KhowarizmiUrutan Langkah-langkah logis dalam penyelesaian masalah yang disusun secara sistematis merupakan pengertian! *A. programB. flowchartC. AlgoritmaD. Program AplikasiSuatu implementasi dari Bahasa pemograman disebut …. *A. ProgramB. AlgoritmaC. FlowchartD. Program aplikasiPara pakar memberikan formula untuk program, yaitu …. *A. Program = Program + Bahasa (struktur Data)B. Program = Algoritma + Bahasa (struktur Data)C. Program = Program + AlgoritmaD. Program = Pascal + Bahasa (struktur Data)​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>kxuaiwhscjjdoe9s0vjrhvevshchdidi</p><p><strong>Penjelasan:</strong></p><p>jsoahaihxiegdicicjdjididivivifirieo9e9d</p><br />
+                                            <h2 class="ez-toc-section" id="1-penggambaran-ringkasan-kejadian2-setiap-paragraf-berupa-fakta-3-ayo-kita-pergi-berwisata-4-rumusan-akhir-tentang-sesuatu-5-teks-yang-berisi-tentang-fenomena-alam-sosial-dan-budaya-6-memetak">
+                            24. 1 .Penggambaran ringkasan kejadian2. Setiap paragraf berupa fakta.3.  Ayo kita pergi berwisata.4. Rumusan akhir tentang sesuatu.5. Teks yang berisi tentang fenomena alam, sosial, dan budaya.6. Memetakan gagasan umum.7. Teks yang bertujuan meyakinkan pendapat.8. Berisi data dan fakta.9. Uraiannya bersifat kronologis.10. Pernyataan ajakan.b. JawabanA. Menulis teks persuasifB. Pengertian teks eksplanasiC. Ciri teks persuasifD. SimpulanE. Struktur teks persuasifF. Meringkas teks eksplanasiG. Struktur teks eksplanasiH.Pengertian teks persuasifI. Ciri teks eksplnasiJ. Isi teks eksplanasi​</h2><br />
+                        <p>eum ini maksudnya gimana</p><br />
+                                            <h2 class="ez-toc-section" id="bagian-struktur-berita-yang-harus-menggambarkan-faktor-terpenting-dari-data-yang-dimiliki-dan-membuat-secara-lengkap-semua-unsur-berita-seperti-5w-1h-sehingga-pembaca-sudah-mengerti-isi-berita-secar">
+                            25. Bagian struktur berita yang harus menggambarkan faktor terpenting dari data yang dimiliki dan membuat secara lengkap semua unsur berita seperti 5W + 1H sehingga pembaca sudah mengerti isi berita secara keseluruhan</h2><br />
+                        What =  peristiwa apa yang telah terjadi? <br />Who = siapa saja yang terlibat dalam peristiwa itu? <br />Where =lokasi peristiwa itu dimana? <br />When = kapan/dimana terjadinya peristiwa itu? <br />Why   = apa penyebab/kenapa peristiwa itu bisa terjadi? <br />How   =bagaimana peristiwa itu diatasi<br /><br />
+                                            <h2 class="ez-toc-section" id="memiliki-data-berupa-fakta-contoh-dan-bukti-yang-digunakan-untuk-memperkuat-alas-an-yang-disampaikan-oleh-penulis-dengan-tujuannya-kalimat-tersebut-merupakan-%e2%80%a6-a-kaidah-kebahasaan-teks-pe">
+                            26. Memiliki data berupa fakta, contoh, dan bukti yang digunakan untuk memperkuat alas an yang disampaikan oleh penulis dengan tujuannya. Kalimat tersebut merupakan …. A. Kaidah kebahasaan teks persuasiB. Ciri teks persuasiC. Struktur teks persuasiD. Pengertian teks persuasi​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>D PENGERTIAN TEKS PERSUASI</p><p><strong>Penjelasan:</strong></p><p>klo ngk salah</p><br />
+                                            <h2 class="ez-toc-section" id="quiz1-jenis-jenis-sorting-algoritma-beserta-contoh2-contoh-dan-pengertian-struktur-data-linier-dan-non-linier%e2%80%8b">
+                            27. Quiz1. Jenis jenis Sorting algoritma beserta contoh2. Contoh, dan  Pengertian  struktur Data Linier dan Non Linier​</h2><br />
+                        <p> </p><p></p><p>1. Jenis-jenis Sorting</p><p></p><p>Bubble Sort.</p><p></p><p>Insertion Sort. </p><p></p><p>Merge Sort. </p><p></p><p>Quick Sort. </p><p></p><p>Selection Sort. </p><p></p><p>Shell Sort</p><p></p><p>Cuman Tau Nya No 1 Doang :)</p><p><strong>Jawaban:</strong></p><p>Bantu Jawab Ya Kak </p><p></p><p>1. Jenis-Jenis Sorting Algorithm :</p><p></p><p>    Bubble Sort </p><p>    Insertion Sort</p><p>    Merge Sort</p><p>    Quick Sort</p><p>    Selection Sort</p><p>    Shell Sort</p><p></p><p>2. Kurang tau ya Kak Maaf :)</p><p>     </p><p>    </p><br />
+                                            <h2 class="ez-toc-section" id="sekumpulan-data-yg-struktur-nya-menyerupai-tumpukan-atau-penyimpanan-data-adalah-pengertian-dari%e2%80%8b">
+                            28. sekumpulan data yg struktur nya menyerupai tumpukan atau penyimpanan data adalah pengertian dari​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>STACK</p><p><strong>Penjelasan:</strong></p><p><strong>Semoga </strong><strong>membantu </strong><strong>maaf </strong><strong>kalau </strong><strong>salah </strong></p><p><strong>Jawaban:</strong></p><p>Jika dikaitkan dengan struktur data, stack berarti sekumpulan data yang strukturnya menyerupai tumpukan. ... Dengan konsep ini, urutan pengambilan data akan berkebalikan dengan urutan penyimpanan data. Elemen yang terakhir disimpan akan menjadi yang pertama kali diambil</p><br />
+                                            <h2 class="ez-toc-section" id="sekumpulan-data-yg-struktur-nya-menyerupai-tumpukan-atau-penyimpanan-data-adalah-pengertian-dari-%e2%80%8b">
+                            29. sekumpulan data yg struktur nya menyerupai tumpukan atau penyimpanan data adalah pengertian dari.​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Jika dikaitkan dengan struktur data, stack berarti sekumpulan data yang strukturnya menyerupai tumpukan. ... Dengan konsep ini, urutan pengambilan data akan berkebalikan dengan urutan penyimpanan data. Elemen yang terakhir disimpan akan menjadi yang pertama kali diambil.</p><br />
+                                            <h2 class="ez-toc-section" id="1-sekumpulan-data-yang-bertipe-sama-antara-satu-dengan-lainnya-dibedakan-dengan-indeks-pengertian-dari-a-integerb-arrayc-variabeld-char2-nama-lain-dari-flowchart-adalah-a-alurb-bagan-al">
+                            30. 1. Sekumpulan data yang bertipe sama antara satu dengan lainnya dibedakan dengan indeks pengertian dari ...a. Integerb. arrayC. variabeld. char2. Nama lain dari flowchart adalah ....a. Alurb. bagan alirc. treed. diagram3. Pengelompokan data berdasarkan isi dan sifatnya disebut ..a. Struktur datab. sumber datac. tipe datad. fakta4. Seseorang yang mampu menyelesaikan masalah dengan bahasa pemograman disebut ...a. Userb. hackerc. programerd. it support5. Berikut merupakan perangkat yang mendukung penggunaan internet yaitu ....a. radiob. telegramc. smartphone d. surat kabarpliss tolong dijawab ngab!!!​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.B</p><p>2.B</p><p>3.C</p><p>4.C</p><p>5.C</p><p><strong>Penjelasan:</strong></p><p>1.Kalau dilihat dari cara kerjanya, memang itu kok.</p><p>Array artinya "himpunan" yang bisa dikatakan mengumpulkan berbagai macam data yg sama kan?</p><p>2.Mudah, ini cara kerjanya mirip algoritma suatu program</p><p>3.Seperti cewek yang digolongkan jadi tipe² tertentu berdasar sifatnya atau yang lainnya(fisik misalnya), data juga sama demikian.</p><p>4. Jelas kok, ini mengacu pada orang yang ahli pada bahasa pemrograman</p><p>5.Oke, kalau A dan B hanya memfasilitasi sinyal tertentu saja sementara D tidak pake sinyal apapun </p><br />
+                                            <h2 class="ez-toc-section" id="1-layanan-ftp-email-chat-talnetnews-group-dapat-kita-temui-dalam-jaringan-a-lan-c-wanb-man-d-internet2-berdasarkan-pengertiannya-jaringan-peer-to-peer-melakukan-pemro">
+                            31. 1. layanan ftp, email, chat, talnet,news group dapat kita temui dalam jaringan...a. LAN.           c. wanB. man.           d. Internet2. berdasarkan pengertiannya jaringan peer to peer melakukan pemrosesan data pada..a. dump terminalb. tiap komputerc. serverd. terminal penghubung3. teknologi lab berbaris pada standar...a. IEEE 802.3b. 802.11bc. IEEE 803.3d. 802.11a4. gambaran struktur jaringan atau bagaimana sebuah jaringan di desain disebut...a. tipologi jaringanb. protokolc. serverd. transmiter5. berdasarkan cara pemrosesan data, jaringan yang melakukan server dengan kapasitas dan kemampuan yang besar adalah...a. peer to peerb. client serverc. host terminald. lan</h2><br />
+                        1.d internet<br />2.b tiap komputer<br />3.d 802.11a<br />4.a. tipologi jaringan<br />5.a peer to peer<br />
+                                            <h2 class="ez-toc-section" id="tolong-di-jawab-besok-di-kumpul1-himpunan-daerah-asal-atau-himpunan-pertama-berhubungan-dengan-himpunan-kedua-bisa-disebut-dengana-kodomain-b-domainc-range-d-relasi2-cara-menyimpan-dan">
+                            32. TOLONG DI JAWAB BESOK DI KUMPUL!!!
+1. Himpunan daerah asal atau himpunan pertama berhubungan dengan himpunan kedua bisa disebut dengan
+a. kodomain 
+b. domain
+c. range 
+d. relasi
+2. Cara menyimpan dan mengatur data secara terstruktur pada sistem komputer atau database sehingga lebih mudah diakses adalah pengertian dari …:
+a. struktur data
+b. Algoritma
+c. storage
+d. array
+3. sistem bilangan berbasis 10 biasa disebut dengan ….
+a. Biner
+b. desimal
+c. heksadesimal 
+d. oktal</h2><br />
+                        <p><strong>Penyelesaian :</strong></p><p>1. Himpunan daerah asal atau himpunan pertama berhubungan dengan himpunan kedua bisa disebut dengan:</p><p>  - a. kodomain </p><p>2. Cara menyimpan dan mengatur data secara terstruktur pada sistem komputer atau database sehingga lebih mudah diakses adalah pengertian dari:</p><p>  - a. struktur data</p><p>3. Sistem bilangan berbasis 10 biasa disebut dengan:</p><p>  - b. desimal</p><br />
+                                            <h2 class="ez-toc-section" id="1-teks-negosiasi-melibatkan-dua-pihak-dengan-dengan-kepentingan-yang-berbeda-tuliskan-unsur-unsur-yang-ada-pada-teks-2-dalam-teks-negosiasi-sangat-diperlukan-pemakaian-kalimat-persuasi-jelaskan-men">
+                            33. 1.Teks negosiasi melibatkan dua pihak dengan dengan kepentingan yang berbeda. tuliskan unsur unsur yang ada pada teks. 
+2.Dalam teks negosiasi sangat diperlukan pemakaian kalimat persuasi.jelaskan mengapa demikian
+3.Ap sajakah unsur pelaksana dekat tersebut
+4.Pengertian biografi dan autobiografi
+5. Biografi melukiskan perjalanan hidup seseorang, yang disusun dari data dan fakta biografi di golongkan pada kategori buku nonfiksi.jelaskan maksud dari pernyataan tersebut
+6.Tuliskan struktur teks biografi dengan lengkap</h2><br />
+                        <p>Teks negosiasi merupakan teks yang melibatkan dua pihak dengan kepentingan yang berbeda. Unsur-unsur yang terdapat pada teks negosiasi adalah sebagai berikut:</p><strong>Menggunakan kalimat deklaratif yang bersifat persuasif.</strong><strong>Menggunakan bahasa yang sopan dan santun.</strong><strong>Memiliki konjungsi.</strong><strong>Kalimat-kalimatnya efektif.</strong><strong>Bersifat memerintah dan memenuhi perintah.</strong><strong>Terdapat nomina dalam kalimatnya.</strong><p><strong></strong></p><p><strong>Pembahasan:</strong></p><p>Dalam <strong>teks negosiasi</strong>, penggunaakn kalimat persuasi sangat diperlukan, hal ini dikarenakan jenis kalimat ini adalah kalimat yang isinya mengajak orang lain untuk melaksanakan suatu hal yang kita inginkan. </p><p>Selain teks negosiasi, terdapat juga jenis teks yang disebut dengan <strong>teks biografi </strong>dan <strong>teks autobiografi</strong>.</p>Teks biografi adalah tulisan nyata mengenai kisah hidup seorang tokoh atau orang yang berpengaruh di dalam kehidupan. Teks biografi digolongkan ke dalam kategori buku non-fiksi, hal ini dikarenakan kisah-kisah yang terdapat di dalam teks biografi merupakan kisah yang nyata dan faktual, bukan khayalan.Teks autobiografi adalah tulisan nyata yang memuat kisah perjalanan hidup seseorang yang ditulis oleh orang itu sendiri.<p><strong>Struktur Teks Biografi</strong></p>OrientasiPeristiwa pentingReorientasi<p></p><p><strong>Pelajari lebih lanjut:</strong></p><p>Materi mengenai Struktur Teks Negosiasi pada https://brainly.co.id/tugas/9347492</p><p><strong>#BelajarBersamaBrainly #SPJ1</strong></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-pengertian-struktur-data-sesuai-pemahaman-anda">
+                            34. jelaskan pengertian struktur data sesuai pemahaman anda!</h2><br />
+                        <p>materi : TI</p><p>struktur data adalah sebuah penyimpana,penyusunan,atau pengaturan data di dalam media penyimpanan komputer sehingga data tersebut lebih aman dan lebih efisien....</p><p></p><p>Thanks..</p><br />
+                                            <h2 class="ez-toc-section" id="16-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari-a-algoritma-c-pseudocode-e-konstanta">
+                            35. 16.algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk         tertentu, adalah pengertian dari .....  A. Algoritma                                C. Pseudocode                 E. Konstanta   B. Array                                       D. Flowchart*17. Berfungsi untuk memberi nilai awal, nilai akhir, penambahan/pengurangan suatu      variabel counter, adalah .....  A. Terminator                             C. Process              E. Preparation*                            B. Decision                                 D. Arrows18. Bentuk belah ketupat pada diagram flowchart diberi nama .....  A. Data Store                              C. Connector                                   E. Decision*  B. Process                                  D. Terminator19. Merupakan tempat menampung dan menyimpan satu atau lebih nilai, adalah      pengertian dari …..  A. Variabel*        B. Konstanta       C. Numerik          D. String        E. Boolean20. Merupakan tipe data yang biasa di proses dalam perhitungan matematika,        adalah pengertian …..  A. Variabel          B. Konstanta       C. Numerik          D. String        E. Boolean21. Dibawah ini aturan-aturan dalam penulisan variabel, kecuali …..       A. Nama variabel tidak boleh menggunakan kata-kata kunci       B. Nama variabel tidak boleh mengandung karakter-karakter khusus       C. Nama variabel harus diawali dengan angka*       D. Nama variabel harus diawali dengan huruf       E. Tidak boleh menggunakan spasi22.  Tipe data yang cocok untukmenjelaskan data nama_siswa adalah menggunakan tipe data ….A. Numeric                                 C. Date time                          E. IntegerB. Varchar*                                 D. Array23.   Tipe data yang cocok untukmenjelaskan data tanggal lahir adalah  menggunakan tipe data …..A. Numeric                                 C. Date time*                         E. Integer B. Varchar                                  D. Array24. Algoritma harus dapat dijangkau oleh akal fikiran kita. Hal ini menyatakan bahwa algoritma harus mamiliki sifat ...A. Cepat                                      C. Rumit                                E. Logis*B. Berurutan                              D. Realistis25. Lengkapilah pernyataan algoritma berikut, ……. &gt; Program &gt; Komputer &gt; Solusi / hasil.  A. Input*                                      C. File                                    E. Database                                                                                         B. Masalah                                 D. Proses26. Sintaks yang digunakan untuk mengakhiri program adalah… A. Print                                        C. End*                                 E. Start B. Writeln                                   D. Readln27. Sintaks yang digunakan untuk menuliskan program adalah… A. Print                                        C. End                                    E. Start B. Writeln*                                  D. Readln28. Jenis data yang dapat digunakan, oleh komputer untuk memenuhi kebutuhan dalam membuat program komputer disebut…A. Linier                                      C. Output                               E. Serial B. Tipe Data*                             D. Universal29. Sebutkan tipe data yang digunakan untuk menyimpan nilai berupa karakter/ huruf disebut tipe data...A. Boolean                                 C. Date Time                         E. Numerik B. Array                                       D. String / Char*30. Const Phi = 3.14 adalah contoh untuk penggunaan …A. Konstanta*                            C. Flowchart                         E. Long Int B. Variabel                                 D. Integer31. Dibawah ini beberapa struktur dasar algoritma antara lain …..      A. Urutan, Pilihan, Pengulangan               D. Pemulihan,Urutan, Pemograman                B. Perbaikan, Pemulihan, Pengaturan      E. Perbaikan, Pemilihan, Pengulangan       C. Urutan, Pemulihan, Pengulangan</h2><br />
+                        <p>Soal-soal di atas adalah soal tentang pemrogaman dasar.</p><p>Berikut jawaban untuk soal-soal di atas :</p><p><strong>16.  D. Flowchart</strong></p><p><strong>17. E.Preparation</strong></p><p><strong>18. E.Decision</strong></p><p><strong>19. A. Variabel</strong></p><p><strong>20. C.Numerik</strong></p><p><strong>21. C. Nama variabel harus diawali dengan angka</strong></p><p><strong>22. B. Varchar</strong></p><p><strong>23. C. Date Time</strong></p><p><strong>24.  E. Logis</strong></p><p><strong>25.  A. Input</strong></p><p><strong>26. C. End</strong></p><p><strong>27. B. WriteIn</strong></p><p><strong>28. B. Tipe Data</strong></p><p><strong>29.  D. String / Char</strong></p><p><strong>30. A. Konstanta</strong></p><p><strong>31. A. Urutan, Pilihan, Pengulangan</strong></p><p></p><p><strong>Pembahasan:</strong></p><p>Pemrograman Dasar ialah pemrograman yang memberi dasar-dasar logika dimana struktur bahasa pemrograman yang diberikan bersifat universal serta lebih mengedepankan pembentukan pola pikir seseorang mengenai pembuatan suatu program yang efektif dan efisien.</p><p></p><p><strong>16. Flowchart</strong> adalah diagram alir yang tersusun dari bagan dengan bentuk-bemntuk tertentu.</p><p><strong>17. Preparation</strong> adalah notasi pada simbol flowchart yang digunakan untuk memberi nilai awal,nilai akhir,penambahan/pengurangan bagi suatu variabel counter.</p><p><strong>18. Decision</strong> memiliki bentuk belah ketupat yang berfungsi menunjukkan langkah selanjutnya dalam suatu proses.Biasanya pertanyaan Ya/Tidak atau Benar/Salah.</p><p><strong>19.</strong> <strong>Variabel</strong> berfungsi untuk tempat menampung dan menyimpan satu atau lebih nilai.</p><p><strong>20. Numerik </strong>merupakan tipe data yang biasa di proses dalam perhitungan matematika.</p><p>21. Aturan yang harus dilakukan untuk menulis variabel sebagai berikut:</p>Hindari menggunakan spasi.Huruf awal pada variabel hanya boleh menggunakan huruf atau underscore.Hanya dapat menggunakan huruf, angka, atau underscore dalam menuliskan variabel.Hindari menggunakan keyword tertentu (seperti contohnya int, false, global dan if)<p>Jadi yang bukan termasuk aturan-aturan dalam penulisan variabel adalah <strong>C. Nama variabel harus diawali dengan angka</strong></p><p><strong>22. Varchar</strong>  digunakan untuk kolom yang berisi data yang berbeda-beda ukuran, seperti nama, alamat dan kota.</p><p><strong>23.</strong> <strong>Tipe Data Date Time</strong> dalam MySQL digunakan untuk menyimpan dan memanipulasi data yang berkaitan dengan operasi tanggal dan waktu.</p><p>24. Algoritma <strong>harus dapat dijangkau oleh akal pikiran kita</strong> dan ini menunjukkan bahwa algoritma memiiki <strong>sifat logis.</strong></p><p><strong>25. input</strong> merupakan data atau kumpulan data yang dimasukkan oleh user yang dibutuhkan untuk keperluan membuat sebuah informasi.Jadi sebelum melakukan pemrograman kita harus melakukan input terlebih dahulu.</p><p><strong>26.  End </strong>digunakan untuk mengakhiri suatu program.</p><p><strong>27.  Perintah writeln</strong> digunakan untuk menulis output dalam satu baris lalu berpindah ke baris selanjutnya.</p><p><strong>28. Tipe Data</strong> untuk memenuhi kebutuhan dalam membuat program komputer.</p><p><strong>29.  String </strong>merupakan jenis data type yang sering dianggap paling populer </p><p><strong>30.  Konstanta</strong> berguna untuk menentukan nilai yang merupakan tetapan, misalnya nilai pi (π), kecepatan cahaya, ketetapan gravitasi dan lainnya.</p><p>31. Algoritma yang merupakan langkah-langkah penyelesaian masalah dapat dibedakan menjadi beberapa struktur dasar, yaitu <strong>Struktur Urut (Sequence), Struktur Pemilihan (Selection), dan Struktur Pengulangan (Repetition).</strong></p><p>Jadi jawabannya adalah <strong>A. Urutan, Pilihan, Pengulangan</strong></p><p><strong></strong></p>Pelajari lebih lanjutMateri tentang perangkat komputer https://brainly.co.id/tugas/35519721Materi tentang Animasi pengaturan slide https://brainly.co.id/tugas/10933801Materi tentang Algoritma Pemrograman https://brainly.co.id/tugas/1268431<p></p>Detail jawaban<p>Kelas: X</p><p>Mapel: TIK</p><p>Bab: 6 - Mengenal Pemrograman Komputer</p><p>Kode: 10.11.6</p><p></p><p><strong>#AyoBelajar #SPJ5</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jarak-maksimum-yang-dapat-dijangkau-oleh-jaringan-man-adalah%e2%80%a6%c2%a0a-10-kmb-25-kmc-50-kmd-80-kmjaringan-milik-pribadi-disebuah-gedung-atau-kampus-yang-berukuran-sampai-10-km-disebut">
+                            36. Jarak maksimum yang dapat dijangkau oleh jaringan MAN adalah… *A. 10 kmB. 25 kmC. 50 kmD. 80 kmJaringan milik pribadi disebuah gedung atau kampus yang berukuran sampai 10 km, disebut… *A. LANB. MANC. WAND. Dial upPoint of presence adalah kepanjangan dari… *A. ISPB. PopC. MAND. WANTopologi cincin berbentuk… *A. PanjangB. BintangC. LingkaranD. PohonTopologi star berbentuk… *A. lingkaranB. bintangC. panjangD. pohonJaringan yang mempunyai jangkauan area sangat luas adalah… *A. WANB. MANC. LAND. InterjaringanInternet service provider adalah kepanjangan dari… *A. ISPB. popC. MAND. WANJaringan yang mempunyai jaringan area sangat luas, misalnya antar pulau, negara, benua, bahkan ke luar angkasa adalah… *A. LANB. MANC. WAND. InterjaringanSatuan kecepatan akses internet adalah… *A. KilobitsB. Kilobits per secondC. meter per secondD. megabits per meterSekumpulan computer individu yang dihubung-hubungkan dengan menggunakan protokol Transmission Control protocol/internet protokol (TCP/IP) disebut… *A. InternetB. intranetC. jaringan komputerD. personal computerJenis jaringan computer Wide Area Network (WAN) adalah… *A. InternetB. PrinterC. Jaringan televise kabelD. ModemTopologi tree berbentuk… *A. bulatB. kotakC. bintangD. pohonJenis jaringan Komputer LAN adalah… *A. Jaringan televisi kabelB. Printer atau scannerC. InternetD. IntranetApakah fungsi modem… *A. mengubah data analog menjadi data digital pada saat komputer mengambil dataB. mengatur lalu lintas komunikasi dataC. menerima gelombang data dari jaringan internetD. memancarkan gelombang data dari computerApa fungsi dari router… *A. pengatur lalu lintas dalam jaringanB. penguat sinyalC. penghubung antar jaringanD. mengubah data analog menjadi data digitalOrang yang merancang program disebut ! *A. ProgrammerB. UserC. OperatorD. Analis sistemSiapakah yang memperkenalkan algoritma pertama kali? *A. Thomas Alfa EdisonB. Guelermo MarconiC. Abu Ja'far Muhammad Ibnu Musa Al-KhowarizmiD. Ibnu Musa Al-KhowarizmiUrutan Langkah-langkah logis dalam penyelesaian masalah yang disusun secara sistematis merupakan pengertian! *A. programB. flowchartC. AlgoritmaD. Program AplikasiSuatu implementasi dari Bahasa pemograman disebut …. *A. ProgramB. AlgoritmaC. FlowchartD. Program aplikasiPara pakar memberikan formula untuk program, yaitu …. *A. Program = Program + Bahasa (struktur Data)B. Program = Algoritma + Bahasa (struktur Data)C. Program = Program + AlgoritmaD. Program = Pascal + Bahasa (struktur Data)​tolong di jawab​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.)D. 80 km</p><p>2.)A.LAN</p><p>3.)B.POP</p><p>4.)C.Lingkaran</p><p>5.)B.Bintang</p><p>6.)A.WAN</p><p>7.)A.ISP</p><p>8.)A.LAN</p><p>9.)B.Kilobits per second</p><p>10.)C.Jaringan komputer</p><p>11.)</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pengertian-stack-pada-struktur-data-yaitu-suatu-urutan-elemen-yang-elemen-nya-dapat-diambil-dan-ditambah-pada-posisi-akhir-top-saja-stack-dapat-diilustrasikan-dengan-dua-buah-kotak-yang-ditumpuk">
+                            37. Pengertian stack pada struktur data yaitu suatu urutan elemen yang elemen- nya dapat diambil dan ditambah pada posisi akhir (top) saja. Stack dapat diilustrasikan dengan dua buah kotak yang ditumpuk, kotak yang satu akan ditumpuk di atas kotak yang lainnya. Jika kemudian stack kedua kotak tadi, ditambah kotak ketiga, keempat, dan kelima. Jika mau mengambil kotak pertama, maka harus mengeluarkan kotak ketiga, keempat dan kelima, Analogi tersebut stack yang memiliki sifat ....A. algoritmaB. berfikir komputasionalC. linked listD. lifo​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>D. LIFO</p><p><strong>Penjelasan:</strong></p><p>Analogi yang dijelaskan dalam pertanyaan mewakili properti struktur data "LIFO" (Last-In-First-Out). Dalam struktur data LIFO, elemen terakhir yang ditambahkan ke tumpukan adalah yang pertama dihapus. Perilaku ini mirip dengan cara kotak ditumpuk satu sama lain, dan saat Anda ingin mengakses kotak pertama, Anda harus menghapus kotak yang ditambahkan kemudian.</p><p></p><p>Jadi, jawaban yang benar adalah:</p><p></p><p>D.LIFO</p><p><strong>Jawaban:</strong></p><p>ANUGUABJJABSKANABHDBDBBEBSBJWGSIA</p><br />
+                                            <h2 class="ez-toc-section" id="1-urutan-dari-beberapa-langkah-yang-logis-guna-menyelesaikan-masalah-disebut-a-algoritmac-flowchartb-struktur-datad-informatika2-suatu-cara-menyimpan-dan-mengatur-sebuah-data-supaya-dapat-di">
+                            38. 1. Urutan dari beberapa langkah yang logis guna menyelesaikan masalah, disebut ...A. AlgoritmaC. FlowchartB. Struktur dataD. Informatika2. Suatu cara menyimpan dan mengatur sebuah data supaya dapat digunakan secara efektif danefisien, adalah ...A. AlgoritmaC. FlowchartB. Struktur dataD. Informatika3. Yang bukan merupakan bentuk dasar Algoritma adalah ...A. Algoritma sekuensial C. Algoritma flowchartB. Algoritma perulangan D. Percabangan/bersyarat4. Struktur data terdiri dari ...A. Struktur data type C. Struktur data sederhanaB. Struktur data majemuk D. Struktur data sederhana dan majemuk5. Perintah struktur data yang dapat di gunakan/ mengatur data yaitu, kecuali ....A. FlowchartC. HashingB. ArrayD. Linked list6. Sekumpulan data yang bertipe sama dan antara data satu dengan data yang lain dibedakandengan indeks-nya merupakan pengertian dari ..A. IntegerC. VariabelB. ArrayD. Char7. Pengelompokan data berdasarkan isi dan sifatnya adalah ...A. AlgoritmaC. Tipe dataB. Struktur dataD. Data8. Tugas penting programer adalah ...A. Memilih tipe data C. Membuat tipe dataB. Mencari tipe data D. Membeli tipe data9. Tipe data dasar mempunyai nama lain ...A. Tipe daya arrayC. Tipe data abstrakB. Tipe daya primitif D.tipe data variabel10.yang bukan tipeA.INTEGERB.FLOATC.CHARD.DATA11.TUJUAN DIBUATNYA TIPE DATA BENTUKAN ADALAH...A.MEMPERMUDAH PROSES PEMROGRAMANB.MEMPERMUDAH PROSES VARIABELC.MEMPERMUDAH PROSES ABSTRAKD.MEMPERMUDAH PROSES DATA12.BAGIAN PERSIAPAN DARI SEBUAH ALGORITMA DISEBUT DENGAN...A.DESKRIPSIB.DEKLARASIC.HEADERD.PREPARATION13.KEPANJANGAN ADT ADALAH...A.ABSTRACK DATA TYPE B.ARRAY DATA TYPEC.ANGKA DATA TYPED.ALGORITMA DATA TYPE14.CIRI CIRI ALGORITMA..A.UNPUT,OUTPUTB.EFFECTIVE,EFISIENC.DEFINITE,EFFECTIVED.TERMINATE15.TAHAPAN PEMBENTUKAN STRUKTUR DATA..A.SPESIFIKASIB.IMPLEMENTASIC.PEMROGRAMAND.ALGORITMAYG BISA JAWAB INI 1-15 DAPET BANYAK POIN YAplis tapi jangan ngaco ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. A. algoritma</p><p>2. B. struktur data</p><p>3. D. percabangan/bersyarat</p><p>4. D. struktur data majemuk dan sederhana</p><p>5. A. flowchart</p><p>6. B. array</p><p>7. B. struktur data</p><p>8. C. membuat tipe data</p><p>9. B. Tipe daya primitif </p><p>10. </p><p>11. B.MEMPERMUDAH PROSES VARIABEL</p><p>12. A.DESKRIPSI</p><p>13. A.ABSTRACK DATA TYPE</p><p>14. A.INPUT,OUTPUT</p><p>15. A.SPESIFIKASI</p><p><strong>Penjelasan:</strong></p><p>mon maap klo slh</p><br />
+                                            <h2 class="ez-toc-section" id="menurut-enc-deeson-pengertian-tik-adalaha-sebuah-struktur-dan-teknologi-yang-memadukan-perangkat-keras-seperti-komputer-dengan-jaringan-komunikasi-berkekuatan-tinggi-untukmembawa-file-data-video-ma">
+                            39. Menurut Enc Deeson, pengertian TIK adalahA.sebuah struktur dan teknologi yang memadukan perangkat keras seperti komputer dengan jaringan komunikasi berkekuatan tinggi untukmembawa file, data, video maupun suara Jaringan ini bisa disebut sebagai internetB.kebutuhan manusia dalam melakukan proses mengambil dan memindahkan, mengolah dan memproses suatu informasi dalamkonteks sosial yang menguntungkan diri sendiri dan masyarakat secara keseluruhan.C.adalah suatu alat yang digunakan oleh manusia untuk mendapatkan informasi atau pengetahuan dari orang lainD.suatu rangkaian struktur yang saling berkaitan antara satu sama lain dimana di dalamnya terdapat aktivitas proses kelola, manipulasi, dantransier data maupun informasi dan suatu media ke media lainnya​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>B</p><p><strong>Penjelasan:</strong></p><p>Menurut Eric Deeson, pengertian TIK adalah kebutuhan manusia dalam melakukan proses mengambil dan memindahkan, mengolah dan memproses suatu informasi dalam konteks sosial yang menguntungkan diri sendiri dan masyarakat secara keseluruhan.</p><br />
+                                            <h2 class="ez-toc-section" id="carilah-maksud-dari-pengertian-pengertian%c2%b2-sosiologi-di-bawah-inispekulatifrasionalanalitislogisgregriousnessstudi-kasusdata-sosialsoceityorganisasipengendalian-sosialfenomena-sosialr">
+                            40. Carilah maksud dari pengertian pengertian² sosiologi di bawah ini
+Spekulatif
+Rasional
+Analitis
+Logis
+Gregriousness
+Studi kasus
+Data sosial
+Soceity
+Organisasi
+Pengendalian sosial
+Fenomena sosial
+Realitis sosial
+Mobilitas sosial
+Struktur sosial</h2><br />
+                        <p>Spekulatif adalah sebuah homonim karena arti-artinya memiliki ejaan dan pelafalan yang sama tetapi maknanya berbeda. Spekulatif memiliki arti dalam kelas adjektiva atau kata sifat sehingga spekulatif dapat mengubah kata benda atau kata ganti, biasanya dengan menjelaskannya atau membuatnya menjadi lebih spesifik.</p><p></p><p>Rasional adalah suatu sikap yang dilakukan berdasarkan pikiran dan pertimbangan yang logis dan cocok dengan akal sehat manusia. Dalam pendekatan ini seseorang akan lebih cenderung menyelesaikan masalahnya dengan menggunakan kemampuan berpikir / menggunakan akal daripada menggunakan batin dan perasaannya.</p><p></p><p>Menurut kamus besar bahasa Indonesia, Analitis artinya bersifat analisis. Sedangkan analisis adalah :  penyelidikan terhadap suatu peristiwa (karangan, perbuatan, dan sebagainya) untuk mengetahui keadaan yang sebenarnya (sebab-musabab, duduk perkaranya, dan sebagainya);</p><p></p><p>Logis adalah sesuatu yang bisa diterima oleh akal dan yang sesuai dengan logika atau benar menurut penalaran. Dengan kata lain logis dapat dikatakan sebagai sebuah pola atau cara berpikir seseorang terhadap suatu hal.</p><p></p><p>Gregariousness adalah sebuah istilah yang mengandung paham sosiologi di mana hal ini digambarkan sebagai sebuah bentuk dorongan, keinginan dan juga sikap manusia untuk selalu hidup berbaur dengan individu lainnya di dalam kehidupan bermasyarakat.</p><p></p><p>Studi kasus adalah salah satu metode penelitian dalam ilmu sosial. Meskipun demikian, berbeda dengan penelitian yang lain, penelitian studi kasus bertujuan secara khusus menjelaskan dan memahami objek yang ditelitinya secara khusus sebagai suatu 'kasus'.</p><p></p><p>Data sosial adalah segala fakta dan angka yang dapat dijadikan bahan untuk menyusun suatu informasi. Pengertian Data dalam arti luas adalah sekumpulan informasi yang dapat diuat, diolah, dikirimkan dan di analisis.</p><p></p><p>Masyarakat (soceity) adalah sekelompok orang yang membentuk sebuah sistem semi tertutup (atau semi terbuka), di mana sebagian besar interaksi adalah antara individu-individu yang berada dalam kelompok tersebut. Kata “masyarakat” sendiri berakar dari kata dalam bahasa Arab, musyarak.</p><p></p><p>Organisasi adalah suatu pola hubungan-hubungan yang melalui mana orang-orang di bawah pengarahan manajer mengejar tujuan bersama. Organisasi adalah bentuk setiap perserikatan manusia untuk mencapai tujuan bersama. 3. Organisasi Menurut Chester I.</p><p></p><p>Pengendalian sosial adalah suatu mekanisme untuk mencegah penyimpangan sosial serta mengajak dan mengarahkan masyarakat untuk berperilaku dan bersikap sesuai norma dan nilai yang berlaku.</p><p></p><p>Fenomena sosial adalah gejala-gejala atau peristiwa-peristiwa yang terjadi dan dapat diamati dalam kehidupan sosial. Menurut Soerjono Soekanto, fenomena atau masalah sosial adalah suatu ketidaksesuaian antara unsur-unsur kebudayaan atau masyarakat yang membahayakan kehidupan kelompok sosial.</p><p></p><p>Realitis sosial adalah kenyataan atau fakta yang terjadi dalam kehidupan masyarakat. Hal ini terkait dengan kestabilan dalam keadaan normal atau keadaan tidak normal yang terjadi dalam pola-pola hubungan di masyarakat.</p><p></p><p>Mobilitas sosial adalah perpindahan posisi seseorang atau kelompok dari lapisan (strata sosial) yang satu ke lapisan yang lain. Mobilitas berasal dari bahasa Latin, yaitu mobilis yang berarti mudah dipindahkan dari satu ke tempat ke tempat lain. Dalam bahasa Indonesia dapat diartikan dengan “gerak” atau “perpindahan”.</p><p></p><p>Struktur sosial adalah suatu bangunan sosial yang tersusun atas pelbagai unsur pembentuk masyarakat. Unsur unsur tersebut saling berkaitan satu dengan yang lainnya secara fungsional.</p><p></p><p></p><p></p><p></p><p><strong>M</strong><strong>A</strong><strong>A</strong><strong>F</strong><strong> </strong><strong>K</strong><strong>L</strong><strong>O</strong><strong> </strong><strong>S</strong><strong>A</strong><strong>L</strong><strong>A</strong><strong>H</strong></p><p><strong>S</strong><strong>E</strong><strong>M</strong><strong>O</strong><strong>G</strong><strong>A</strong><strong> </strong><strong>M</strong><strong>E</strong><strong>M</strong><strong>B</strong><strong>A</strong><strong>N</strong><strong>T</strong><strong>U</strong></p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengajuan-ppb-soal-kasus-penodaan-agama.html">Pengajuan Ppb Soal Kasus Penodaan Agama</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-soal-agama-islam-tk-a.html">Soal Soal Agama Islam Tk A</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengertian-dari-individu.html">Pengertian Dari Individu</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-ciri-ciri-pengendalian-emosi-diri.html">Sebutkan Ciri Ciri Pengendalian Emosi Diri</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengertian-dari-indigenous-psychologi.html">Pengertian Dari Indigenous Psychologi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-psikotes-untuk-perbankan.html">Soal Psikotes Untuk Perbankan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-uts-agama-an-nasr.html">Soal Uts Agama An nasr</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-3-contoh-takdir-mubram.html">Sebutkan 3 Contoh Takdir Mubram</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/antonim-lugas.html">Antonim Lugas</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-ujian-agama-anak-kelas-10.html">Soal Ujian Agama Anak Kelas 10</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-tiga-jenis-gambar-ilustrasi.html">Sebutkan Tiga Jenis Gambar Ilustrasi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/teknik-pegangan-sampai-berlawanan-pada-senam-irama-disebut.html">Teknik Pegangan Sampai Berlawanan Pada Senam Irama Disebut</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/jawaban-psikotes-saya-pikir.html">Jawaban Psikotes Saya Pikir</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/soal-dan-kunci-jawaban-agama-kristen-semester-ganjil-kelas-7.html">Soal Dan Kunci Jawaban Agama Kristen Semester Ganjil Kelas 7</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/judul-skripsi-tentang-erp-finance.html">Judul Skripsi Tentang Erp Finance</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/sebutkan-3-cara-perpindahan-panas.html">Sebutkan 3 Cara Perpindahan Panas</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/tes-psikotes-untuk-management-trainee.html">Tes Psikotes Untuk Management Trainee</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/1000-soal-cerdas-cermat-agama-islam-sma-dan-jawabannya.html">1000 Soal Cerdas Cermat Agama Islam Sma Dan Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/cara-menjawab-tes-psikotes-kepribadian.html">Cara Menjawab Tes Psikotes Kepribadian</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://skripsiedukasi.github.io/pengertian-dari-supervisi.html">Pengertian Dari Supervisi</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://skripsiedukasi.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://skripsiedukasi.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://skripsiedukasi.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://skripsiedukasi.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://skripsiedukasi.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
